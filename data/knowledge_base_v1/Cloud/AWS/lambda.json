@@ -1,0 +1,42 @@
+{
+  "id": "aws-lambda-001",
+  "course": "AI-Assisted DevOps",
+  "category": "AWS Cloud",
+  "topic": "Lambda",
+  "subtopic": "Serverless Compute",
+  "question": "What is AWS Lambda?",
+  "answer": "AWS Lambda is a serverless compute service that lets you run code without provisioning or managing servers. You pay only for the compute time consumed, and it automatically scales based on demand.",
+  "course_context": {
+    "module": "AWS Basics",
+    "usage": "Used in course projects for event-driven automation, log processing, and lightweight agent tasks."
+  },
+  "key_concepts": [
+    "Serverless",
+    "Event-driven execution",
+    "Function as a Service (FaaS)",
+    "Automatic scaling",
+    "Pay-per-use"
+  ],
+  "workflow": [
+    "Write function code",
+    "Upload to Lambda or integrate via console/API",
+    "Configure triggers (e.g., S3, API Gateway, CloudWatch)",
+    "Lambda executes function when triggered",
+    "Monitor execution and logs"
+  ],
+  "devops_application": "Lambda enables DevOps teams to automate tasks such as responding to CloudWatch alarms, processing S3 events, or integrating CI/CD pipelines without managing servers.",
+  "official_evidence": [
+    {
+      "title": "AWS Lambda Documentation",
+      "url": "https://docs.aws.amazon.com/lambda/",
+      "source_type": "official_documentation"
+    }
+  ],
+  "related_topics": [
+    "S3",
+    "IAM",
+    "CloudWatch",
+    "API Gateway",
+    "Event-driven architecture"
+  ]
+}

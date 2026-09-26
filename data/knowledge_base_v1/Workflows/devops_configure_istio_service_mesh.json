@@ -1,0 +1,38 @@
+{
+  "id": "wf-devops-configure-istio-service-mesh-001",
+  "course": "AI-Assisted DevOps",
+  "category": "DevOps Workflows",
+  "topic": "Configure Istio Service Mesh",
+  "subtopic": "Istio configuration steps",
+  "question": "How do I configure Istio service mesh?",
+  "answer": "To configure Istio service mesh, download and install Istio, install the Kubernetes Gateway API CRDs, deploy the sample application, and open the application to outside traffic.",
+  "course_context": {
+    "module": "Workflows",
+    "usage": "Teams use Istio in Kubernetes environments to manage service-to-service communications."
+  },
+  "key_concepts": ["Istio installation", "Kubernetes Gateway API", "Envoy sidecar proxies", "Bookinfo sample application", "Ingress gateway"],
+  "workflow": [
+    "Download Istio from the release page.",
+    "Install Istio using the demo profile without gateways.",
+    "Label the namespace for Envoy sidecar injection.",
+    "Install the Kubernetes Gateway API CRDs.",
+    "Deploy the Bookinfo sample application.",
+    "Create a Kubernetes Gateway for external access."
+  ],
+  "devops_application": "DevOps teams use Istio to manage microservices traffic, security, and observability within Kubernetes clusters.",
+  "official_evidence": [
+    {
+      "title": "Official documentation",
+      "url": "https://istio.io/latest/docs/setup/getting-started/",
+      "source_type": "official_documentation"
+    }
+  ],
+  "related_topics": ["Kubernetes", "Envoy Proxy", "Service Mesh", "Microservices", "Ingress Controller"],
+  "provenance": {
+    "method": "agentic-workflow",
+    "model": "gpt-4o",
+    "grounded": true,
+    "source_url": "https://istio.io/latest/docs/setup/getting-started/",
+    "run": "kb-devops"
+  }
+}

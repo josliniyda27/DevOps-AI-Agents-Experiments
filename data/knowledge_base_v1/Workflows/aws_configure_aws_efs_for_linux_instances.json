@@ -1,0 +1,37 @@
+{
+  "id": "wf-aws-configure-aws-efs-for-linux-instances-001",
+  "course": "AI-Assisted DevOps",
+  "category": "AWS Workflows",
+  "topic": "Configure AWS EFS for Linux Instances",
+  "subtopic": "Mounting EFS on Linux",
+  "question": "How do I configure AWS EFS for Linux instances?",
+  "answer": "To configure AWS EFS for Linux instances, use the EFS mount helper or the standard Linux NFS client to mount the file system.",
+  "course_context": {
+    "module": "Workflows",
+    "usage": "Teams use it to mount scalable file storage on Linux instances in AWS."
+  },
+  "key_concepts": ["EFS mount helper", "Amazon EFS client", "NFS protocols", "EC2 Linux instances"],
+  "workflow": [
+    "Install amazon-efs-utils on the EC2 instance.",
+    "Use the EFS mount helper to mount the file system.",
+    "Alternatively, use the NFS client to mount the file system.",
+    "Configure automatic mounting on instance start if needed.",
+    "Verify the file system is mounted correctly."
+  ],
+  "devops_application": "DevOps teams use it to provide scalable file storage for applications running on EC2 instances.",
+  "official_evidence": [
+    {
+      "title": "Official documentation",
+      "url": "https://docs.aws.amazon.com/efs/latest/ug/mounting-fs.html",
+      "source_type": "official_documentation"
+    }
+  ],
+  "related_topics": ["Amazon EC2", "Network File System", "Amazon EFS client", "Linux NFS client"],
+  "provenance": {
+    "method": "agentic-workflow",
+    "model": "gpt-4o",
+    "grounded": true,
+    "source_url": "https://docs.aws.amazon.com/efs/latest/ug/mounting-fs.html",
+    "run": "kb-aws"
+  }
+}

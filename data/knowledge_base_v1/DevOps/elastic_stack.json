@@ -1,0 +1,37 @@
+{
+  "id": "devops-elastic-stack-001",
+  "course": "AI-Assisted DevOps",
+  "category": "DevOps",
+  "topic": "Elastic Stack",
+  "subtopic": "Elastic Stack overview",
+  "question": "What is Elastic Stack?",
+  "answer": "Elastic Stack is a collection of open-source tools including Elasticsearch and Kibana, used for searching, analyzing, and visualizing data in real-time.",
+  "course_context": {
+    "module": "Observability",
+    "usage": "Teams use Elastic Stack for real-time data search, analysis, and visualization."
+  },
+  "key_concepts": ["Elasticsearch", "Kibana", "data analysis", "real-time visualization", "open-source tools"],
+  "workflow": [
+    "Choose deployment method",
+    "Deploy Elasticsearch and Kibana",
+    "Design resilient clusters",
+    "Secure environment access",
+    "Monitor performance"
+  ],
+  "devops_application": "DevOps teams use Elastic Stack to deploy and manage scalable, resilient data analysis environments.",
+  "official_evidence": [
+    {
+      "title": "Elastic Stack Documentation",
+      "url": "https://www.elastic.co/guide/en/elastic-stack/current/index.html",
+      "source_type": "official_documentation"
+    }
+  ],
+  "related_topics": ["Elasticsearch", "Kibana", "Elastic Cloud", "data visualization", "cluster management"],
+  "provenance": {
+    "method": "agentic-workflow",
+    "model": "gpt-4o",
+    "grounded": true,
+    "source_url": "https://www.elastic.co/guide/en/elastic-stack/current/index.html",
+    "run": "kb-devops"
+  }
+}

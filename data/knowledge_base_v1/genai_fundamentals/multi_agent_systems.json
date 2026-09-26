@@ -1,0 +1,29 @@
+{
+  "id": "multiagent-001",
+  "course": "AI-Assisted DevOps",
+  "category": "Frameworks",
+  "topic": "Multi-agent Systems",
+  "subtopic": "Collaborative Agents",
+  "question": "What are multi-agent systems?",
+  "answer": "Multi-agent systems involve multiple AI agents collaborating or competing to solve tasks. Each agent may specialize in different roles.",
+  "course_context": {
+    "module": "Frameworks",
+    "usage": "Used to design complex DevOps workflows with specialized agents."
+  },
+  "key_concepts": ["Collaboration", "Specialization", "Coordination", "Competition"],
+  "workflow": [
+    "Define multiple agents",
+    "Assign roles",
+    "Coordinate interactions",
+    "Produce collective output"
+  ],
+  "devops_application": "Multi-agent systems can split tasks such as monitoring, IaC generation, and cost optimization across specialized agents.",
+  "official_evidence": [
+    {
+      "title": "LangChain Multi-agent Systems",
+      "url": "https://python.langchain.com/docs/modules/agents/multi-agent",
+      "source_type": "official_documentation"
+    }
+  ],
+  "related_topics": ["LangChain", "LangGraph", "Agent orchestration", "Agentic AI"]
+}

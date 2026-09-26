@@ -1,0 +1,37 @@
+{
+  "id": "hybrid-search-001",
+  "course": "AI-Assisted DevOps",
+  "category": "RAG & Retrieval",
+  "topic": "Hybrid Search",
+  "subtopic": "Search Methodology",
+  "question": "What is hybrid search?",
+  "answer": "Hybrid search is a method that combines dense and sparse vector search strategies to query by similarity and enhance retrieval capabilities.",
+  "course_context": {
+    "module": "Retrieval",
+    "usage": "Teams use hybrid search to improve retrieval accuracy across text, images, and other data types."
+  },
+  "key_concepts": ["dense vector search", "sparse vector search", "similarity query", "retrieval strategies", "Chroma"],
+  "workflow": [
+    "Store embeddings with metadata",
+    "Use dense and sparse vectors",
+    "Query by similarity",
+    "Combine search strategies",
+    "Retrieve across modalities"
+  ],
+  "devops_application": "DevOps teams use hybrid search to enhance data retrieval by combining multiple search strategies for efficient querying.",
+  "official_evidence": [
+    {
+      "title": "Hybrid Search Documentation",
+      "url": "https://docs.trychroma.com",
+      "source_type": "official_documentation"
+    }
+  ],
+  "related_topics": ["Vector Search", "Embeddings", "Metadata Filtering", "Multi-Modal Retrieval"],
+  "provenance": {
+    "method": "agentic-workflow",
+    "model": "gpt-4o",
+    "grounded": true,
+    "source_url": "https://docs.trychroma.com",
+    "run": "kb-genai2"
+  }
+}

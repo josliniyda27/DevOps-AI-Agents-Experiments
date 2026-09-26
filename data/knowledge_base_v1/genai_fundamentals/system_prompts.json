@@ -1,0 +1,37 @@
+{
+  "id": "system-prompts-001",
+  "course": "AI-Assisted DevOps",
+  "category": "Prompting Techniques",
+  "topic": "System Prompts",
+  "subtopic": "Definition and Purpose",
+  "question": "What are System Prompts?",
+  "answer": "System prompts are predefined instructions given to a generative AI model to guide its responses and behavior.",
+  "course_context": {
+    "module": "Prompt Engineering",
+    "usage": "Teams use system prompts to control and guide the behavior of AI models in various applications."
+  },
+  "key_concepts": ["predefined instructions", "generative AI model", "guide responses", "behavior control"],
+  "workflow": [
+    "Define the desired behavior for the AI model.",
+    "Create a system prompt with specific instructions.",
+    "Integrate the prompt into the AI model's input.",
+    "Test the AI model's responses to ensure alignment.",
+    "Adjust the prompt as necessary for improved outcomes."
+  ],
+  "devops_application": "DevOps teams use system prompts to ensure AI models behave consistently and align with organizational goals.",
+  "official_evidence": [
+    {
+      "title": "System Prompts Documentation",
+      "url": "https://docs.langchain.com",
+      "source_type": "official_documentation"
+    }
+  ],
+  "related_topics": ["Prompt Engineering", "Generative AI Models", "AI Model Training", "AI Model Deployment"],
+  "provenance": {
+    "method": "agentic-workflow",
+    "model": "gpt-4o",
+    "grounded": true,
+    "source_url": "https://docs.langchain.com",
+    "run": "kb-genai3"
+  }
+}

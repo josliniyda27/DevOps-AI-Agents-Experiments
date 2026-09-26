@@ -1,0 +1,37 @@
+{
+  "id": "devops-cortex-001",
+  "course": "AI-Assisted DevOps",
+  "category": "DevOps",
+  "topic": "Cortex",
+  "subtopic": "Scalable Metrics Storage",
+  "question": "What is Cortex?",
+  "answer": "Cortex is a horizontally scalable, highly available, multi-tenant, long-term storage solution for Prometheus and OpenTelemetry Metrics.",
+  "course_context": {
+    "module": "Observability",
+    "usage": "Teams use Cortex for scalable and reliable metric storage in cloud-native environments."
+  },
+  "key_concepts": ["horizontally scalable", "highly available", "multi-tenant", "long-term storage"],
+  "workflow": [
+    "Deploy Cortex in a cluster.",
+    "Integrate with Prometheus or OpenTelemetry.",
+    "Set up data replication across machines.",
+    "Configure long-term storage with S3, GCS, Swift, or Azure.",
+    "Monitor and manage the cluster."
+  ],
+  "devops_application": "DevOps teams use Cortex to manage and scale metric storage for Prometheus and OpenTelemetry across multiple machines.",
+  "official_evidence": [
+    {
+      "title": "Cortex Documentation",
+      "url": "https://cortexmetrics.io/docs/",
+      "source_type": "official_documentation"
+    }
+  ],
+  "related_topics": ["Prometheus", "OpenTelemetry", "Thanos", "Grafana", "Kubernetes"],
+  "provenance": {
+    "method": "agentic-workflow",
+    "model": "gpt-4o",
+    "grounded": true,
+    "source_url": "https://cortexmetrics.io/docs/",
+    "run": "kb-devops"
+  }
+}

@@ -1,0 +1,37 @@
+{
+  "id": "devops-jenkins-001",
+  "course": "AI-Assisted DevOps",
+  "category": "DevOps",
+  "topic": "Jenkins",
+  "subtopic": "Automation Server",
+  "question": "What is Jenkins?",
+  "answer": "Jenkins is a self-contained, open source automation server used to automate tasks related to building, testing, and delivering or deploying software.",
+  "course_context": {
+    "module": "CI/CD",
+    "usage": "Teams use Jenkins in software development for continuous integration and continuous delivery."
+  },
+  "key_concepts": ["automation server", "open source", "software deployment", "plugin extensibility"],
+  "workflow": [
+    "Install Jenkins via system packages or Docker",
+    "Set up a Java Runtime Environment",
+    "Configure Jenkins with plugins",
+    "Create and manage Jenkins Pipelines",
+    "Automate build and deployment tasks"
+  ],
+  "devops_application": "DevOps teams use Jenkins to automate software build, test, and deployment processes.",
+  "official_evidence": [
+    {
+      "title": "Jenkins Documentation",
+      "url": "https://www.jenkins.io/doc/",
+      "source_type": "official_documentation"
+    }
+  ],
+  "related_topics": ["Continuous Integration", "Continuous Deployment", "Jenkins Pipeline", "Blue Ocean"],
+  "provenance": {
+    "method": "agentic-workflow",
+    "model": "gpt-4o",
+    "grounded": true,
+    "source_url": "https://www.jenkins.io/doc/",
+    "run": "kb-devops"
+  }
+}

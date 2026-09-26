@@ -1,0 +1,29 @@
+{
+  "id": "aws-elb-001",
+  "course": "AI-Assisted DevOps",
+  "category": "AWS Cloud",
+  "topic": "Elastic Load Balancing",
+  "subtopic": "Traffic Distribution",
+  "question": "What is Elastic Load Balancing (ELB)?",
+  "answer": "Elastic Load Balancing automatically distributes incoming application traffic across multiple targets, such as EC2 instances, containers, and IP addresses.",
+  "course_context": {
+    "module": "AWS Networking",
+    "usage": "Used in course projects to balance traffic for applications and agents."
+  },
+  "key_concepts": ["Load balancing", "Target groups", "Health checks"],
+  "workflow": [
+    "Create load balancer",
+    "Define target group",
+    "Configure listeners",
+    "Distribute traffic"
+  ],
+  "devops_application": "ELB ensures high availability and scalability for DevOps applications.",
+  "official_evidence": [
+    {
+      "title": "Elastic Load Balancing Documentation",
+      "url": "https://docs.aws.amazon.com/elasticloadbalancing/",
+      "source_type": "official_documentation"
+    }
+  ],
+  "related_topics": ["Route 53", "Auto Scaling", "VPC"]
+}

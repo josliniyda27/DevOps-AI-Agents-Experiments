@@ -1,0 +1,29 @@
+{
+  "id": "terraform-001",
+  "course": "AI-Assisted DevOps",
+  "category": "DevOps",
+  "topic": "Terraform",
+  "subtopic": "Infrastructure as Code",
+  "question": "What is Terraform?",
+  "answer": "Terraform is an open-source Infrastructure as Code (IaC) tool that lets you define and provision cloud infrastructure using declarative configuration files.",
+  "course_context": {
+    "module": "DevOps",
+    "usage": "Used in course projects for IaC generation and automation."
+  },
+  "key_concepts": ["IaC", "Providers", "Modules", "State management"],
+  "workflow": [
+    "Write configuration in HCL",
+    "Initialize provider",
+    "Run terraform plan",
+    "Apply changes to infrastructure"
+  ],
+  "devops_application": "Terraform automates cloud resource provisioning, ensuring reproducibility and version control.",
+  "official_evidence": [
+    {
+      "title": "Terraform Documentation",
+      "url": "https://developer.hashicorp.com/terraform/docs",
+      "source_type": "official_documentation"
+    }
+  ],
+  "related_topics": ["IaC", "Terraform modules", "CI/CD"]
+}

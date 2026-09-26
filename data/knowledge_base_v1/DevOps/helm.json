@@ -1,0 +1,37 @@
+{
+  "id": "devops-helm-001",
+  "course": "AI-Assisted DevOps",
+  "category": "DevOps",
+  "topic": "Helm",
+  "subtopic": "Kubernetes package manager",
+  "question": "What is Helm?",
+  "answer": "Helm is a package manager for Kubernetes that helps manage Kubernetes applications through Helm charts.",
+  "course_context": {
+    "module": "Containers and Kubernetes",
+    "usage": "Teams use Helm to simplify the deployment and management of applications on Kubernetes clusters."
+  },
+  "key_concepts": ["Kubernetes applications", "Helm charts", "package management", "application deployment"],
+  "workflow": [
+    "Install Helm on your system",
+    "Create a Helm chart for your application",
+    "Deploy the application using Helm",
+    "Manage application updates with Helm",
+    "Rollback changes if necessary"
+  ],
+  "devops_application": "DevOps teams use Helm to streamline the deployment and management of Kubernetes applications.",
+  "official_evidence": [
+    {
+      "title": "Helm Documentation",
+      "url": "https://helm.sh/docs/intro/",
+      "source_type": "official_documentation"
+    }
+  ],
+  "related_topics": ["Kubernetes", "Helm charts", "Kubernetes deployments", "Kubernetes clusters"],
+  "provenance": {
+    "method": "agentic-workflow",
+    "model": "gpt-4o",
+    "grounded": true,
+    "source_url": "https://helm.sh/docs/intro/",
+    "run": "kb-devops"
+  }
+}

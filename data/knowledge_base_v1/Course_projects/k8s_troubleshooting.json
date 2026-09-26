@@ -1,0 +1,19 @@
+{
+  "topic": "Kubernetes Troubleshooting Agent",
+  "description": "Agent to diagnose and resolve Kubernetes cluster issues using AI assistance.",
+  "key_concepts": [
+    "Kubernetes Pods, Services, Deployments",
+    "Troubleshooting workflows",
+    "kubectl commands",
+    "AI-guided debugging"
+  ],
+  "official_links": [
+    "https://kubernetes.io/docs/home/"
+  ],
+  "repo_reference": "https://github.com/AravindBaranitharan/Agentic-Ai-Devops-/tree/main/k8s-troubleshooting-agent",
+  "use_cases": [
+    "Debug pod crash loops",
+    "Check service connectivity",
+    "Explain kubectl error messages"
+  ]
+}

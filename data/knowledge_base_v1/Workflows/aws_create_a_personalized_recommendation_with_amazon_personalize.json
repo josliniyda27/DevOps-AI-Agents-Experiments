@@ -1,0 +1,38 @@
+{
+  "id": "wf-aws-create-a-personalized-recommendation-with-amazon-personalize-001",
+  "course": "AI-Assisted DevOps",
+  "category": "AWS Workflows",
+  "topic": "Create a Personalized Recommendation with Amazon Personalize",
+  "subtopic": "Personalized Recommendation Workflow",
+  "question": "How do I create a personalized recommendation with Amazon Personalize?",
+  "answer": "To create a personalized recommendation with Amazon Personalize, choose between a Domain dataset group or a Custom dataset group, prepare an Item interactions dataset, and follow the tutorial steps.",
+  "course_context": {
+    "module": "Workflows",
+    "usage": "Teams use Amazon Personalize to provide personalized recommendations based on historical data."
+  },
+  "key_concepts": ["Domain dataset group", "Custom dataset group", "Item interactions dataset", "User-Personalization-v2 recipe", "historical data"],
+  "workflow": [
+    "Choose between Domain or Custom dataset group.",
+    "Prepare an Item interactions dataset.",
+    "Follow the tutorial for the chosen dataset group.",
+    "Use historical data for training.",
+    "Avoid recording live user interaction events.",
+    "Delete resources after completion."
+  ],
+  "devops_application": "DevOps teams use Amazon Personalize to integrate personalized recommendation systems into applications.",
+  "official_evidence": [
+    {
+      "title": "Official documentation",
+      "url": "https://docs.aws.amazon.com/personalize/latest/dg/getting-started.html",
+      "source_type": "official_documentation"
+    }
+  ],
+  "related_topics": ["Amazon Personalize", "AWS SDKs", "Domain dataset group", "Custom dataset group", "User-Personalization-v2 recipe"],
+  "provenance": {
+    "method": "agentic-workflow",
+    "model": "gpt-4o",
+    "grounded": true,
+    "source_url": "https://docs.aws.amazon.com/personalize/latest/dg/getting-started.html",
+    "run": "kb-aws"
+  }
+}

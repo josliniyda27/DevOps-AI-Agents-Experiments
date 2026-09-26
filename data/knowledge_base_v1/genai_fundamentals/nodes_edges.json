@@ -1,0 +1,29 @@
+{
+  "id": "nodesedges-001",
+  "course": "AI-Assisted DevOps",
+  "category": "Frameworks",
+  "topic": "Nodes and Edges",
+  "subtopic": "LangGraph Components",
+  "question": "What are nodes and edges in LangGraph?",
+  "answer": "Nodes represent computational steps in a workflow, while edges define transitions between nodes. Conditional edges allow branching based on state.",
+  "course_context": {
+    "module": "Frameworks",
+    "usage": "Used to design agent workflows with branching logic."
+  },
+  "key_concepts": ["Nodes", "Edges", "Conditional transitions", "Graph traversal"],
+  "workflow": [
+    "Define nodes for tasks",
+    "Connect nodes with edges",
+    "Add conditional logic",
+    "Execute graph workflow"
+  ],
+  "devops_application": "Nodes and edges allow DevOps agents to branch workflows, e.g., different troubleshooting paths depending on error type.",
+  "official_evidence": [
+    {
+      "title": "LangGraph Graph API",
+      "url": "https://docs.langchain.com/oss/python/langgraph/graph-api",
+      "source_type": "official_documentation"
+    }
+  ],
+  "related_topics": ["LangGraph", "Checkpointing", "Agent orchestration"]
+}

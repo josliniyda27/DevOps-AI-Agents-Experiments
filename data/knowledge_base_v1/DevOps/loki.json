@@ -1,0 +1,37 @@
+{
+  "id": "devops-loki-001",
+  "course": "AI-Assisted DevOps",
+  "category": "DevOps",
+  "topic": "Loki",
+  "subtopic": "Open source logging system",
+  "question": "What is Loki?",
+  "answer": "Loki is an open source logging system that indexes metadata about log labels and stores compressed log data in chunks.",
+  "course_context": {
+    "module": "Observability",
+    "usage": "Teams use Loki for log management and querying in cloud and on-premises environments."
+  },
+  "key_concepts": ["open source components", "metadata indexing", "compressed log storage", "object stores"],
+  "workflow": [
+    "Install Loki components",
+    "Configure Loki settings",
+    "Send logs to Loki",
+    "Query logs with LogQL",
+    "Manage log storage"
+  ],
+  "devops_application": "DevOps teams use Loki to efficiently manage and query log data with minimal indexing overhead.",
+  "official_evidence": [
+    {
+      "title": "Loki Documentation",
+      "url": "https://grafana.com/docs/loki/latest/",
+      "source_type": "official_documentation"
+    }
+  ],
+  "related_topics": ["Prometheus", "Grafana", "LogQL", "OpenTelemetry"],
+  "provenance": {
+    "method": "agentic-workflow",
+    "model": "gpt-4o",
+    "grounded": true,
+    "source_url": "https://grafana.com/docs/loki/latest/",
+    "run": "kb-devops"
+  }
+}

@@ -1,0 +1,25 @@
+{
+  "id": "aws-example-001",
+  "course": "AI-Assisted DevOps",
+  "category": "AWS Cloud",
+  "topic": "Example Service",
+  "subtopic": "What it is in a few words",
+  "question": "What is Example Service?",
+  "answer": "One or two precise sentences that define the topic and say what it is for. Facts only; no marketing wording.",
+  "course_context": {
+    "module": "AWS Basics",
+    "usage": "Where the course or a project uses it."
+  },
+  "key_concepts": ["Concept one", "Concept two", "Concept three", "Concept four"],
+  "workflow": ["First step", "Second step", "Third step", "Fourth step"],
+  "devops_application": "One sentence on how a DevOps team uses it.",
+  "official_evidence": [
+    {
+      "title": "Example Service Documentation",
+      "url": "https://docs.example.com/",
+      "source_type": "official_documentation"
+    }
+  ],
+  "related_topics": ["Related topic one", "Related topic two", "Related topic three"],
+  "group": "Optional: the AWS service group used by the index, e.g. Compute, Storage, Security"
+}

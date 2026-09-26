@@ -1,0 +1,20 @@
+{
+  "topic": "LangChain & LangGraph Demo",
+  "description": "Demonstrates building agent workflows using LangChain and LangGraph.",
+  "key_concepts": [
+    "LangChain framework",
+    "LangGraph orchestration",
+    "LLM-powered agents",
+    "Workflow automation"
+  ],
+  "official_links": [
+    "https://python.langchain.com/",
+    "https://langchain-ai.github.io/langgraph/"
+  ],
+  "repo_reference": "https://github.com/AravindBaranitharan/Agentic-Ai-Devops-/tree/main/langchain-langgraph-demo",
+  "use_cases": [
+    "Build conversational agents",
+    "Orchestrate multi-step workflows",
+    "Integrate external APIs with LLMs"
+  ]
+}

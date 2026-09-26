@@ -1,0 +1,38 @@
+{
+  "id": "aws-kinesis-001",
+  "course": "AI-Assisted DevOps",
+  "category": "AWS Cloud",
+  "topic": "Amazon Kinesis",
+  "subtopic": "Data Streaming Service",
+  "question": "What is Amazon Kinesis?",
+  "answer": "Amazon Kinesis is a platform for collecting, processing, and analyzing real-time, streaming data to enable timely insights and actions.",
+  "course_context": {
+    "module": "AWS Analytics",
+    "usage": "Teams use Amazon Kinesis for real-time data analytics, log processing, and streaming data applications."
+  },
+  "key_concepts": ["real-time data processing", "data streams", "Kinesis Client Library", "data analytics", "streaming data platform"],
+  "workflow": [
+    "Create a Kinesis data stream.",
+    "Use producers to push data into the stream.",
+    "Develop applications using Kinesis Client Library.",
+    "Process data in real-time on Amazon EC2.",
+    "Send processed data to dashboards or other AWS services."
+  ],
+  "devops_application": "DevOps teams use Amazon Kinesis to build real-time data processing applications that can scale with demand.",
+  "official_evidence": [
+    {
+      "title": "Amazon Kinesis Documentation",
+      "url": "https://docs.aws.amazon.com/streams/latest/dev/introduction.html",
+      "source_type": "official_documentation"
+    }
+  ],
+  "related_topics": ["Amazon Kinesis Data Streams", "Amazon Kinesis Firehose", "Amazon Kinesis Video Streams", "Managed Service for Apache Flink", "AWS Big Data Solutions"],
+  "group": "Analytics",
+  "provenance": {
+    "method": "agentic-workflow",
+    "model": "gpt-4o",
+    "grounded": true,
+    "source_url": "https://docs.aws.amazon.com/streams/latest/dev/introduction.html",
+    "run": "kb-aws"
+  }
+}

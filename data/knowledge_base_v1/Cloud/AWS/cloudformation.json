@@ -1,0 +1,29 @@
+{
+  "id": "aws-cloudformation-001",
+  "course": "AI-Assisted DevOps",
+  "category": "AWS Cloud",
+  "topic": "CloudFormation",
+  "subtopic": "Infrastructure as Code",
+  "question": "What is AWS CloudFormation?",
+  "answer": "AWS CloudFormation is a service that lets you define and provision AWS infrastructure using templates written in JSON or YAML.",
+  "course_context": {
+    "module": "AWS Basics",
+    "usage": "Used in course projects to automate infrastructure deployment."
+  },
+  "key_concepts": ["Stacks", "Templates", "Parameters", "Outputs"],
+  "workflow": [
+    "Write CloudFormation template",
+    "Deploy stack",
+    "AWS provisions resources",
+    "Manage updates and rollbacks"
+  ],
+  "devops_application": "CloudFormation automates infrastructure provisioning, ensuring reproducibility and compliance.",
+  "official_evidence": [
+    {
+      "title": "AWS CloudFormation Documentation",
+      "url": "https://docs.aws.amazon.com/cloudformation/",
+      "source_type": "official_documentation"
+    }
+  ],
+  "related_topics": ["Terraform", "IaC", "Automation"]
+}

@@ -1,0 +1,38 @@
+{
+  "id": "aws-backup-001",
+  "course": "AI-Assisted DevOps",
+  "category": "AWS Cloud",
+  "topic": "AWS Backup",
+  "subtopic": "AWS Backup Overview",
+  "question": "What is AWS Backup?",
+  "answer": "AWS Backup is a fully-managed service that centralizes and automates data protection across AWS services, both in the cloud and on premises.",
+  "course_context": {
+    "module": "AWS Basics",
+    "usage": "Teams use AWS Backup for centralized data protection and compliance across AWS services."
+  },
+  "key_concepts": ["centralized backup management", "policy-based backup", "tag-based backup policies", "lifecycle management policies", "cross-region backup"],
+  "workflow": [
+    "Access AWS Backup console.",
+    "Create backup policies.",
+    "Apply policies to AWS resources.",
+    "Monitor backup activity.",
+    "Manage lifecycle policies."
+  ],
+  "devops_application": "DevOps teams use AWS Backup to automate and manage backup policies across AWS services, ensuring compliance and data protection.",
+  "official_evidence": [
+    {
+      "title": "AWS Backup Documentation",
+      "url": "https://docs.aws.amazon.com/aws-backup/latest/devguide/whatisbackup.html",
+      "source_type": "official_documentation"
+    }
+  ],
+  "related_topics": ["AWS CloudFormation", "AWS Organizations", "AWS CLI", "AWS IAM", "Amazon S3"],
+  "group": "Storage",
+  "provenance": {
+    "method": "agentic-workflow",
+    "model": "gpt-4o",
+    "grounded": true,
+    "source_url": "https://docs.aws.amazon.com/aws-backup/latest/devguide/whatisbackup.html",
+    "run": "kb-aws"
+  }
+}

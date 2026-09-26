@@ -1,0 +1,38 @@
+{
+  "id": "aws-cognito-001",
+  "course": "AI-Assisted DevOps",
+  "category": "AWS Cloud",
+  "topic": "Amazon Cognito",
+  "subtopic": "Identity platform",
+  "question": "What is Amazon Cognito?",
+  "answer": "Amazon Cognito is an identity platform for web and mobile apps, providing user directory, authentication, and authorization services for OAuth 2.0 access tokens and AWS credentials.",
+  "course_context": {
+    "module": "AWS Security",
+    "usage": "Teams use Amazon Cognito to authenticate and authorize users for web and mobile applications."
+  },
+  "key_concepts": ["identity platform", "user directory", "authentication server", "authorization service", "OAuth 2.0"],
+  "workflow": [
+    "Create a user pool for user authentication.",
+    "Set up an identity pool for AWS resource access.",
+    "Authenticate users via user pool or third-party IdP.",
+    "Exchange user pool tokens for AWS credentials.",
+    "Assign credentials for AWS service access."
+  ],
+  "devops_application": "DevOps teams use Amazon Cognito to manage user authentication and authorization for applications, ensuring secure access to AWS resources.",
+  "official_evidence": [
+    {
+      "title": "Amazon Cognito Documentation",
+      "url": "https://docs.aws.amazon.com/cognito/latest/developerguide/what-is-amazon-cognito.html",
+      "source_type": "official_documentation"
+    }
+  ],
+  "related_topics": ["AWS IAM", "OAuth 2.0", "SAML 2.0", "OpenID Connect", "AWS Security"],
+  "group": "Security",
+  "provenance": {
+    "method": "agentic-workflow",
+    "model": "gpt-4o",
+    "grounded": true,
+    "source_url": "https://docs.aws.amazon.com/cognito/latest/developerguide/what-is-amazon-cognito.html",
+    "run": "kb-aws"
+  }
+}

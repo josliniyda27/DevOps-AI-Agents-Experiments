@@ -1,0 +1,37 @@
+{
+  "id": "wf-genai-implement-chunking-strategy-001",
+  "course": "AI-Assisted DevOps",
+  "category": "GenAI Workflows",
+  "topic": "Implement a Chunking Strategy",
+  "subtopic": "Chunking Strategy Implementation",
+  "question": "How do I implement a chunking strategy?",
+  "answer": "To implement a chunking strategy, divide large text into smaller, manageable pieces for processing.",
+  "course_context": {
+    "module": "Workflows",
+    "usage": "Teams use chunking strategies in AI applications to handle large text data efficiently."
+  },
+  "key_concepts": ["chunking strategy", "text division", "manageable pieces", "processing efficiency"],
+  "workflow": [
+    "Identify large text data to process.",
+    "Determine optimal chunk size based on token limits.",
+    "Divide text into smaller chunks.",
+    "Ensure chunks maintain context and coherence.",
+    "Process each chunk individually."
+  ],
+  "devops_application": "DevOps teams use chunking strategies to efficiently process large datasets in AI applications.",
+  "official_evidence": [
+    {
+      "title": "Official documentation",
+      "url": "https://platform.openai.com/docs/guides/retrieval",
+      "source_type": "official_documentation"
+    }
+  ],
+  "related_topics": ["Tokenization", "Text Preprocessing", "Data Segmentation", "Natural Language Processing"],
+  "provenance": {
+    "method": "agentic-workflow",
+    "model": "gpt-4o",
+    "grounded": true,
+    "source_url": "https://platform.openai.com/docs/guides/retrieval",
+    "run": "kb-genai2"
+  }
+}

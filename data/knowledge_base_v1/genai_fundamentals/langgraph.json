@@ -1,0 +1,37 @@
+{
+  "id": "langgraph-001",
+  "course": "AI-Assisted DevOps",
+  "category": "Frameworks",
+  "topic": "LangGraph",
+  "subtopic": "Graph-based Orchestration",
+  "question": "What is LangGraph?",
+  "answer": "LangGraph is a low-level orchestration framework and runtime for building stateful, long-running agent workflows. It represents workflows using concepts such as state, nodes, and edges.",
+  "course_context": {
+    "module": "Frameworks",
+    "usage": "Used to implement multi-step agent workflows in course projects."
+  },
+  "key_concepts": ["State", "Nodes", "Edges", "Conditional edges", "Checkpointing", "Human-in-the-loop"],
+  "workflow": [
+    "Receive user request",
+    "Initialize state",
+    "Execute node",
+    "Update state",
+    "Evaluate next transition",
+    "Execute next node",
+    "Return final response"
+  ],
+  "devops_application": "LangGraph orchestrates DevOps workflows where agents analyze infrastructure requests, generate solutions, validate them, and wait for human approval before execution.",
+  "official_evidence": [
+    {
+      "title": "LangGraph Overview",
+      "url": "https://docs.langchain.com/oss/python/langgraph/overview",
+      "source_type": "official_documentation"
+    },
+    {
+      "title": "LangGraph Graph API",
+      "url": "https://docs.langchain.com/oss/python/langgraph/graph-api",
+      "source_type": "official_documentation"
+    }
+  ],
+  "related_topics": ["LangChain", "Agentic AI", "Agent orchestration", "Multi-agent systems"]
+}

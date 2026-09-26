@@ -1,0 +1,29 @@
+{
+  "id": "aws-igw-001",
+  "course": "AI-Assisted DevOps",
+  "category": "AWS Cloud",
+  "topic": "Internet Gateway",
+  "subtopic": "VPC Networking",
+  "question": "What is an Internet Gateway in AWS?",
+  "answer": "An Internet Gateway is a horizontally scaled, redundant, and highly available VPC component that allows communication between resources in your VPC and the internet.",
+  "course_context": {
+    "module": "AWS Networking",
+    "usage": "Used in course projects to enable public access to EC2 instances and applications."
+  },
+  "key_concepts": ["VPC", "Routing tables", "Public subnets", "Connectivity"],
+  "workflow": [
+    "Create Internet Gateway",
+    "Attach to VPC",
+    "Update route tables",
+    "Enable public access for resources"
+  ],
+  "devops_application": "Internet Gateways allow DevOps agents and applications to communicate with external services and users.",
+  "official_evidence": [
+    {
+      "title": "Amazon VPC Internet Gateway",
+      "url": "https://docs.aws.amazon.com/vpc/latest/userguide/VPC_Internet_Gateway.html",
+      "source_type": "official_documentation"
+    }
+  ],
+  "related_topics": ["VPC", "Subnets", "Security Groups", "Route 53"]
+}

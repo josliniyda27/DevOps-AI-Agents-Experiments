@@ -1,0 +1,29 @@
+{
+  "id": "aws-sg-001",
+  "course": "AI-Assisted DevOps",
+  "category": "AWS Cloud",
+  "topic": "Security Groups",
+  "subtopic": "Network Firewall",
+  "question": "What are AWS Security Groups?",
+  "answer": "Security Groups act as virtual firewalls for EC2 instances, controlling inbound and outbound traffic.",
+  "course_context": {
+    "module": "AWS Basics",
+    "usage": "Used in course projects to secure agent communication."
+  },
+  "key_concepts": ["Inbound rules", "Outbound rules", "Port control"],
+  "workflow": [
+    "Create security group",
+    "Define inbound rules",
+    "Define outbound rules",
+    "Attach to instance"
+  ],
+  "devops_application": "Security Groups protect DevOps agents and applications from unauthorized access.",
+  "official_evidence": [
+    {
+      "title": "AWS Security Groups",
+      "url": "https://docs.aws.amazon.com/vpc/latest/userguide/VPC_SecurityGroups.html",
+      "source_type": "official_documentation"
+    }
+  ],
+  "related_topics": ["VPC", "Subnets", "EC2"]
+}

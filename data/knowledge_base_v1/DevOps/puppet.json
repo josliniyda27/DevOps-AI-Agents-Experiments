@@ -1,0 +1,37 @@
+{
+  "id": "devops-puppet-001",
+  "course": "AI-Assisted DevOps",
+  "category": "DevOps",
+  "topic": "Puppet",
+  "subtopic": "Enterprise automation platform",
+  "question": "What is Puppet?",
+  "answer": "Puppet is an enterprise-ready platform for configuration management and maintaining desired state across infrastructures, built on open source Puppet.",
+  "course_context": {
+    "module": "Infrastructure as Code",
+    "usage": "Teams use Puppet for automating configuration management and maintaining infrastructure consistency."
+  },
+  "key_concepts": ["configuration management", "desired state", "global infrastructures", "Puppet code", "Puppet Development Kit"],
+  "workflow": [
+    "Install Puppet Core",
+    "Define infrastructure state with Puppet code",
+    "Use Puppet Development Kit for module development",
+    "Deploy configurations across infrastructures",
+    "Maintain desired state"
+  ],
+  "devops_application": "DevOps teams use Puppet to automate configuration management and ensure infrastructure consistency.",
+  "official_evidence": [
+    {
+      "title": "Puppet Documentation",
+      "url": "https://puppet.com/docs/puppet/latest/puppet_index.html",
+      "source_type": "official_documentation"
+    }
+  ],
+  "related_topics": ["Configuration Management", "Infrastructure as Code", "Puppet Development Kit", "PuppetForge", "Automation Tools"],
+  "provenance": {
+    "method": "agentic-workflow",
+    "model": "gpt-4o",
+    "grounded": true,
+    "source_url": "https://puppet.com/docs/puppet/latest/puppet_index.html",
+    "run": "kb-devops"
+  }
+}

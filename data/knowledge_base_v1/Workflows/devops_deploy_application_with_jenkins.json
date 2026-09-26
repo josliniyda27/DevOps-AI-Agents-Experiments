@@ -1,0 +1,38 @@
+{
+  "id": "wf-devops-deploy-application-with-jenkins-001",
+  "course": "AI-Assisted DevOps",
+  "category": "DevOps Workflows",
+  "topic": "Deploy an Application with Jenkins",
+  "subtopic": "Deploying with Jenkins",
+  "question": "How do I deploy an application with Jenkins?",
+  "answer": "To deploy an application with Jenkins, define a Pipeline using a Jenkinsfile, configure stages and steps, and execute the Pipeline to automate the deployment process.",
+  "course_context": {
+    "module": "Workflows",
+    "usage": "Teams use Jenkins Pipelines to automate and streamline the deployment of applications."
+  },
+  "key_concepts": ["Jenkins Pipeline", "Jenkinsfile", "Declarative Pipeline", "Scripted Pipeline", "Pipeline stages"],
+  "workflow": [
+    "Install Jenkins and necessary plugins.",
+    "Create a new Pipeline project in Jenkins.",
+    "Define the Pipeline in a Jenkinsfile.",
+    "Commit the Jenkinsfile to source control.",
+    "Configure stages and steps in the Pipeline.",
+    "Execute the Pipeline to deploy the application."
+  ],
+  "devops_application": "DevOps teams use Jenkins to automate application deployment through defined Pipelines.",
+  "official_evidence": [
+    {
+      "title": "Official documentation",
+      "url": "https://www.jenkins.io/doc/book/pipeline/getting-started/",
+      "source_type": "official_documentation"
+    }
+  ],
+  "related_topics": ["Continuous Integration", "Continuous Delivery", "Jenkins Plugins", "Source Control Management", "Pipeline as Code"],
+  "provenance": {
+    "method": "agentic-workflow",
+    "model": "gpt-4o",
+    "grounded": true,
+    "source_url": "https://www.jenkins.io/doc/book/pipeline/getting-started/",
+    "run": "kb-devops"
+  }
+}

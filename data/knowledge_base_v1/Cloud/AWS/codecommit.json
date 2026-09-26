@@ -1,0 +1,38 @@
+{
+  "id": "aws-codecommit-001",
+  "course": "AI-Assisted DevOps",
+  "category": "AWS Cloud",
+  "topic": "AWS CodeCommit",
+  "subtopic": "Version Control Service",
+  "question": "What is AWS CodeCommit?",
+  "answer": "AWS CodeCommit is a version control service hosted by AWS for privately storing and managing assets like documents, source code, and binary files in the cloud.",
+  "course_context": {
+    "module": "AWS Developer Tools",
+    "usage": "Teams use AWS CodeCommit for secure, scalable, and managed source control in the cloud."
+  },
+  "key_concepts": ["version control", "private Git repositories", "AWS managed service", "secure storage", "collaborative development"],
+  "workflow": [
+    "Create a CodeCommit repository in AWS Management Console.",
+    "Clone the repository using Git commands.",
+    "Add files to the repository and commit changes.",
+    "Push changes to the CodeCommit repository.",
+    "Use pull requests for code reviews and collaboration."
+  ],
+  "devops_application": "DevOps teams use AWS CodeCommit to manage source code and collaborate on software development projects securely and efficiently.",
+  "official_evidence": [
+    {
+      "title": "AWS CodeCommit Documentation",
+      "url": "https://docs.aws.amazon.com/codecommit/latest/userguide/welcome.html",
+      "source_type": "official_documentation"
+    }
+  ],
+  "related_topics": ["AWS CodePipeline", "AWS CodeBuild", "AWS CodeDeploy", "Git", "Amazon S3"],
+  "group": "DevTools",
+  "provenance": {
+    "method": "agentic-workflow",
+    "model": "gpt-4o",
+    "grounded": true,
+    "source_url": "https://docs.aws.amazon.com/codecommit/latest/userguide/welcome.html",
+    "run": "kb-aws"
+  }
+}

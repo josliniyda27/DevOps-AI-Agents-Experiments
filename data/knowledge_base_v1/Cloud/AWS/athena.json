@@ -1,0 +1,29 @@
+{
+  "id": "aws-athena-001",
+  "course": "AI-Assisted DevOps",
+  "category": "AWS Cloud",
+  "topic": "Athena",
+  "subtopic": "Serverless Query Service",
+  "question": "What is Amazon Athena?",
+  "answer": "Amazon Athena is a serverless query service that lets you analyze data in Amazon S3 using standard SQL.",
+  "course_context": {
+    "module": "AWS Analytics",
+    "usage": "Used in course projects to query logs and datasets stored in S3."
+  },
+  "key_concepts": ["Serverless", "SQL queries", "S3 integration", "Pay-per-query"],
+  "workflow": [
+    "Store data in S3",
+    "Define schema",
+    "Run SQL queries",
+    "Retrieve results"
+  ],
+  "devops_application": "Athena helps DevOps teams analyze logs and metrics directly from S3 without ETL pipelines.",
+  "official_evidence": [
+    {
+      "title": "Amazon Athena Documentation",
+      "url": "https://docs.aws.amazon.com/athena/",
+      "source_type": "official_documentation"
+    }
+  ],
+  "related_topics": ["S3", "Glue", "Redshift"]
+}

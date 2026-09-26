@@ -1,0 +1,21 @@
+# SITE_ADDRESS is ":80" (plain HTTP; the default) or a domain name such as chat.example.com, in which case
+# Caddy obtains and renews an HTTPS certificate by itself (DNS must point here and ports 80 and 443 must be open).
+{$SITE_ADDRESS::80} {
+	encode zstd gzip
+
+	# The whole site sits behind a password. Make the hash with:  docker run --rm caddy caddy hash-password
+	# If BASIC_AUTH_HASH is missing Caddy refuses to start, so the site can never come up unprotected.
+	basic_auth {
+		{$BASIC_AUTH_USER} {$BASIC_AUTH_HASH}
+	}
+
+	handle /api/* {
+		reverse_proxy api:8000
+	}
+
+	handle {
+		root * /srv
+		try_files {path} /index.html
+		file_server
+	}
+}

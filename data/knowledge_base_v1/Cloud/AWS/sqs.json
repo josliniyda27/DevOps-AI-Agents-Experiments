@@ -1,0 +1,29 @@
+{
+  "id": "aws-sqs-001",
+  "course": "AI-Assisted DevOps",
+  "category": "AWS Cloud",
+  "topic": "SQS",
+  "subtopic": "Simple Queue Service",
+  "question": "What is Amazon SQS?",
+  "answer": "Amazon SQS is a fully managed message queuing service that enables decoupling and scaling of microservices, distributed systems, and serverless applications.",
+  "course_context": {
+    "module": "AWS Messaging",
+    "usage": "Used in course projects to queue tasks for agents."
+  },
+  "key_concepts": ["Queues", "Messages", "Decoupling", "Scalability"],
+  "workflow": [
+    "Create queue",
+    "Send message",
+    "Receive message",
+    "Process and delete message"
+  ],
+  "devops_application": "SQS enables asynchronous communication between DevOps agents and services.",
+  "official_evidence": [
+    {
+      "title": "Amazon SQS Documentation",
+      "url": "https://docs.aws.amazon.com/sqs/",
+      "source_type": "official_documentation"
+    }
+  ],
+  "related_topics": ["SNS", "Lambda", "Microservices"]
+}

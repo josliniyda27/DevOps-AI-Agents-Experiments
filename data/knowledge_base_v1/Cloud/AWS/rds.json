@@ -1,0 +1,29 @@
+{
+  "id": "aws-rds-001",
+  "course": "AI-Assisted DevOps",
+  "category": "AWS Cloud",
+  "topic": "RDS",
+  "subtopic": "Relational Database Service",
+  "question": "What is Amazon RDS?",
+  "answer": "Amazon RDS is a managed relational database service that supports engines like MySQL, PostgreSQL, and Oracle.",
+  "course_context": {
+    "module": "AWS Basics",
+    "usage": "Used in course projects to store application and agent data."
+  },
+  "key_concepts": ["DB instances", "Multi-AZ", "Backups", "Read replicas"],
+  "workflow": [
+    "Choose DB engine",
+    "Configure instance",
+    "Enable backups",
+    "Connect application"
+  ],
+  "devops_application": "RDS stores persistent data for DevOps agents and monitoring systems.",
+  "official_evidence": [
+    {
+      "title": "Amazon RDS Documentation",
+      "url": "https://docs.aws.amazon.com/rds/",
+      "source_type": "official_documentation"
+    }
+  ],
+  "related_topics": ["EC2", "VPC", "IAM"]
+}

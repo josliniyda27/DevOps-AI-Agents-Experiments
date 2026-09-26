@@ -1,0 +1,20 @@
+{
+  "topic": "Chat-FinOps Agent",
+  "description": "AI agent to query AWS cost and usage data, enabling FinOps practices.",
+  "key_concepts": [
+    "FinOps",
+    "AWS Cost Explorer",
+    "Cloud cost optimization",
+    "Human approval workflow"
+  ],
+  "official_links": [
+    "https://docs.aws.amazon.com/cost-management/latest/userguide/ce-what-is.html",
+    "https://www.finops.org/"
+  ],
+  "repo_reference": "https://github.com/AravindBaranitharan/Agentic-Ai-Devops-/tree/main/chat-finops-agent",
+  "use_cases": [
+    "Check monthly AWS spend",
+    "Identify cost anomalies",
+    "Generate cost optimization reports"
+  ]
+}

@@ -1,0 +1,29 @@
+{
+  "id": "logging-001",
+  "course": "AI-Assisted DevOps",
+  "category": "DevOps",
+  "topic": "Logging",
+  "subtopic": "System Logs",
+  "question": "What is logging in DevOps?",
+  "answer": "Logging records system and application events, providing visibility into operations and aiding troubleshooting.",
+  "course_context": {
+    "module": "DevOps",
+    "usage": "Used with ELK stack and CloudWatch Logs."
+  },
+  "key_concepts": ["Log collection", "Centralization", "Analysis", "Retention"],
+  "workflow": [
+    "Collect logs",
+    "Aggregate in centralized system",
+    "Analyze for errors",
+    "Retain for compliance"
+  ],
+  "devops_application": "Logging helps troubleshoot issues and maintain audit trails.",
+  "official_evidence": [
+    {
+      "title": "Elastic Stack Documentation",
+      "url": "https://www.elastic.co/guide/en/elastic-stack/current/index.html",
+      "source_type": "official_documentation"
+    }
+  ],
+  "related_topics": ["Monitoring", "Kubernetes", "CI/CD"]
+}

@@ -1,0 +1,37 @@
+{
+  "id": "devops-istio-001",
+  "course": "AI-Assisted DevOps",
+  "category": "DevOps",
+  "topic": "Istio",
+  "subtopic": "Service Mesh",
+  "question": "What is Istio?",
+  "answer": "Istio is a service mesh that provides zero-trust security, observability, and advanced traffic management for distributed systems without code changes.",
+  "course_context": {
+    "module": "Containers and Kubernetes",
+    "usage": "Teams use Istio in cloud native environments to manage and secure microservices across diverse platforms."
+  },
+  "key_concepts": ["service mesh", "zero-trust security", "traffic management", "observability", "cloud native"],
+  "workflow": [
+    "Install Istio on Kubernetes or VMs",
+    "Configure mTLS encryption and policy management",
+    "Set up traffic management rules",
+    "Integrate with observability tools like Prometheus",
+    "Deploy applications with canary or A/B testing"
+  ],
+  "devops_application": "DevOps teams use Istio to manage microservices traffic, enhance security, and improve observability in cloud native environments.",
+  "official_evidence": [
+    {
+      "title": "Istio Documentation",
+      "url": "https://istio.io/latest/docs/concepts/what-is-istio/",
+      "source_type": "official_documentation"
+    }
+  ],
+  "related_topics": ["Kubernetes", "Prometheus", "Envoy", "Cloud Native Computing Foundation", "microservices architecture"],
+  "provenance": {
+    "method": "agentic-workflow",
+    "model": "gpt-4o",
+    "grounded": true,
+    "source_url": "https://istio.io/latest/docs/concepts/what-is-istio/",
+    "run": "kb-devops"
+  }
+}

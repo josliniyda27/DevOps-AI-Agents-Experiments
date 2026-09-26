@@ -1,0 +1,29 @@
+{
+  "id": "quantization-001",
+  "course": "AI-Assisted DevOps",
+  "category": "Optimization",
+  "topic": "Quantization",
+  "subtopic": "Model Compression",
+  "question": "What is quantization in AI models?",
+  "answer": "Quantization reduces the precision of model parameters (e.g., from 32-bit to 8-bit) to lower memory usage and speed up inference while maintaining accuracy.",
+  "course_context": {
+    "module": "Optimization",
+    "usage": "Used to deploy efficient AI agents in resource-constrained environments."
+  },
+  "key_concepts": ["Parameter precision", "Model compression", "Inference speed"],
+  "workflow": [
+    "Train model with high precision",
+    "Convert weights to lower precision",
+    "Deploy quantized model",
+    "Monitor accuracy vs efficiency"
+  ],
+  "devops_application": "Quantized models allow DevOps agents to run efficiently on edge devices or limited compute environments.",
+  "official_evidence": [
+    {
+      "title": "Quantization Techniques",
+      "url": "https://arxiv.org/abs/2106.08295",
+      "source_type": "research_article"
+    }
+  ],
+  "related_topics": ["Pruning", "Optimization", "Token cost"]
+}

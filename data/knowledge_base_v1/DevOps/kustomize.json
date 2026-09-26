@@ -1,0 +1,37 @@
+{
+  "id": "devops-kustomize-001",
+  "course": "AI-Assisted DevOps",
+  "category": "DevOps",
+  "topic": "Kustomize",
+  "subtopic": "Kubernetes configuration management",
+  "question": "What is Kustomize?",
+  "answer": "Kustomize is a Kubernetes native configuration management tool that allows customization of Kubernetes manifests without forking, using a purely declarative approach.",
+  "course_context": {
+    "module": "Containers and Kubernetes",
+    "usage": "Teams use Kustomize to manage multiple customized Kubernetes configurations declaratively."
+  },
+  "key_concepts": ["Kubernetes manifest", "configuration customization", "declarative approach", "kubectl integration"],
+  "workflow": [
+    "Install Kustomize as a standalone binary or use kubectl -k.",
+    "Create a base Kubernetes manifest in YAML.",
+    "Define overlays to customize the base manifest.",
+    "Apply the customized manifest using Kustomize.",
+    "Validate and process YAML artifacts."
+  ],
+  "devops_application": "DevOps teams use Kustomize to manage and customize Kubernetes configurations declaratively.",
+  "official_evidence": [
+    {
+      "title": "Kustomize Documentation",
+      "url": "https://kustomize.io/",
+      "source_type": "official_documentation"
+    }
+  ],
+  "related_topics": ["kubectl", "Helm", "ArgoCD", "Flux", "Kubernetes"],
+  "provenance": {
+    "method": "agentic-workflow",
+    "model": "gpt-4o",
+    "grounded": true,
+    "source_url": "https://kustomize.io/",
+    "run": "kb-devops"
+  }
+}

@@ -1,0 +1,5 @@
+*
+!requirements-api.txt
+!src
+!data/knowledge_base_v1
+**/__pycache__

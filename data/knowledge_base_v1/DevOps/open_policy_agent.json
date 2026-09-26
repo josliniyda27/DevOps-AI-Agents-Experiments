@@ -1,0 +1,37 @@
+{
+  "id": "devops-open-policy-agent-001",
+  "course": "AI-Assisted DevOps",
+  "category": "DevOps",
+  "topic": "Open Policy Agent",
+  "subtopic": "Policy engine",
+  "question": "What is Open Policy Agent?",
+  "answer": "Open Policy Agent (OPA) is an open source, general-purpose policy engine that unifies policy enforcement across the stack using a high-level declarative language called Rego.",
+  "course_context": {
+    "module": "DevSecOps",
+    "usage": "Teams use OPA to enforce and audit policies in various environments, ensuring compliance and security."
+  },
+  "key_concepts": ["policy engine", "declarative language", "policy enforcement", "structured data", "Cloud Native Computing Foundation"],
+  "workflow": [
+    "Install OPA in your environment.",
+    "Write policies using Rego language.",
+    "Provide structured data as input to OPA.",
+    "Query OPA for policy decisions.",
+    "Integrate OPA with your software stack."
+  ],
+  "devops_application": "DevOps teams use OPA to enforce policies across microservices, Kubernetes, CI/CD pipelines, and API gateways.",
+  "official_evidence": [
+    {
+      "title": "Open Policy Agent Documentation",
+      "url": "https://www.openpolicyagent.org/docs/latest/",
+      "source_type": "official_documentation"
+    }
+  ],
+  "related_topics": ["Rego", "Kubernetes", "CI/CD pipelines", "API gateways", "Cloud Native Computing Foundation"],
+  "provenance": {
+    "method": "agentic-workflow",
+    "model": "gpt-4o",
+    "grounded": true,
+    "source_url": "https://www.openpolicyagent.org/docs/latest/",
+    "run": "kb-devops"
+  }
+}

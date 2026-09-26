@@ -1,0 +1,29 @@
+{
+  "id": "aws-ec2-001",
+  "course": "AI-Assisted DevOps",
+  "category": "AWS Cloud",
+  "topic": "EC2",
+  "subtopic": "Elastic Compute Cloud",
+  "question": "What is Amazon EC2?",
+  "answer": "Amazon EC2 provides resizable compute capacity in the cloud, allowing users to run virtual servers on demand.",
+  "course_context": {
+    "module": "AWS Basics",
+    "usage": "Used in course projects to host applications and agents."
+  },
+  "key_concepts": ["Instances", "AMI", "Instance types", "Elastic IP"],
+  "workflow": [
+    "Choose AMI",
+    "Select instance type",
+    "Configure networking",
+    "Launch instance"
+  ],
+  "devops_application": "EC2 hosts DevOps agents, CI/CD runners, and monitoring tools.",
+  "official_evidence": [
+    {
+      "title": "Amazon EC2 Documentation",
+      "url": "https://docs.aws.amazon.com/ec2/",
+      "source_type": "official_documentation"
+    }
+  ],
+  "related_topics": ["VPC", "Security Groups", "IAM"]
+}

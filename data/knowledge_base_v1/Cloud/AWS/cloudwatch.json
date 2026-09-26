@@ -1,0 +1,29 @@
+{
+  "id": "aws-cloudwatch-001",
+  "course": "AI-Assisted DevOps",
+  "category": "AWS Cloud",
+  "topic": "CloudWatch",
+  "subtopic": "Monitoring and Observability",
+  "question": "What is Amazon CloudWatch?",
+  "answer": "Amazon CloudWatch is a monitoring and observability service that provides metrics, logs, and alarms for AWS resources and applications.",
+  "course_context": {
+    "module": "AWS Basics",
+    "usage": "Used in course projects to monitor EC2, Lambda, and application performance."
+  },
+  "key_concepts": ["Metrics", "Logs", "Alarms", "Dashboards"],
+  "workflow": [
+    "Collect metrics and logs",
+    "Visualize in dashboards",
+    "Set alarms",
+    "Trigger automated actions"
+  ],
+  "devops_application": "CloudWatch enables proactive monitoring of infrastructure, triggering Lambda functions or Auto Scaling when thresholds are breached.",
+  "official_evidence": [
+    {
+      "title": "Amazon CloudWatch Documentation",
+      "url": "https://docs.aws.amazon.com/cloudwatch/",
+      "source_type": "official_documentation"
+    }
+  ],
+  "related_topics": ["Lambda", "Auto Scaling", "Monitoring"]
+}

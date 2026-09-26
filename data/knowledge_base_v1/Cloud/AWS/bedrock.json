@@ -1,0 +1,29 @@
+{
+  "id": "aws-bedrock-001",
+  "course": "AI-Assisted DevOps",
+  "category": "AWS Cloud",
+  "topic": "Bedrock",
+  "subtopic": "Generative AI Service",
+  "question": "What is Amazon Bedrock?",
+  "answer": "Amazon Bedrock is a managed service that enables you to build and scale generative AI applications using foundation models without managing infrastructure.",
+  "course_context": {
+    "module": "AWS AI",
+    "usage": "Used in course projects to integrate LLMs into DevOps workflows."
+  },
+  "key_concepts": ["Foundation models", "Serverless AI", "Integration APIs"],
+  "workflow": [
+    "Choose foundation model",
+    "Integrate via API",
+    "Customize with prompts or fine-tuning",
+    "Deploy application"
+  ],
+  "devops_application": "Bedrock allows DevOps teams to embed generative AI into monitoring, troubleshooting, and automation workflows.",
+  "official_evidence": [
+    {
+      "title": "Amazon Bedrock Documentation",
+      "url": "https://docs.aws.amazon.com/bedrock/",
+      "source_type": "official_documentation"
+    }
+  ],
+  "related_topics": ["SageMaker", "LLM", "Prompt engineering"]
+}

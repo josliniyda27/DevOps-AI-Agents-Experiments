@@ -1,0 +1,37 @@
+{
+  "id": "wf-genai-implement-function-calling-001",
+  "course": "AI-Assisted DevOps",
+  "category": "GenAI Workflows",
+  "topic": "Implement Function Calling",
+  "subtopic": "Function Calling Workflow",
+  "question": "How do I implement function calling?",
+  "answer": "To implement function calling, configure the function, define its parameters, and integrate it with the agent.",
+  "course_context": {
+    "module": "Workflows",
+    "usage": "Teams use function calling to enable agents to interact with external systems and perform specific tasks."
+  },
+  "key_concepts": ["function configuration", "parameter definition", "agent integration", "API usage"],
+  "workflow": [
+    "Configure the function in the API.",
+    "Define the function parameters.",
+    "Integrate the function with the agent.",
+    "Test the function call.",
+    "Deploy the function in production."
+  ],
+  "devops_application": "DevOps teams use function calling to automate and streamline agent interactions with external tools.",
+  "official_evidence": [
+    {
+      "title": "Official documentation",
+      "url": "https://platform.openai.com/docs/guides/agents",
+      "source_type": "official_documentation"
+    }
+  ],
+  "related_topics": ["Agents API", "Function Configuration", "Parameter Definition", "Agent Integration"],
+  "provenance": {
+    "method": "agentic-workflow",
+    "model": "gpt-4o",
+    "grounded": true,
+    "source_url": "https://platform.openai.com/docs/guides/agents",
+    "run": "kb-genai2"
+  }
+}

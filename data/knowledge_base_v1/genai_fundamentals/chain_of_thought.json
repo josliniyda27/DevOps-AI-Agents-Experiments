@@ -1,0 +1,29 @@
+{
+  "id": "cot-001",
+  "course": "AI-Assisted DevOps",
+  "category": "Prompting Techniques",
+  "topic": "Chain of Thought",
+  "subtopic": "Reasoning Prompts",
+  "question": "What is Chain of Thought prompting?",
+  "answer": "Chain of Thought (CoT) prompting is a technique where the model is guided to generate intermediate reasoning steps before producing the final answer.",
+  "course_context": {
+    "module": "Prompt Engineering",
+    "usage": "Used to improve reasoning in complex DevOps queries."
+  },
+  "key_concepts": ["Step-by-step reasoning", "Intermediate outputs", "Improved accuracy"],
+  "workflow": [
+    "User provides query",
+    "Prompt instructs model to reason step-by-step",
+    "Model generates intermediate reasoning",
+    "Final answer is produced"
+  ],
+  "devops_application": "Helps agents explain troubleshooting steps or infrastructure changes clearly.",
+  "official_evidence": [
+    {
+      "title": "Chain of Thought Paper",
+      "url": "https://arxiv.org/abs/2201.11903",
+      "source_type": "research_article"
+    }
+  ],
+  "related_topics": ["Prompt engineering", "Reasoning", "Planning"]
+}

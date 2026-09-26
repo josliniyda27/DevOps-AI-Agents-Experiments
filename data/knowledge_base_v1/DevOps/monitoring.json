@@ -1,0 +1,29 @@
+{
+  "id": "monitoring-001",
+  "course": "AI-Assisted DevOps",
+  "category": "DevOps",
+  "topic": "Monitoring",
+  "subtopic": "System Observability",
+  "question": "What is monitoring in DevOps?",
+  "answer": "Monitoring involves tracking system performance, resource usage, and application health to ensure reliability and detect issues early.",
+  "course_context": {
+    "module": "DevOps",
+    "usage": "Implemented using CloudWatch, Prometheus, and Grafana."
+  },
+  "key_concepts": ["Metrics", "Dashboards", "Alerts", "Observability"],
+  "workflow": [
+    "Collect metrics",
+    "Visualize in dashboards",
+    "Set alerts",
+    "Respond to incidents"
+  ],
+  "devops_application": "Monitoring ensures proactive detection of issues in infrastructure and applications.",
+  "official_evidence": [
+    {
+      "title": "Prometheus Documentation",
+      "url": "https://prometheus.io/docs/introduction/overview/",
+      "source_type": "official_documentation"
+    }
+  ],
+  "related_topics": ["Logging", "CI/CD", "FinOps"]
+}

@@ -1,0 +1,39 @@
+{
+  "id": "aws-app-mesh-001",
+  "course": "AI-Assisted DevOps",
+  "category": "AWS Cloud",
+  "topic": "AWS App Mesh",
+  "subtopic": "Service Mesh Overview",
+  "question": "What is AWS App Mesh?",
+  "answer": "AWS App Mesh is a service mesh that standardizes service communication, providing end-to-end visibility and network traffic controls for applications.",
+  "course_context": {
+    "module": "AWS Networking",
+    "usage": "Teams use AWS App Mesh to monitor and control service communication in cloud applications."
+  },
+  "key_concepts": ["service mesh", "network proxies", "virtual services", "virtual nodes", "virtual routers"],
+  "workflow": [
+    "Deploy network proxies alongside application code",
+    "Define a service mesh as a logical boundary",
+    "Create virtual services as abstractions of actual services",
+    "Configure virtual nodes as pointers to discoverable services",
+    "Set up virtual routers to handle traffic",
+    "Define routes to distribute traffic among virtual nodes"
+  ],
+  "devops_application": "DevOps teams use AWS App Mesh to manage service-to-service communication and ensure high availability of applications.",
+  "official_evidence": [
+    {
+      "title": "AWS App Mesh Documentation",
+      "url": "https://docs.aws.amazon.com/app-mesh/latest/userguide/what-is-app-mesh.html",
+      "source_type": "official_documentation"
+    }
+  ],
+  "related_topics": ["Amazon ECS", "Amazon EKS", "AWS Fargate", "Amazon EC2", "Service Discovery"],
+  "group": "Networking",
+  "provenance": {
+    "method": "agentic-workflow",
+    "model": "gpt-4o",
+    "grounded": true,
+    "source_url": "https://docs.aws.amazon.com/app-mesh/latest/userguide/what-is-app-mesh.html",
+    "run": "kb-aws"
+  }
+}

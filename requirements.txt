@@ -1,0 +1,9 @@
+# Everything for development: the API's runtime dependencies plus tests and the knowledge-base agents.
+-r requirements-api.txt
+
+# Tests
+pytest>=8
+httpx>=0.27   # FastAPI TestClient, and the knowledge-base link check
+
+# Knowledge-base agents (python -m kb_agents)
+langgraph>=0.2

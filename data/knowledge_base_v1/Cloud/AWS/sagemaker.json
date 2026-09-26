@@ -1,0 +1,29 @@
+{
+  "id": "aws-sagemaker-001",
+  "course": "AI-Assisted DevOps",
+  "category": "AWS Cloud",
+  "topic": "SageMaker",
+  "subtopic": "Machine Learning Platform",
+  "question": "What is Amazon SageMaker?",
+  "answer": "Amazon SageMaker is a fully managed service that provides tools to build, train, and deploy machine learning models at scale.",
+  "course_context": {
+    "module": "AWS AI",
+    "usage": "Used in course projects to train and deploy AI models for DevOps automation."
+  },
+  "key_concepts": ["Training", "Deployment", "Model hosting", "MLOps"],
+  "workflow": [
+    "Prepare dataset",
+    "Train model",
+    "Deploy endpoint",
+    "Monitor performance"
+  ],
+  "devops_application": "SageMaker enables DevOps teams to deploy predictive models for anomaly detection and cost optimization.",
+  "official_evidence": [
+    {
+      "title": "Amazon SageMaker Documentation",
+      "url": "https://docs.aws.amazon.com/sagemaker/",
+      "source_type": "official_documentation"
+    }
+  ],
+  "related_topics": ["Bedrock", "Glue", "AI Agents"]
+}

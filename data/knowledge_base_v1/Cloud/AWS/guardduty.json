@@ -1,0 +1,38 @@
+{
+  "id": "aws-guardduty-001",
+  "course": "AI-Assisted DevOps",
+  "category": "AWS Cloud",
+  "topic": "Amazon GuardDuty",
+  "subtopic": "Threat Detection Service",
+  "question": "What is Amazon GuardDuty?",
+  "answer": "Amazon GuardDuty is a threat detection service that continuously monitors and analyzes AWS data sources and logs to identify suspicious and potentially malicious activity in your AWS environment.",
+  "course_context": {
+    "module": "AWS Security",
+    "usage": "Teams use Amazon GuardDuty to enhance security by detecting threats in AWS environments."
+  },
+  "key_concepts": ["threat detection", "AWS data sources", "machine learning models", "malicious activity", "security findings"],
+  "workflow": [
+    "Enable GuardDuty in your AWS account.",
+    "GuardDuty ingests foundational data sources.",
+    "Analyze data for suspicious activity.",
+    "Generate security findings for detected threats.",
+    "Use GuardDuty console for investigation."
+  ],
+  "devops_application": "DevOps teams use Amazon GuardDuty to monitor and detect potential security threats in their AWS environments.",
+  "official_evidence": [
+    {
+      "title": "Amazon GuardDuty Documentation",
+      "url": "https://docs.aws.amazon.com/guardduty/latest/ug/what-is-guardduty.html",
+      "source_type": "official_documentation"
+    }
+  ],
+  "related_topics": ["AWS CloudTrail", "Amazon EC2", "Amazon S3", "Amazon EKS", "Amazon RDS"],
+  "group": "Security",
+  "provenance": {
+    "method": "agentic-workflow",
+    "model": "gpt-4o",
+    "grounded": true,
+    "source_url": "https://docs.aws.amazon.com/guardduty/latest/ug/what-is-guardduty.html",
+    "run": "kb-aws"
+  }
+}

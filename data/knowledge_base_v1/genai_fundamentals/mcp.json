@@ -1,0 +1,24 @@
+{
+  "id": "mcp-001",
+  "course": "AI-Assisted DevOps",
+  "category": "Safety & Control",
+  "topic": "MCP",
+  "subtopic": "Model Control Protocol",
+  "question": "What is MCP?",
+  "answer": "MCP (Model Control Protocol) defines guardrails and structured communication between AI models and external systems to ensure safe execution.",
+  "course_context": {
+    "module": "Safety",
+    "usage": "Used to enforce safe AI operations in DevOps."
+  },
+  "key_concepts": ["Guardrails", "Tool calling", "Human approval"],
+  "workflow": ["Define protocol", "Model requests action", "Protocol validates request", "Execute safely"],
+  "devops_application": "MCP ensures AI agents do not perform unsafe or destructive operations without validation.",
+  "official_evidence": [
+    {
+      "title": "Microsoft AI Safety Guardrails",
+      "url": "https://learn.microsoft.com/en-us/azure/ai-services/",
+      "source_type": "official_documentation"
+    }
+  ],
+  "related_topics": ["Guardrails", "Human-in-the-loop", "Tool calling"]
+}

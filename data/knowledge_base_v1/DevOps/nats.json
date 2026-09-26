@@ -1,0 +1,37 @@
+{
+  "id": "devops-nats-001",
+  "course": "AI-Assisted DevOps",
+  "category": "DevOps",
+  "topic": "NATS",
+  "subtopic": "Messaging System",
+  "question": "What is NATS?",
+  "answer": "NATS is a high-performance messaging system designed for cloud-native applications, providing a lightweight and scalable communication mechanism.",
+  "course_context": {
+    "module": "Infrastructure as Code",
+    "usage": "Teams use NATS in cloud-native environments to enable efficient communication between distributed systems."
+  },
+  "key_concepts": ["messaging system", "cloud-native applications", "lightweight communication", "scalable architecture"],
+  "workflow": [
+    "Install NATS server",
+    "Configure server settings",
+    "Connect clients to server",
+    "Publish messages to subjects",
+    "Subscribe to subjects for messages"
+  ],
+  "devops_application": "DevOps teams use NATS to facilitate communication between microservices in cloud-native environments.",
+  "official_evidence": [
+    {
+      "title": "NATS Documentation",
+      "url": "https://docs.nats.io/",
+      "source_type": "official_documentation"
+    }
+  ],
+  "related_topics": ["JetStream", "Message Queues", "Microservices", "Cloud-Native Applications"],
+  "provenance": {
+    "method": "agentic-workflow",
+    "model": "gpt-4o",
+    "grounded": true,
+    "source_url": "https://docs.nats.io/",
+    "run": "kb-devops"
+  }
+}

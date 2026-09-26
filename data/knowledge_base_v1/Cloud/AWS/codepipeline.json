@@ -1,0 +1,38 @@
+{
+  "id": "aws-codepipeline-001",
+  "course": "AI-Assisted DevOps",
+  "category": "AWS Cloud",
+  "topic": "AWS CodePipeline",
+  "subtopic": "Continuous delivery service",
+  "question": "What is AWS CodePipeline?",
+  "answer": "AWS CodePipeline is a continuous delivery service used to model, visualize, and automate the steps required to release software.",
+  "course_context": {
+    "module": "AWS Developer Tools",
+    "usage": "Teams use AWS CodePipeline to automate and manage the software release process in a continuous delivery pipeline."
+  },
+  "key_concepts": ["continuous delivery", "software release process", "automation", "pipeline stages", "visualization"],
+  "workflow": [
+    "Model the software release process.",
+    "Configure different stages of the pipeline.",
+    "Automate the release steps.",
+    "Visualize the pipeline stages.",
+    "Continuously release software changes."
+  ],
+  "devops_application": "DevOps teams use AWS CodePipeline to automate and streamline the software release process.",
+  "official_evidence": [
+    {
+      "title": "AWS CodePipeline Documentation",
+      "url": "https://docs.aws.amazon.com/codepipeline/latest/userguide/welcome.html",
+      "source_type": "official_documentation"
+    }
+  ],
+  "related_topics": ["AWS CodeBuild", "AWS CodeDeploy", "AWS CodeCommit", "Continuous Integration", "DevOps"],
+  "group": "DevTools",
+  "provenance": {
+    "method": "agentic-workflow",
+    "model": "gpt-4o",
+    "grounded": true,
+    "source_url": "https://docs.aws.amazon.com/codepipeline/latest/userguide/welcome.html",
+    "run": "kb-aws"
+  }
+}

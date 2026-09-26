@@ -1,0 +1,37 @@
+{
+  "id": "devops-zookeeper-001",
+  "course": "AI-Assisted DevOps",
+  "category": "DevOps",
+  "topic": "Apache Zookeeper",
+  "subtopic": "Distributed Coordination Service",
+  "question": "What is Apache Zookeeper?",
+  "answer": "Apache Zookeeper is a high-performance coordination service for distributed applications, providing services like naming, configuration management, synchronization, and group services.",
+  "course_context": {
+    "module": "Infrastructure as Code",
+    "usage": "Teams use ZooKeeper in distributed systems to handle coordination tasks like leader election and configuration management."
+  },
+  "key_concepts": ["coordination service", "distributed applications", "naming service", "configuration management", "synchronization"],
+  "workflow": [
+    "Install ZooKeeper on servers.",
+    "Configure ZooKeeper ensemble settings.",
+    "Start ZooKeeper servers.",
+    "Connect clients to ZooKeeper.",
+    "Use API for coordination tasks."
+  ],
+  "devops_application": "DevOps teams use ZooKeeper to manage configuration and synchronization in distributed systems.",
+  "official_evidence": [
+    {
+      "title": "Apache Zookeeper Documentation",
+      "url": "https://zookeeper.apache.org/doc/r3.7.0/index.html",
+      "source_type": "official_documentation"
+    }
+  ],
+  "related_topics": ["Apache Kafka", "Distributed Systems", "Consensus Protocols", "Leader Election", "Configuration Management"],
+  "provenance": {
+    "method": "agentic-workflow",
+    "model": "gpt-4o",
+    "grounded": true,
+    "source_url": "https://zookeeper.apache.org/doc/r3.7.0/index.html",
+    "run": "kb-devops"
+  }
+}

@@ -1,0 +1,38 @@
+{
+  "id": "aws-trusted-advisor-001",
+  "course": "AI-Assisted DevOps",
+  "category": "AWS Cloud",
+  "topic": "AWS Trusted Advisor",
+  "subtopic": "AWS support tool",
+  "question": "What is AWS Trusted Advisor?",
+  "answer": "AWS Trusted Advisor is a service that inspects your AWS environment and provides recommendations to save money, improve system availability and performance, and close security gaps.",
+  "course_context": {
+    "module": "AWS Operations",
+    "usage": "Teams use AWS Trusted Advisor to enhance cost efficiency, performance, and security in AWS environments."
+  },
+  "key_concepts": ["AWS environment inspection", "cost-saving recommendations", "system availability", "performance improvement", "security gap closure"],
+  "workflow": [
+    "Sign in to the Trusted Advisor console.",
+    "Access checks based on your support plan.",
+    "Manually refresh checks if on Basic Support.",
+    "Use the API for automated access with higher support plans.",
+    "Monitor check status with Amazon CloudWatch Events."
+  ],
+  "devops_application": "DevOps teams use AWS Trusted Advisor to optimize AWS environments by identifying cost-saving opportunities and security improvements.",
+  "official_evidence": [
+    {
+      "title": "AWS Trusted Advisor Documentation",
+      "url": "https://docs.aws.amazon.com/awssupport/latest/user/trusted-advisor.html",
+      "source_type": "official_documentation"
+    }
+  ],
+  "related_topics": ["AWS Support Plans", "Amazon CloudWatch", "AWS Management Console", "AWS Config", "AWS Security Hub"],
+  "group": "Management",
+  "provenance": {
+    "method": "agentic-workflow",
+    "model": "gpt-4o",
+    "grounded": true,
+    "source_url": "https://docs.aws.amazon.com/awssupport/latest/user/trusted-advisor.html",
+    "run": "kb-aws"
+  }
+}

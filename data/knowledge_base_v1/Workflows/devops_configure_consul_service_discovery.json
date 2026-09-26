@@ -1,0 +1,37 @@
+{
+  "id": "wf-devops-configure-consul-service-discovery-001",
+  "course": "AI-Assisted DevOps",
+  "category": "DevOps Workflows",
+  "topic": "Configure Consul for Service Discovery",
+  "subtopic": "Service discovery setup",
+  "question": "How do I configure Consul for service discovery?",
+  "answer": "To configure Consul for service discovery, install Consul agents, register services with health checks, and use Consul DNS or API for service lookups.",
+  "course_context": {
+    "module": "Workflows",
+    "usage": "Teams use Consul for service discovery in hybrid and multi-cloud environments."
+  },
+  "key_concepts": ["Consul agents", "service registration", "health checks", "Consul DNS", "service lookups"],
+  "workflow": [
+    "Install Consul server and client agents on nodes.",
+    "Define services and health checks in configuration files.",
+    "Register services with Consul using the HTTP API or configuration files.",
+    "Enable Consul DNS or use the HTTP API for service discovery.",
+    "Monitor service health through Consul's health checks."
+  ],
+  "devops_application": "DevOps teams use Consul to automate service discovery and health monitoring in their network environments.",
+  "official_evidence": [
+    {
+      "title": "Official documentation",
+      "url": "https://developer.hashicorp.com/consul/docs",
+      "source_type": "official_documentation"
+    }
+  ],
+  "related_topics": ["Consul service mesh", "Consul DNS", "Consul API gateway", "Consul health checks", "Consul agents"],
+  "provenance": {
+    "method": "agentic-workflow",
+    "model": "gpt-4o",
+    "grounded": true,
+    "source_url": "https://developer.hashicorp.com/consul/docs",
+    "run": "kb-devops"
+  }
+}

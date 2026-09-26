@@ -1,0 +1,29 @@
+{
+  "id": "fewshot-001",
+  "course": "AI-Assisted DevOps",
+  "category": "Prompting Techniques",
+  "topic": "Few-shot Prompting",
+  "subtopic": "Example-based Prompts",
+  "question": "What is few-shot prompting?",
+  "answer": "Few-shot prompting provides the model with a small number of examples in the prompt to guide its output.",
+  "course_context": {
+    "module": "Prompt Engineering",
+    "usage": "Used to teach models domain-specific responses without fine-tuning."
+  },
+  "key_concepts": ["Examples", "Context learning", "Generalization"],
+  "workflow": [
+    "User defines task",
+    "Provide 2–5 examples in prompt",
+    "Model learns pattern",
+    "Model generates output following examples"
+  ],
+  "devops_application": "Few-shot prompts can teach models to generate Terraform code or CI/CD configs consistently.",
+  "official_evidence": [
+    {
+      "title": "GPT-3 Few-shot Learning",
+      "url": "https://arxiv.org/abs/2005.14165",
+      "source_type": "research_article"
+    }
+  ],
+  "related_topics": ["Prompt engineering", "Context engineering", "Fine-tuning"]
+}

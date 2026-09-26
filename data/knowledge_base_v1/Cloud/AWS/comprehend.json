@@ -1,0 +1,38 @@
+{
+  "id": "aws-comprehend-001",
+  "course": "AI-Assisted DevOps",
+  "category": "AWS Cloud",
+  "topic": "Amazon Comprehend",
+  "subtopic": "Natural Language Processing",
+  "question": "What is Amazon Comprehend?",
+  "answer": "Amazon Comprehend is a natural language processing (NLP) service that extracts insights from documents by recognizing entities, key phrases, language, sentiments, and other elements.",
+  "course_context": {
+    "module": "AWS AI",
+    "usage": "Teams use Amazon Comprehend to analyze documents for insights such as sentiment, language, and key phrases."
+  },
+  "key_concepts": ["natural language processing", "entity recognition", "sentiment analysis", "document analysis"],
+  "workflow": [
+    "Access Amazon Comprehend via console or API",
+    "Choose real-time or asynchronous analysis",
+    "Use pre-trained or custom models",
+    "Input UTF-8 text or supported file types",
+    "Analyze documents for insights"
+  ],
+  "devops_application": "DevOps teams use Amazon Comprehend to integrate NLP capabilities into applications for document analysis and sentiment detection.",
+  "official_evidence": [
+    {
+      "title": "Amazon Comprehend Documentation",
+      "url": "https://docs.aws.amazon.com/comprehend/latest/dg/what-is.html",
+      "source_type": "official_documentation"
+    }
+  ],
+  "related_topics": ["Amazon Comprehend Custom", "Flywheels", "Document clustering"],
+  "group": "AI",
+  "provenance": {
+    "method": "agentic-workflow",
+    "model": "gpt-4o",
+    "grounded": true,
+    "source_url": "https://docs.aws.amazon.com/comprehend/latest/dg/what-is.html",
+    "run": "kb-aws"
+  }
+}

@@ -1,0 +1,29 @@
+{
+  "id": "aws-subnet-001",
+  "course": "AI-Assisted DevOps",
+  "category": "AWS Cloud",
+  "topic": "Subnets",
+  "subtopic": "Network Segmentation",
+  "question": "What are AWS Subnets?",
+  "answer": "Subnets are subdivisions of a VPC that allow you to group resources based on availability zones and security requirements.",
+  "course_context": {
+    "module": "AWS Basics",
+    "usage": "Used in course projects to segment agent workloads."
+  },
+  "key_concepts": ["Public subnets", "Private subnets", "Availability zones"],
+  "workflow": [
+    "Create VPC",
+    "Define subnet CIDR",
+    "Assign to AZ",
+    "Launch resources in subnet"
+  ],
+  "devops_application": "Subnets separate public-facing and internal DevOps resources for security.",
+  "official_evidence": [
+    {
+      "title": "AWS Subnets",
+      "url": "https://docs.aws.amazon.com/vpc/latest/userguide/VPC_Subnets.html",
+      "source_type": "official_documentation"
+    }
+  ],
+  "related_topics": ["VPC", "Security Groups", "EC2"]
+}

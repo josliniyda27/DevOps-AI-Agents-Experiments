@@ -1,0 +1,39 @@
+{
+  "id": "aws-cloudfront-001",
+  "course": "AI-Assisted DevOps",
+  "category": "AWS Cloud",
+  "topic": "AWS CloudFront",
+  "subtopic": "Content Delivery Network",
+  "question": "What is AWS CloudFront?",
+  "answer": "AWS CloudFront is a web service that accelerates the distribution of static and dynamic web content by using a global network of edge locations to deliver content with low latency and high transfer rates.",
+  "course_context": {
+    "module": "AWS Networking",
+    "usage": "Teams use AWS CloudFront to deliver web content quickly and reliably to users worldwide."
+  },
+  "key_concepts": ["content delivery", "edge locations", "latency reduction", "origin servers"],
+  "workflow": [
+    "Create a CloudFront distribution.",
+    "Specify origin servers like S3 or HTTP.",
+    "Upload files to origin servers.",
+    "Configure distribution settings.",
+    "Assign a domain name to distribution.",
+    "Deploy configuration to edge locations."
+  ],
+  "devops_application": "DevOps teams use CloudFront to optimize content delivery and improve application performance by reducing latency and increasing data transfer rates.",
+  "official_evidence": [
+    {
+      "title": "AWS CloudFront Documentation",
+      "url": "https://docs.aws.amazon.com/AmazonCloudFront/latest/DeveloperGuide/Introduction.html",
+      "source_type": "official_documentation"
+    }
+  ],
+  "related_topics": ["Amazon S3", "AWS Elastic Load Balancing", "AWS Lambda@Edge", "Amazon Route 53"],
+  "group": "Networking",
+  "provenance": {
+    "method": "agentic-workflow",
+    "model": "gpt-4o",
+    "grounded": true,
+    "source_url": "https://docs.aws.amazon.com/AmazonCloudFront/latest/DeveloperGuide/Introduction.html",
+    "run": "kb-aws"
+  }
+}

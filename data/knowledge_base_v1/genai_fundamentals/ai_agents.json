@@ -1,0 +1,24 @@
+{
+  "id": "agents-001",
+  "course": "AI-Assisted DevOps",
+  "category": "Generic Fundamentals",
+  "topic": "AI Agents",
+  "subtopic": "Autonomous Systems",
+  "question": "What are AI agents?",
+  "answer": "AI agents are systems that use LLMs and tools to autonomously perform tasks, make decisions, and interact with environments.",
+  "course_context": {
+    "module": "Fundamentals",
+    "usage": "Core concept in building DevOps automation workflows."
+  },
+  "key_concepts": ["Autonomy", "Tool calling", "Planning", "Reasoning"],
+  "workflow": ["Receive user request", "Plan steps", "Call tools or APIs", "Return results"],
+  "devops_application": "Agents can automate cloud operations, CI/CD pipelines, and monitoring tasks.",
+  "official_evidence": [
+    {
+      "title": "LangChain Agents",
+      "url": "https://python.langchain.com/docs/modules/agents/",
+      "source_type": "official_documentation"
+    }
+  ],
+  "related_topics": ["Agentic AI", "Agentic loop", "Tool calling"]
+}

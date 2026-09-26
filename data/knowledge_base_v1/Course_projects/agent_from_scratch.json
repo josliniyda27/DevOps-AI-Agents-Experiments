@@ -1,0 +1,19 @@
+{
+  "topic": "Day-10 Agent from Scratch",
+  "description": "Hands-on exercise to build an AI agent from scratch using OpenAI APIs.",
+  "key_concepts": [
+    "OpenAI API",
+    "Custom agent design",
+    "Prompt engineering",
+    "Human-in-the-loop"
+  ],
+  "official_links": [
+    "https://platform.openai.com/docs/"
+  ],
+  "repo_reference": "https://github.com/AravindBaranitharan/Agentic-Ai-Devops-/tree/main/day-10-agent",
+  "use_cases": [
+    "Create a custom chatbot",
+    "Integrate OpenAI with DevOps workflows",
+    "Experiment with agent design patterns"
+  ]
+}

@@ -1,0 +1,38 @@
+{
+  "id": "aws-config-001",
+  "course": "AI-Assisted DevOps",
+  "category": "AWS Cloud",
+  "topic": "AWS Config",
+  "subtopic": "Configuration Management",
+  "question": "What is AWS Config?",
+  "answer": "AWS Config is a service that provides a detailed view of the configuration of AWS resources in your account, including their relationships and historical configurations.",
+  "course_context": {
+    "module": "AWS Operations",
+    "usage": "Teams use AWS Config for resource administration, compliance auditing, and security analysis."
+  },
+  "key_concepts": ["AWS resources", "configuration history", "resource relationships", "compliance auditing", "security analysis"],
+  "workflow": [
+    "Activate AWS Config in your account.",
+    "Specify resource types to record.",
+    "Set up an Amazon S3 bucket for snapshots.",
+    "Configure Amazon SNS for notifications.",
+    "Assign necessary IAM roles and permissions."
+  ],
+  "devops_application": "DevOps teams use AWS Config to monitor and manage resource configurations, ensuring compliance and security.",
+  "official_evidence": [
+    {
+      "title": "AWS Config Documentation",
+      "url": "https://docs.aws.amazon.com/config/latest/developerguide/WhatIsConfig.html",
+      "source_type": "official_documentation"
+    }
+  ],
+  "related_topics": ["AWS CloudTrail", "AWS IAM", "Amazon S3", "Amazon SNS", "AWS Lambda"],
+  "group": "Management",
+  "provenance": {
+    "method": "agentic-workflow",
+    "model": "gpt-4o",
+    "grounded": true,
+    "source_url": "https://docs.aws.amazon.com/config/latest/developerguide/WhatIsConfig.html",
+    "run": "kb-aws"
+  }
+}

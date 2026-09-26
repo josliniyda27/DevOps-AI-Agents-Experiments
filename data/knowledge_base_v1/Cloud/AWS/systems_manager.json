@@ -1,0 +1,38 @@
+{
+  "id": "aws-systems-manager-001",
+  "course": "AI-Assisted DevOps",
+  "category": "AWS Cloud",
+  "topic": "AWS Systems Manager",
+  "subtopic": "AWS management service",
+  "question": "What is AWS Systems Manager?",
+  "answer": "AWS Systems Manager is a service that helps you centrally view, manage, and operate nodes at scale across AWS, on-premises, and multicloud environments.",
+  "course_context": {
+    "module": "AWS Operations",
+    "usage": "Teams use AWS Systems Manager to manage and automate tasks for nodes in AWS, on-premises, and multicloud environments."
+  },
+  "key_concepts": ["centralized management", "node operation", "unified console", "SSM Agent", "diagnosis and remediation"],
+  "workflow": [
+    "Install SSM Agent on nodes",
+    "Ensure agent communication with Systems Manager",
+    "Access the unified console",
+    "Use filters for node insights",
+    "Automate tasks with runbooks"
+  ],
+  "devops_application": "DevOps teams use AWS Systems Manager to automate operational tasks and manage nodes across environments efficiently.",
+  "official_evidence": [
+    {
+      "title": "AWS Systems Manager Documentation",
+      "url": "https://docs.aws.amazon.com/systems-manager/latest/userguide/what-is-systems-manager.html",
+      "source_type": "official_documentation"
+    }
+  ],
+  "related_topics": ["AWS CloudFormation", "AWS OpsWorks", "AWS Config", "AWS CloudTrail", "AWS Lambda"],
+  "group": "Management",
+  "provenance": {
+    "method": "agentic-workflow",
+    "model": "gpt-4o",
+    "grounded": true,
+    "source_url": "https://docs.aws.amazon.com/systems-manager/latest/userguide/what-is-systems-manager.html",
+    "run": "kb-aws"
+  }
+}

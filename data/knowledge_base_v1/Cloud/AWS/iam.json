@@ -1,0 +1,29 @@
+{
+  "id": "aws-iam-001",
+  "course": "AI-Assisted DevOps",
+  "category": "AWS Cloud",
+  "topic": "IAM",
+  "subtopic": "Identity and Access Management",
+  "question": "What is AWS IAM?",
+  "answer": "AWS IAM enables secure access control by managing users, groups, roles, and policies.",
+  "course_context": {
+    "module": "AWS Basics",
+    "usage": "Used in course projects to enforce least privilege for agents."
+  },
+  "key_concepts": ["Users", "Groups", "Roles", "Policies"],
+  "workflow": [
+    "Create IAM user or role",
+    "Attach policy",
+    "Assign permissions",
+    "Monitor access"
+  ],
+  "devops_application": "IAM secures DevOps workflows by restricting agent permissions.",
+  "official_evidence": [
+    {
+      "title": "AWS IAM Documentation",
+      "url": "https://docs.aws.amazon.com/IAM/",
+      "source_type": "official_documentation"
+    }
+  ],
+  "related_topics": ["EC2", "S3", "Security Groups"]
+}

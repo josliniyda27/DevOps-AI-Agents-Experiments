@@ -1,0 +1,37 @@
+{
+  "id": "devops-keda-001",
+  "course": "AI-Assisted DevOps",
+  "category": "DevOps",
+  "topic": "KEDA",
+  "subtopic": "Kubernetes Event-driven Autoscaler",
+  "question": "What is KEDA?",
+  "answer": "KEDA is a Kubernetes-based event-driven autoscaler that scales applications based on the number of events needing to be processed.",
+  "course_context": {
+    "module": "Containers and Kubernetes",
+    "usage": "Teams use KEDA to manage dynamic scaling of Kubernetes workloads based on real-time event data."
+  },
+  "key_concepts": ["Kubernetes", "event-driven autoscaling", "scaling applications", "event processing", "KEDA"],
+  "workflow": [
+    "Install KEDA on your Kubernetes cluster.",
+    "Define a ScaledObject or ScaledJob for your application.",
+    "Configure the desired triggers and scalers.",
+    "Deploy your application to the cluster.",
+    "Monitor scaling activities through KEDA metrics."
+  ],
+  "devops_application": "DevOps teams use KEDA to automatically scale Kubernetes workloads based on event metrics.",
+  "official_evidence": [
+    {
+      "title": "KEDA Documentation",
+      "url": "https://keda.sh/docs/",
+      "source_type": "official_documentation"
+    }
+  ],
+  "related_topics": ["Kubernetes", "Autoscaling", "Event-driven architecture", "Kubernetes Metrics Server", "Prometheus"],
+  "provenance": {
+    "method": "agentic-workflow",
+    "model": "gpt-4o",
+    "grounded": true,
+    "source_url": "https://keda.sh/docs/",
+    "run": "kb-devops"
+  }
+}
