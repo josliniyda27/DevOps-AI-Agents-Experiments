@@ -87,11 +87,17 @@ def cited_sources(answer: str, docs: list, entries: dict[str, dict]) -> list[Sou
     """
     The entries the answer cites, in order of first citation. Only entries the model was actually
     given can be sources, whatever the answer claims.
+
+    The model sometimes answers from its documents without citing any of them; the answer would then
+    show no sources at all. With no citation in the answer, the documents it was given (in relevance
+    order) are the sources. An answer that cites only documents it was not given still gets none.
     """
     given = {doc.metadata["id"].lower(): doc for doc in docs}
+    cited = [match.group(1).lower() for match in _CITATION.finditer(answer)]
+    ids = cited if cited else list(given)
+
     sources, seen = [], set()
-    for match in _CITATION.finditer(answer):
-        entry_id = match.group(1).lower()
+    for entry_id in ids:
         if entry_id in given and entry_id in entries and entry_id not in seen:
             seen.add(entry_id)
             entry = entries[entry_id]

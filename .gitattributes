@@ -1,0 +1,2 @@
+# Shell scripts run on Linux (the EC2 server and CI); keep Unix line endings even when edited on Windows.
+*.sh text eol=lf
