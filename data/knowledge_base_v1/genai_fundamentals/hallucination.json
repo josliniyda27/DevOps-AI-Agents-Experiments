@@ -1,0 +1,28 @@
+{
+  "id": "hallucination-001",
+  "course": "AI-Assisted DevOps",
+  "category": "Generic Fundamentals",
+  "topic": "Hallucination",
+  "subtopic": "Incorrect Outputs",
+  "question": "What is hallucination in LLMs?",
+  "answer": "Hallucination occurs when a language model generates plausible-sounding but factually incorrect or fabricated information.",
+  "course_context": {
+    "module": "Fundamentals",
+    "usage": "Critical to understand when using AI in production workflows."
+  },
+  "key_concepts": ["Grounding", "Evidence", "Confidence scores"],
+  "workflow": [
+    "Model generates response",
+    "Response lacks grounding in retrieved evidence",
+    "User receives inaccurate output"
+  ],
+  "devops_application": "RAG pipelines reduce hallucination by grounding answers in official documentation.",
+  "official_evidence": [
+    {
+      "title": "Hallucination in LLMs",
+      "url": "https://arxiv.org/abs/2305.14693",
+      "source_type": "research_article"
+    }
+  ],
+  "related_topics": ["RAG", "Guardrails", "Human-in-the-loop"]
+}

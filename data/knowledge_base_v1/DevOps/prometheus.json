@@ -1,0 +1,37 @@
+{
+  "id": "devops-prometheus-001",
+  "course": "AI-Assisted DevOps",
+  "category": "DevOps",
+  "topic": "Prometheus",
+  "subtopic": "Open-source monitoring toolkit",
+  "question": "What is Prometheus?",
+  "answer": "Prometheus is an open-source systems monitoring and alerting toolkit that collects and stores metrics as time series data, identified by metric names and key/value pairs.",
+  "course_context": {
+    "module": "Observability",
+    "usage": "Teams use Prometheus for monitoring machine-centric and dynamic service-oriented architectures."
+  },
+  "key_concepts": ["open-source", "time series data", "metrics", "alerting toolkit", "Cloud Native Computing Foundation"],
+  "workflow": [
+    "Install Prometheus server",
+    "Instrument application code with client libraries",
+    "Scrape metrics from jobs",
+    "Store scraped samples locally",
+    "Run rules to aggregate data or generate alerts"
+  ],
+  "devops_application": "DevOps teams use Prometheus to monitor system performance and generate alerts based on time series data.",
+  "official_evidence": [
+    {
+      "title": "Prometheus Documentation",
+      "url": "https://prometheus.io/docs/introduction/overview/",
+      "source_type": "official_documentation"
+    }
+  ],
+  "related_topics": ["Grafana", "Kubernetes", "Cloud Native Computing Foundation", "PromQL", "Alertmanager"],
+  "provenance": {
+    "method": "agentic-workflow",
+    "model": "gpt-4o",
+    "grounded": true,
+    "source_url": "https://prometheus.io/docs/introduction/overview/",
+    "run": "kb-devops"
+  }
+}

@@ -1,0 +1,29 @@
+{
+  "id": "aws-autoscaling-001",
+  "course": "AI-Assisted DevOps",
+  "category": "AWS Cloud",
+  "topic": "Auto Scaling",
+  "subtopic": "Elastic Scaling",
+  "question": "What is AWS Auto Scaling?",
+  "answer": "AWS Auto Scaling automatically adjusts compute capacity to maintain performance and optimize costs.",
+  "course_context": {
+    "module": "AWS Basics",
+    "usage": "Used in course projects to scale EC2 instances and ECS tasks."
+  },
+  "key_concepts": ["Scaling policies", "Target tracking", "Elasticity"],
+  "workflow": [
+    "Define scaling group",
+    "Set scaling policies",
+    "Monitor metrics",
+    "Scale resources up or down"
+  ],
+  "devops_application": "Auto Scaling ensures DevOps agents and applications scale dynamically with demand.",
+  "official_evidence": [
+    {
+      "title": "AWS Auto Scaling Documentation",
+      "url": "https://docs.aws.amazon.com/autoscaling/",
+      "source_type": "official_documentation"
+    }
+  ],
+  "related_topics": ["CloudWatch", "EC2", "ECS"]
+}

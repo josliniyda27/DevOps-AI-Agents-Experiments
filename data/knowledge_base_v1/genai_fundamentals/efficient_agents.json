@@ -1,0 +1,29 @@
+{
+  "id": "efficientagents-001",
+  "course": "AI-Assisted DevOps",
+  "category": "Optimization",
+  "topic": "Efficient AI Agents",
+  "subtopic": "Workflow Utilization",
+  "question": "How can AI agents be used efficiently in DevOps workflows?",
+  "answer": "Efficient agent utilization involves assigning specialized roles, optimizing tool calls, and balancing autonomy with human oversight.",
+  "course_context": {
+    "module": "Agent Frameworks",
+    "usage": "Ensures agents deliver value without excessive resource consumption."
+  },
+  "key_concepts": ["Role specialization", "Tool orchestration", "Human-in-the-loop"],
+  "workflow": [
+    "Define agent roles",
+    "Assign tasks based on specialization",
+    "Optimize tool calls",
+    "Validate outputs with human approval"
+  ],
+  "devops_application": "Efficient agents can automate CI/CD, monitor infrastructure, and optimize cloud costs while minimizing overhead.",
+  "official_evidence": [
+    {
+      "title": "LangChain Agents",
+      "url": "https://python.langchain.com/docs/modules/agents/",
+      "source_type": "official_documentation"
+    }
+  ],
+  "related_topics": ["Agentic AI", "Multi-agent systems", "Guardrails"]
+}

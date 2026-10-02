@@ -1,0 +1,37 @@
+{
+  "id": "wf-aws-deploy-container-on-aws-fargate-001",
+  "course": "AI-Assisted DevOps",
+  "category": "AWS Workflows",
+  "topic": "Deploy a Container on AWS Fargate",
+  "subtopic": "Deploying Containers",
+  "question": "How do I deploy a container on AWS Fargate?",
+  "answer": "To deploy a container on AWS Fargate, create a task definition with 'requiresCompatibilities' set to 'FARGATE', specify CPU and memory, define networking and IAM policies, and launch the application.",
+  "course_context": {
+    "module": "Workflows",
+    "usage": "Teams use AWS Fargate to run containerized applications without managing servers."
+  },
+  "key_concepts": ["AWS Fargate", "task definition", "requiresCompatibilities", "networking policies", "IAM policies"],
+  "workflow": [
+    "Create a task definition in Amazon ECS.",
+    "Set 'requiresCompatibilities' to 'FARGATE'.",
+    "Specify CPU and memory requirements.",
+    "Define networking and IAM policies.",
+    "Launch the application on AWS Fargate."
+  ],
+  "devops_application": "DevOps teams use AWS Fargate to deploy containers without managing server infrastructure.",
+  "official_evidence": [
+    {
+      "title": "Official documentation",
+      "url": "https://docs.aws.amazon.com/AmazonECS/latest/userguide/what-is-fargate.html",
+      "source_type": "official_documentation"
+    }
+  ],
+  "related_topics": ["Amazon ECS", "Elastic Load Balancing", "AWS CLI", "Fargate Spot", "Platform Versions"],
+  "provenance": {
+    "method": "agentic-workflow",
+    "model": "gpt-4o",
+    "grounded": true,
+    "source_url": "https://docs.aws.amazon.com/AmazonECS/latest/userguide/what-is-fargate.html",
+    "run": "kb-aws"
+  }
+}

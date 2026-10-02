@@ -1,0 +1,29 @@
+{
+  "id": "aws-ecs-001",
+  "course": "AI-Assisted DevOps",
+  "category": "AWS Cloud",
+  "topic": "ECS",
+  "subtopic": "Elastic Container Service",
+  "question": "What is Amazon ECS?",
+  "answer": "Amazon ECS is a fully managed container orchestration service that allows you to run and scale Docker containers on AWS.",
+  "course_context": {
+    "module": "AWS Basics",
+    "usage": "Used in course projects to deploy containerized DevOps agents."
+  },
+  "key_concepts": ["Tasks", "Services", "Clusters", "Fargate"],
+  "workflow": [
+    "Define task definition",
+    "Create service",
+    "Deploy to cluster",
+    "Scale containers"
+  ],
+  "devops_application": "ECS runs containerized CI/CD pipelines, monitoring agents, and microservices.",
+  "official_evidence": [
+    {
+      "title": "Amazon ECS Documentation",
+      "url": "https://docs.aws.amazon.com/ecs/",
+      "source_type": "official_documentation"
+    }
+  ],
+  "related_topics": ["Docker", "EKS", "Kubernetes"]
+}

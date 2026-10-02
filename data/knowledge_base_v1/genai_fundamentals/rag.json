@@ -1,0 +1,29 @@
+{
+  "id": "rag-001",
+  "course": "AI-Assisted DevOps",
+  "category": "Generic Fundamentals",
+  "topic": "RAG",
+  "subtopic": "Retrieval-Augmented Generation",
+  "question": "What is RAG?",
+  "answer": "Retrieval-Augmented Generation (RAG) combines external knowledge retrieval with language model generation to produce grounded, accurate responses.",
+  "course_context": {
+    "module": "Fundamentals",
+    "usage": "Used in the course chatbot to answer participant queries with evidence."
+  },
+  "key_concepts": ["Retrieval", "Generation", "Grounding", "Vector search", "Evidence-based answers"],
+  "workflow": ["Embed query", "Retrieve documents from vector DB", "Generate response using retrieved context", "Return grounded answer"],
+  "devops_application": "RAG can retrieve logs, IaC templates, or monitoring data and generate explanations or fixes.",
+  "official_evidence": [
+    {
+      "title": "RAG Paper",
+      "url": "https://arxiv.org/abs/2005.11401",
+      "source_type": "research_article"
+    },
+    {
+      "title": "Pinecone RAG Guide",
+      "url": "https://www.pinecone.io/learn/retrieval-augmented-generation/",
+      "source_type": "technical_blog"
+    }
+  ],
+  "related_topics": ["Embeddings", "Vector databases", "Semantic search", "Hallucination"]
+}

@@ -1,0 +1,29 @@
+{
+  "id": "aws-s3-001",
+  "course": "AI-Assisted DevOps",
+  "category": "AWS Cloud",
+  "topic": "S3",
+  "subtopic": "Simple Storage Service",
+  "question": "What is Amazon S3?",
+  "answer": "Amazon S3 is an object storage service that provides scalable, durable, and secure storage for any type of data.",
+  "course_context": {
+    "module": "AWS Basics",
+    "usage": "Used in course projects to store logs, artifacts, and datasets."
+  },
+  "key_concepts": ["Buckets", "Objects", "Versioning", "Lifecycle policies"],
+  "workflow": [
+    "Create bucket",
+    "Upload objects",
+    "Set permissions",
+    "Access via API or console"
+  ],
+  "devops_application": "S3 stores IaC templates, build artifacts, and monitoring logs.",
+  "official_evidence": [
+    {
+      "title": "Amazon S3 Documentation",
+      "url": "https://docs.aws.amazon.com/AmazonS3/",
+      "source_type": "official_documentation"
+    }
+  ],
+  "related_topics": ["IAM", "Lambda", "CloudFront"]
+}

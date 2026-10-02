@@ -1,0 +1,29 @@
+{
+  "id": "aws-eks-001",
+  "course": "AI-Assisted DevOps",
+  "category": "AWS Cloud",
+  "topic": "EKS",
+  "subtopic": "Elastic Kubernetes Service",
+  "question": "What is Amazon EKS?",
+  "answer": "Amazon EKS is a managed Kubernetes service that makes it easy to run Kubernetes workloads on AWS without managing control planes.",
+  "course_context": {
+    "module": "AWS Basics",
+    "usage": "Used in course projects for Kubernetes troubleshooting and orchestration."
+  },
+  "key_concepts": ["Clusters", "Nodes", "Pods", "Control plane"],
+  "workflow": [
+    "Create EKS cluster",
+    "Configure worker nodes",
+    "Deploy Kubernetes workloads",
+    "Monitor and scale"
+  ],
+  "devops_application": "EKS runs containerized DevOps workflows with Kubernetes-native tooling.",
+  "official_evidence": [
+    {
+      "title": "Amazon EKS Documentation",
+      "url": "https://docs.aws.amazon.com/eks/",
+      "source_type": "official_documentation"
+    }
+  ],
+  "related_topics": ["Kubernetes", "ECS", "Docker"]
+}

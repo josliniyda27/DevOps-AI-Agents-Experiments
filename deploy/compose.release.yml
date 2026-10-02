@@ -1,0 +1,30 @@
+# The server's Compose file: the same two services as docker-compose.yml, but run from the images the pipeline pushed to
+# GitHub Container Registry instead of being built on the server. The pipeline copies it to /opt/knowledge-assistant/compose.yml,
+# and deploy/aws/remote-deploy.sh writes the .env next to it (image tag, site address, login, OpenAI key).
+services:
+  api:
+    image: ${API_IMAGE:?}:${IMAGE_TAG:?}
+    env_file: .env                # OPENAI_API_KEY, ...
+    restart: unless-stopped       # nothing is published: only the web container can reach the API
+
+  web:
+    image: ${WEB_IMAGE:?}:${IMAGE_TAG:?}
+    restart: unless-stopped
+    depends_on:
+      api:
+        condition: service_healthy
+    environment:
+      SITE_ADDRESS: ${SITE_ADDRESS:?}
+      BASIC_AUTH_USER: ${BASIC_AUTH_USER:?}
+      BASIC_AUTH_HASH: ${BASIC_AUTH_HASH:?}
+    ports:
+      - "80:80"
+      - "443:443"
+      - "443:443/udp"
+    volumes:
+      - caddy_data:/data            # certificates: kept across releases
+      - caddy_config:/config
+
+volumes:
+  caddy_data:
+  caddy_config:

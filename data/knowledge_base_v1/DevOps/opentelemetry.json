@@ -1,0 +1,37 @@
+{
+  "id": "devops-opentelemetry-001",
+  "course": "AI-Assisted DevOps",
+  "category": "DevOps",
+  "topic": "OpenTelemetry",
+  "subtopic": "Observability framework",
+  "question": "What is OpenTelemetry?",
+  "answer": "OpenTelemetry is a vendor-neutral open source observability framework for instrumenting, generating, collecting, and exporting telemetry data such as traces, metrics, and logs.",
+  "course_context": {
+    "module": "Observability",
+    "usage": "Teams use OpenTelemetry to achieve consistent observability across diverse systems and environments."
+  },
+  "key_concepts": ["vendor-neutral", "open source", "telemetry data", "traces", "metrics", "logs"],
+  "workflow": [
+    "Instrument code using OpenTelemetry APIs",
+    "Generate telemetry data",
+    "Collect data using OpenTelemetry Collector",
+    "Export data to observability platforms",
+    "Integrate with other observability tools"
+  ],
+  "devops_application": "DevOps teams use OpenTelemetry to standardize the collection and export of telemetry data across different services and applications.",
+  "official_evidence": [
+    {
+      "title": "OpenTelemetry Documentation",
+      "url": "https://opentelemetry.io/docs/",
+      "source_type": "official_documentation"
+    }
+  ],
+  "related_topics": ["Prometheus", "Jaeger", "Grafana", "Zipkin", "Elastic Observability"],
+  "provenance": {
+    "method": "agentic-workflow",
+    "model": "gpt-4o",
+    "grounded": true,
+    "source_url": "https://opentelemetry.io/docs/",
+    "run": "kb-devops"
+  }
+}

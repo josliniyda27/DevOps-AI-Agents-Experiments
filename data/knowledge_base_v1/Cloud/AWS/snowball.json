@@ -1,0 +1,38 @@
+{
+  "id": "aws-snowball-001",
+  "course": "AI-Assisted DevOps",
+  "category": "AWS Cloud",
+  "topic": "AWS Snowball",
+  "subtopic": "AWS Snowball Edge",
+  "question": "What is AWS Snowball?",
+  "answer": "AWS Snowball is a data transfer service that uses physical devices to move large amounts of data into and out of AWS.",
+  "course_context": {
+    "module": "AWS Basics",
+    "usage": "Teams use AWS Snowball for large-scale data migrations and transfers."
+  },
+  "key_concepts": ["data transfer service", "physical devices", "local storage", "compute capabilities", "Amazon S3 integration"],
+  "workflow": [
+    "Order a Snowball device from AWS.",
+    "Connect the device to your local network.",
+    "Transfer data to or from the device.",
+    "Ship the device back to AWS.",
+    "AWS transfers the data to or from Amazon S3."
+  ],
+  "devops_application": "DevOps teams use AWS Snowball for efficient data migration to and from AWS environments.",
+  "official_evidence": [
+    {
+      "title": "AWS Snowball Documentation",
+      "url": "https://docs.aws.amazon.com/snowball/latest/ug/whatissnowball.html",
+      "source_type": "official_documentation"
+    }
+  ],
+  "related_topics": ["Amazon S3", "AWS Snowmobile", "AWS DataSync", "AWS Storage Gateway"],
+  "group": "Storage",
+  "provenance": {
+    "method": "agentic-workflow",
+    "model": "gpt-4o",
+    "grounded": true,
+    "source_url": "https://docs.aws.amazon.com/snowball/latest/ug/whatissnowball.html",
+    "run": "kb-aws"
+  }
+}

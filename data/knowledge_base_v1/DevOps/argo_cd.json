@@ -1,0 +1,37 @@
+{
+  "id": "devops-argo-cd-001",
+  "course": "AI-Assisted DevOps",
+  "category": "DevOps",
+  "topic": "Argo CD",
+  "subtopic": "Declarative GitOps tool",
+  "question": "What is Argo CD?",
+  "answer": "Argo CD is a declarative, GitOps continuous delivery tool for Kubernetes.",
+  "course_context": {
+    "module": "CI/CD",
+    "usage": "Teams use Argo CD for automating application deployments and lifecycle management in Kubernetes clusters."
+  },
+  "key_concepts": ["GitOps", "continuous delivery", "Kubernetes", "declarative configuration"],
+  "workflow": [
+    "Create a namespace for Argo CD using kubectl.",
+    "Apply the Argo CD installation manifest with kubectl.",
+    "Configure Git repositories as the source of truth.",
+    "Automate deployment to target environments.",
+    "Monitor and sync application states."
+  ],
+  "devops_application": "DevOps teams use Argo CD to automate and manage application deployments in Kubernetes environments.",
+  "official_evidence": [
+    {
+      "title": "Argo CD Documentation",
+      "url": "https://argo-cd.readthedocs.io/en/stable/",
+      "source_type": "official_documentation"
+    }
+  ],
+  "related_topics": ["Kubernetes", "GitOps", "Helm", "Kustomize", "Continuous Delivery"],
+  "provenance": {
+    "method": "agentic-workflow",
+    "model": "gpt-4o",
+    "grounded": true,
+    "source_url": "https://argo-cd.readthedocs.io/en/stable/",
+    "run": "kb-devops"
+  }
+}

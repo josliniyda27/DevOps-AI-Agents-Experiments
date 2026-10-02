@@ -1,0 +1,37 @@
+{
+  "id": "wf-genai-create-structured-output-001",
+  "course": "AI-Assisted DevOps",
+  "category": "GenAI Workflows",
+  "topic": "Create Structured Output",
+  "subtopic": "Structured Output Creation",
+  "question": "How do I create structured output?",
+  "answer": "To create structured output, use the OpenAI API to define a prompt that specifies the desired format and structure of the output.",
+  "course_context": {
+    "module": "Workflows",
+    "usage": "Teams use structured output creation in applications requiring consistent data formats."
+  },
+  "key_concepts": ["OpenAI API", "structured output", "prompt definition", "output format", "API usage"],
+  "workflow": [
+    "Define the desired output structure.",
+    "Create a prompt specifying the structure.",
+    "Use the OpenAI API to send the prompt.",
+    "Receive the structured output from the API.",
+    "Validate the output against the desired structure."
+  ],
+  "devops_application": "DevOps teams use structured output creation to automate data formatting tasks.",
+  "official_evidence": [
+    {
+      "title": "Official documentation",
+      "url": "https://platform.openai.com/docs/guides/prompting",
+      "source_type": "official_documentation"
+    }
+  ],
+  "related_topics": ["Prompt Engineering", "Text Generation", "API Usage", "Data Formatting"],
+  "provenance": {
+    "method": "agentic-workflow",
+    "model": "gpt-4o",
+    "grounded": true,
+    "source_url": "https://platform.openai.com/docs/guides/prompting",
+    "run": "kb-genai2"
+  }
+}

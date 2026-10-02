@@ -1,0 +1,24 @@
+{
+  "id": "prompt-001",
+  "course": "AI-Assisted DevOps",
+  "category": "Prompting Techniques",
+  "topic": "Prompt Engineering",
+  "subtopic": "Designing Effective Prompts",
+  "question": "What is prompt engineering?",
+  "answer": "Prompt engineering is the practice of designing and structuring inputs to LLMs to achieve desired outputs.",
+  "course_context": {
+    "module": "Fundamentals",
+    "usage": "Used to optimize chatbot queries and agent instructions."
+  },
+  "key_concepts": ["Chain of Thought", "Few-shot prompting", "Context engineering"],
+  "workflow": ["Define task", "Craft structured prompt", "Send to LLM", "Evaluate output"],
+  "devops_application": "Prompt engineering helps generate accurate IaC templates and troubleshooting steps.",
+  "official_evidence": [
+    {
+      "title": "Prompt Engineering Guide",
+      "url": "https://learnprompting.org/",
+      "source_type": "community_documentation"
+    }
+  ],
+  "related_topics": ["Chain of Thought", "Few-shot prompting", "Context window"]
+}

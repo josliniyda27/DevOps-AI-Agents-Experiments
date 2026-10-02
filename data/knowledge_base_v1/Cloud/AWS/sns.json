@@ -1,0 +1,29 @@
+{
+  "id": "aws-sns-001",
+  "course": "AI-Assisted DevOps",
+  "category": "AWS Cloud",
+  "topic": "SNS",
+  "subtopic": "Simple Notification Service",
+  "question": "What is Amazon SNS?",
+  "answer": "Amazon SNS is a fully managed messaging service for sending notifications to distributed systems, microservices, and end users.",
+  "course_context": {
+    "module": "AWS Messaging",
+    "usage": "Used in course projects to send alerts and notifications."
+  },
+  "key_concepts": ["Topics", "Subscriptions", "Notifications"],
+  "workflow": [
+    "Create topic",
+    "Subscribe endpoints",
+    "Publish message",
+    "Deliver notifications"
+  ],
+  "devops_application": "SNS sends alerts to DevOps teams when monitoring thresholds are breached.",
+  "official_evidence": [
+    {
+      "title": "Amazon SNS Documentation",
+      "url": "https://docs.aws.amazon.com/sns/",
+      "source_type": "official_documentation"
+    }
+  ],
+  "related_topics": ["SQS", "CloudWatch", "Lambda"]
+}

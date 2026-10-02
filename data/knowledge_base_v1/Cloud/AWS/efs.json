@@ -1,0 +1,38 @@
+{
+  "id": "aws-efs-001",
+  "course": "AI-Assisted DevOps",
+  "category": "AWS Cloud",
+  "topic": "Amazon Elastic File System (EFS)",
+  "subtopic": "File storage service",
+  "question": "What is Amazon Elastic File System (EFS)?",
+  "answer": "Amazon Elastic File System (EFS) is a serverless, fully elastic file storage service that scales on demand to petabytes, allowing file data sharing without managing storage capacity and performance.",
+  "course_context": {
+    "module": "AWS Basics",
+    "usage": "Teams use Amazon EFS for scalable file storage across AWS compute instances, supporting applications with varying throughput and latency requirements."
+  },
+  "key_concepts": ["serverless file storage", "elastic scaling", "NFS protocol support", "regional and one zone types", "encryption capabilities"],
+  "workflow": [
+    "Create an EFS file system via AWS Management Console or CLI.",
+    "Choose between Regional or One Zone file system types.",
+    "Mount the file system on AWS compute instances using NFS protocol.",
+    "Configure POSIX permissions for access control.",
+    "Enable encryption at rest and in transit if needed."
+  ],
+  "devops_application": "DevOps teams use Amazon EFS to provide scalable and secure file storage for applications running on AWS compute services.",
+  "official_evidence": [
+    {
+      "title": "Amazon Elastic File System (EFS) Documentation",
+      "url": "https://docs.aws.amazon.com/efs/latest/ug/whatisefs.html",
+      "source_type": "official_documentation"
+    }
+  ],
+  "related_topics": ["Amazon EC2", "AWS Lambda", "Amazon ECS", "Amazon EKS", "AWS Fargate"],
+  "group": "Storage",
+  "provenance": {
+    "method": "agentic-workflow",
+    "model": "gpt-4o",
+    "grounded": true,
+    "source_url": "https://docs.aws.amazon.com/efs/latest/ug/whatisefs.html",
+    "run": "kb-aws"
+  }
+}

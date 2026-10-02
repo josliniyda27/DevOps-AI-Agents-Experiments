@@ -1,0 +1,37 @@
+{
+  "id": "embedding-models-001",
+  "course": "AI-Assisted DevOps",
+  "category": "RAG & Retrieval",
+  "topic": "Embedding Models",
+  "subtopic": "RAG & Retrieval",
+  "question": "What are Embedding Models?",
+  "answer": "Embedding Models are neural network models that convert data into numerical vectors, capturing semantic meaning for tasks like similarity and clustering.",
+  "course_context": {
+    "module": "Retrieval",
+    "usage": "Teams use embedding models in applications requiring semantic understanding, such as recommendation systems and search engines."
+  },
+  "key_concepts": ["neural network models", "numerical vectors", "semantic meaning", "similarity tasks", "clustering tasks"],
+  "workflow": [
+    "Select a pre-trained embedding model from Hugging Face.",
+    "Load the model using the Transformers library.",
+    "Input data into the model to obtain embeddings.",
+    "Use embeddings for tasks like similarity search or clustering.",
+    "Fine-tune the model if necessary for specific tasks."
+  ],
+  "devops_application": "DevOps teams use embedding models to integrate semantic search capabilities into applications.",
+  "official_evidence": [
+    {
+      "title": "Embedding Models Documentation",
+      "url": "https://huggingface.co/docs",
+      "source_type": "official_documentation"
+    }
+  ],
+  "related_topics": ["Transformers", "Sentence Transformers", "Text Embeddings Inference", "Tokenizers", "Similarity Search"],
+  "provenance": {
+    "method": "agentic-workflow",
+    "model": "gpt-4o",
+    "grounded": true,
+    "source_url": "https://huggingface.co/docs",
+    "run": "kb-genai3"
+  }
+}

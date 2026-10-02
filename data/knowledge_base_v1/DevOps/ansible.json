@@ -1,0 +1,37 @@
+{
+  "id": "devops-ansible-001",
+  "course": "AI-Assisted DevOps",
+  "category": "DevOps",
+  "topic": "Ansible",
+  "subtopic": "Automation Tool",
+  "question": "What is Ansible?",
+  "answer": "Ansible is an open-source automation tool used for configuration management, application deployment, and task automation.",
+  "course_context": {
+    "module": "Infrastructure as Code",
+    "usage": "Teams use Ansible for automating repetitive IT tasks and managing complex deployments."
+  },
+  "key_concepts": ["automation tool", "configuration management", "application deployment", "task automation"],
+  "workflow": [
+    "Install Ansible on your system.",
+    "Create an inventory file listing your hosts.",
+    "Write playbooks to define tasks.",
+    "Execute playbooks using the Ansible command line.",
+    "Use modules and plugins to extend functionality."
+  ],
+  "devops_application": "DevOps teams use Ansible to automate infrastructure provisioning and configuration management.",
+  "official_evidence": [
+    {
+      "title": "Ansible Documentation",
+      "url": "https://docs.ansible.com/ansible/latest/index.html",
+      "source_type": "official_documentation"
+    }
+  ],
+  "related_topics": ["Configuration Management", "Infrastructure as Code", "Continuous Deployment", "Automation Tools"],
+  "provenance": {
+    "method": "agentic-workflow",
+    "model": "gpt-4o",
+    "grounded": true,
+    "source_url": "https://docs.ansible.com/ansible/latest/index.html",
+    "run": "kb-devops"
+  }
+}

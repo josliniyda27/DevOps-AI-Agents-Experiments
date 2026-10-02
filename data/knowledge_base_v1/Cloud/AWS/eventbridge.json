@@ -1,0 +1,38 @@
+{
+  "id": "aws-eventbridge-001",
+  "course": "AI-Assisted DevOps",
+  "category": "AWS Cloud",
+  "topic": "Amazon EventBridge",
+  "subtopic": "Event-driven architecture",
+  "question": "What is Amazon EventBridge?",
+  "answer": "Amazon EventBridge is a serverless service that connects application components using events, facilitating the creation of scalable event-driven applications.",
+  "course_context": {
+    "module": "AWS Messaging",
+    "usage": "Teams use Amazon EventBridge to build scalable, event-driven applications by connecting various application components through events."
+  },
+  "key_concepts": ["serverless service", "event-driven architecture", "event buses", "pipes", "EventBridge Scheduler"],
+  "workflow": [
+    "Create an event bus to receive events.",
+    "Define rules to route events to targets.",
+    "Use pipes for point-to-point integrations.",
+    "Transform and enrich events as needed.",
+    "Schedule tasks with EventBridge Scheduler."
+  ],
+  "devops_application": "DevOps teams use Amazon EventBridge to build and manage event-driven architectures, enabling seamless integration between different application components.",
+  "official_evidence": [
+    {
+      "title": "Amazon EventBridge Documentation",
+      "url": "https://docs.aws.amazon.com/eventbridge/latest/userguide/what-is-amazon-eventbridge.html",
+      "source_type": "official_documentation"
+    }
+  ],
+  "related_topics": ["AWS Lambda", "Amazon SNS", "Amazon SQS", "AWS Step Functions", "Amazon CloudWatch"],
+  "group": "Messaging",
+  "provenance": {
+    "method": "agentic-workflow",
+    "model": "gpt-4o",
+    "grounded": true,
+    "source_url": "https://docs.aws.amazon.com/eventbridge/latest/userguide/what-is-amazon-eventbridge.html",
+    "run": "kb-aws"
+  }
+}

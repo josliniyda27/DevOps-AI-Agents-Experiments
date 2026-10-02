@@ -1,0 +1,28 @@
+# docker compose up -d --build     (settings come from .env; see docs/deploy.md)
+services:
+  api:
+    build: .
+    env_file: .env                # OPENAI_API_KEY, LLM_MODEL, ...
+    restart: unless-stopped       # nothing is published: only the web container can reach the API
+
+  web:
+    build: ./web
+    restart: unless-stopped
+    depends_on:
+      api:
+        condition: service_healthy
+    environment:
+      SITE_ADDRESS: ${SITE_ADDRESS:-:80}
+      BASIC_AUTH_USER: ${BASIC_AUTH_USER:?set BASIC_AUTH_USER in .env}
+      BASIC_AUTH_HASH: ${BASIC_AUTH_HASH:?set BASIC_AUTH_HASH in .env}
+    ports:
+      - "${WEB_BIND:-0.0.0.0}:80:80"        # WEB_BIND=127.0.0.1 keeps the site private (for use with a tunnel)
+      - "${WEB_BIND:-0.0.0.0}:443:443"
+      - "${WEB_BIND:-0.0.0.0}:443:443/udp"
+    volumes:
+      - caddy_data:/data            # certificates
+      - caddy_config:/config
+
+volumes:
+  caddy_data:
+  caddy_config:

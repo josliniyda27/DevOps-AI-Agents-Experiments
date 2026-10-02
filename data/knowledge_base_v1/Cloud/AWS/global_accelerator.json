@@ -1,0 +1,38 @@
+{
+  "id": "aws-global-accelerator-001",
+  "course": "AI-Assisted DevOps",
+  "category": "AWS Cloud",
+  "topic": "AWS Global Accelerator",
+  "subtopic": "Network Performance",
+  "question": "What is AWS Global Accelerator?",
+  "answer": "AWS Global Accelerator is a service that improves application performance for local and global users by directing traffic over the AWS global network to optimal endpoints.",
+  "course_context": {
+    "module": "AWS Networking",
+    "usage": "Teams use AWS Global Accelerator to optimize application performance and availability for users across different regions."
+  },
+  "key_concepts": ["accelerators", "static IP addresses", "AWS global network", "endpoint routing", "traffic management"],
+  "workflow": [
+    "Create an accelerator in AWS Global Accelerator.",
+    "Choose between standard or custom routing accelerator.",
+    "Associate static IP addresses with the accelerator.",
+    "Configure endpoint groups and endpoints.",
+    "Monitor and manage traffic routing."
+  ],
+  "devops_application": "DevOps teams use AWS Global Accelerator to enhance application availability and performance by routing traffic to optimal endpoints.",
+  "official_evidence": [
+    {
+      "title": "AWS Global Accelerator Documentation",
+      "url": "https://docs.aws.amazon.com/global-accelerator/latest/dg/what-is-global-accelerator.html",
+      "source_type": "official_documentation"
+    }
+  ],
+  "related_topics": ["AWS Regions", "Network Load Balancer", "Application Load Balancer", "Amazon EC2", "Elastic IP addresses"],
+  "group": "Networking",
+  "provenance": {
+    "method": "agentic-workflow",
+    "model": "gpt-4o",
+    "grounded": true,
+    "source_url": "https://docs.aws.amazon.com/global-accelerator/latest/dg/what-is-global-accelerator.html",
+    "run": "kb-aws"
+  }
+}

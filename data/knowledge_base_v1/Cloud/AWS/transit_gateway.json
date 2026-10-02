@@ -1,0 +1,38 @@
+{
+  "id": "aws-transit-gateway-001",
+  "course": "AI-Assisted DevOps",
+  "category": "AWS Cloud",
+  "topic": "AWS Transit Gateway",
+  "subtopic": "Network Transit Hub",
+  "question": "What is AWS Transit Gateway?",
+  "answer": "AWS Transit Gateway is a network transit hub used to interconnect VPCs and on-premises networks, supporting various attachments and route management.",
+  "course_context": {
+    "module": "AWS Networking",
+    "usage": "Teams use AWS Transit Gateway to centralize and streamline network connectivity across multiple AWS regions and on-premises environments."
+  },
+  "key_concepts": ["network transit hub", "attachments", "MTU sizes", "route propagation", "encryption control"],
+  "workflow": [
+    "Attach VPCs, SD-WAN, or Direct Connect gateways to the transit gateway.",
+    "Configure route tables and associations for traffic management.",
+    "Enable encryption control for secure data transit.",
+    "Propagate routes dynamically or create static routes as needed.",
+    "Monitor and manage attachments and data processing costs."
+  ],
+  "devops_application": "DevOps teams use AWS Transit Gateway to efficiently manage and secure network traffic across multiple VPCs and on-premises networks.",
+  "official_evidence": [
+    {
+      "title": "AWS Transit Gateway Documentation",
+      "url": "https://docs.aws.amazon.com/vpc/latest/tgw/what-is-transit-gateway.html",
+      "source_type": "official_documentation"
+    }
+  ],
+  "related_topics": ["Amazon VPC", "AWS Direct Connect", "AWS VPN", "AWS Global Infrastructure", "AWS Route 53"],
+  "group": "Networking",
+  "provenance": {
+    "method": "agentic-workflow",
+    "model": "gpt-4o",
+    "grounded": true,
+    "source_url": "https://docs.aws.amazon.com/vpc/latest/tgw/what-is-transit-gateway.html",
+    "run": "kb-aws"
+  }
+}

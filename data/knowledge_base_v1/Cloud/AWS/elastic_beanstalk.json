@@ -1,0 +1,38 @@
+{
+  "id": "aws-elastic-beanstalk-001",
+  "course": "AI-Assisted DevOps",
+  "category": "AWS Cloud",
+  "topic": "AWS Elastic Beanstalk",
+  "subtopic": "AWS service overview",
+  "question": "What is AWS Elastic Beanstalk?",
+  "answer": "AWS Elastic Beanstalk is a service for deploying web applications on AWS Cloud, provisioning resources like EC2 instances or EKS clusters, and managing scaling and health monitoring.",
+  "course_context": {
+    "module": "AWS Developer Tools",
+    "usage": "Teams use Elastic Beanstalk to deploy and manage web applications on AWS infrastructure."
+  },
+  "key_concepts": ["web application deployment", "EC2 instances", "EKS clusters", "load balancing", "health monitoring"],
+  "workflow": [
+    "Create an application in Elastic Beanstalk.",
+    "Upload application source bundle.",
+    "Provide application information.",
+    "Launch environment with AWS resources.",
+    "Manage environment and deploy new versions."
+  ],
+  "devops_application": "DevOps teams use Elastic Beanstalk to automate the deployment and scaling of web applications on AWS infrastructure.",
+  "official_evidence": [
+    {
+      "title": "AWS Elastic Beanstalk Documentation",
+      "url": "https://docs.aws.amazon.com/elasticbeanstalk/latest/dg/Welcome.html",
+      "source_type": "official_documentation"
+    }
+  ],
+  "related_topics": ["Amazon EC2", "Amazon EKS", "AWS CloudFormation", "AWS CLI", "Docker containers"],
+  "group": "DevTools",
+  "provenance": {
+    "method": "agentic-workflow",
+    "model": "gpt-4o",
+    "grounded": true,
+    "source_url": "https://docs.aws.amazon.com/elasticbeanstalk/latest/dg/Welcome.html",
+    "run": "kb-aws"
+  }
+}

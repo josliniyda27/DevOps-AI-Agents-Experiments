@@ -1,0 +1,22 @@
+{
+  "workflows": [
+    { "id": "wf-aws-configure-aws-efs-for-linux-instances-001", "file": "aws_configure_aws_efs_for_linux_instances.json", "topic": "Configure AWS EFS for Linux Instances", "category": "AWS Workflows" },
+    { "id": "wf-aws-configure-aws-secrets-manager-001", "file": "aws_configure_aws_secrets_manager.json", "topic": "Configure AWS Secrets Manager", "category": "AWS Workflows" },
+    { "id": "wf-aws-create-a-personalized-recommendation-with-amazon-personalize-001", "file": "aws_create_a_personalized_recommendation_with_amazon_personalize.json", "topic": "Create a Personalized Recommendation with Amazon Personalize", "category": "AWS Workflows" },
+    { "id": "wf-aws-deploy-container-on-aws-fargate-001", "file": "aws_deploy_container_on_aws_fargate.json", "topic": "Deploy a Container on AWS Fargate", "category": "AWS Workflows" },
+    { "id": "wf-devops-configure-consul-service-discovery-001", "file": "devops_configure_consul_service_discovery.json", "topic": "Configure Consul for Service Discovery", "category": "DevOps Workflows" },
+    { "id": "wf-devops-configure-istio-service-mesh-001", "file": "devops_configure_istio_service_mesh.json", "topic": "Configure Istio Service Mesh", "category": "DevOps Workflows" },
+    { "id": "wf-devops-create-helm-chart-001", "file": "devops_create_helm_chart.json", "topic": "Create a Helm Chart", "category": "DevOps Workflows" },
+    { "id": "wf-devops-deploy-application-with-argo-cd-001", "file": "devops_deploy_application_with_argo_cd.json", "topic": "Deploy an Application with Argo CD", "category": "DevOps Workflows" },
+    { "id": "wf-devops-deploy-application-with-jenkins-001", "file": "devops_deploy_application_with_jenkins.json", "topic": "Deploy an Application with Jenkins", "category": "DevOps Workflows" },
+    { "id": "wf-devops-manage-secrets-with-vault-001", "file": "devops_manage_secrets_with_vault.json", "topic": "Manage Secrets with HashiCorp Vault", "category": "DevOps Workflows" },
+    { "id": "wf-devops-set-up-prometheus-monitoring-001", "file": "devops_set_up_prometheus_monitoring.json", "topic": "Set Up Prometheus Monitoring", "category": "DevOps Workflows" },
+    { "id": "wf-genai-apply-re-ranking-technique-001", "file": "genai_apply_re_ranking_technique.json", "topic": "Apply a Re-ranking Technique", "category": "GenAI Workflows" },
+    { "id": "wf-genai-create-structured-output-001", "file": "genai_create_structured_output.json", "topic": "Create Structured Output", "category": "GenAI Workflows" },
+    { "id": "wf-genai-evaluate-rag-system-001", "file": "genai_evaluate_rag_system.json", "topic": "Evaluate a RAG System", "category": "GenAI Workflows" },
+    { "id": "wf-genai-implement-chunking-strategy-001", "file": "genai_implement_chunking_strategy.json", "topic": "Implement a Chunking Strategy", "category": "GenAI Workflows" },
+    { "id": "wf-genai-implement-function-calling-001", "file": "genai_implement_function_calling.json", "topic": "Implement Function Calling", "category": "GenAI Workflows" },
+    { "id": "wf-genai-rewrite-queries-001", "file": "genai_rewrite_queries.json", "topic": "Rewrite Queries", "category": "GenAI Workflows" },
+    { "id": "wf-genai-set-up-agent-memory-001", "file": "genai_set_up_agent_memory.json", "topic": "Set Up Agent Memory", "category": "GenAI Workflows" }
+  ]
+}

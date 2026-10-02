@@ -1,0 +1,15 @@
+# What the running API needs (this is what the Docker image installs).
+# requirements.txt adds the tools for tests and for the knowledge-base agents on top of this.
+jsonschema>=4.23
+
+# Chunking, embeddings, vector store
+langchain-core>=0.3
+langchain-text-splitters>=0.3
+langchain-chroma>=0.2
+chromadb>=0.5
+langchain-openai>=0.2
+
+# Config and HTTP API
+python-dotenv>=1.0
+fastapi>=0.115
+uvicorn>=0.30

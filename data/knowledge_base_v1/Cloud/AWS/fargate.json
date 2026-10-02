@@ -1,0 +1,38 @@
+{
+  "id": "aws-fargate-001",
+  "course": "AI-Assisted DevOps",
+  "category": "AWS Cloud",
+  "topic": "AWS Fargate",
+  "subtopic": "Container Management",
+  "question": "What is AWS Fargate?",
+  "answer": "AWS Fargate is a technology for running containers with Amazon ECS without managing servers or clusters of EC2 instances.",
+  "course_context": {
+    "module": "AWS Containers",
+    "usage": "Teams use AWS Fargate to run containerized applications without managing server infrastructure."
+  },
+  "key_concepts": ["container management", "serverless infrastructure", "task isolation", "platform versions", "load balancing"],
+  "workflow": [
+    "Package application in containers",
+    "Specify CPU and memory requirements",
+    "Define networking and IAM policies",
+    "Set requiresCompatibilities to FARGATE",
+    "Launch the application"
+  ],
+  "devops_application": "DevOps teams use AWS Fargate to deploy containerized applications without managing underlying infrastructure.",
+  "official_evidence": [
+    {
+      "title": "AWS Fargate Documentation",
+      "url": "https://docs.aws.amazon.com/AmazonECS/latest/userguide/what-is-fargate.html",
+      "source_type": "official_documentation"
+    }
+  ],
+  "related_topics": ["Amazon ECS", "AWS Lambda", "Elastic Load Balancing", "Amazon EC2", "AWS Batch"],
+  "group": "Containers",
+  "provenance": {
+    "method": "agentic-workflow",
+    "model": "gpt-4o",
+    "grounded": true,
+    "source_url": "https://docs.aws.amazon.com/AmazonECS/latest/userguide/what-is-fargate.html",
+    "run": "kb-aws"
+  }
+}

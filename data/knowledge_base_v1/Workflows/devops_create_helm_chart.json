@@ -1,0 +1,41 @@
+{
+  "id": "wf-devops-create-helm-chart-001",
+  "course": "AI-Assisted DevOps",
+  "category": "DevOps Workflows",
+  "topic": "Create a Helm Chart",
+  "subtopic": "Helm chart creation",
+  "question": "How do I create a Helm chart?",
+  "answer": "To create a Helm chart, use the command 'helm create <chart-name>' to generate a starter chart structure.",
+  "course_context": {
+    "module": "Workflows",
+    "usage": "Teams use Helm charts to manage Kubernetes application deployments."
+  },
+  "key_concepts": ["Helm chart", "Chart.yaml", "values.yaml", "templates directory", "ConfigMap"],
+  "workflow": [
+    "Run 'helm create mychart' to generate a chart.",
+    "Navigate to the 'mychart/templates/' directory.",
+    "Remove existing template files with 'rm -rf mychart/templates/*'.",
+    "Create a new template file 'configmap.yaml'.",
+    "Add a ConfigMap definition to 'configmap.yaml'.",
+    "Install the chart using 'helm install <release-name> ./mychart'.",
+    "Retrieve the manifest with 'helm get manifest <release-name>'.",
+    "Uninstall the release with 'helm uninstall <release-name>'.",
+    "Modify 'configmap.yaml' to use '{{ .Release.Name }}' for dynamic naming."
+  ],
+  "devops_application": "DevOps teams use Helm charts to package and deploy Kubernetes applications efficiently.",
+  "official_evidence": [
+    {
+      "title": "Official documentation",
+      "url": "https://helm.sh/docs/chart_template_guide/getting_started/",
+      "source_type": "official_documentation"
+    }
+  ],
+  "related_topics": ["Kubernetes", "Helm templates", "Kubernetes ConfigMap", "Helm releases"],
+  "provenance": {
+    "method": "agentic-workflow",
+    "model": "gpt-4o",
+    "grounded": true,
+    "source_url": "https://helm.sh/docs/chart_template_guide/getting_started/",
+    "run": "kb-devops"
+  }
+}

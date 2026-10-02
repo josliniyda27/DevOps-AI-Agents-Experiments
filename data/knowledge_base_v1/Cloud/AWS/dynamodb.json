@@ -1,0 +1,29 @@
+{
+  "id": "aws-dynamodb-001",
+  "course": "AI-Assisted DevOps",
+  "category": "AWS Cloud",
+  "topic": "DynamoDB",
+  "subtopic": "NoSQL Database",
+  "question": "What is Amazon DynamoDB?",
+  "answer": "Amazon DynamoDB is a fully managed NoSQL database service that provides fast and predictable performance with seamless scalability.",
+  "course_context": {
+    "module": "AWS Databases",
+    "usage": "Used in course projects to store agent state, logs, and application data."
+  },
+  "key_concepts": ["Tables", "Items", "Attributes", "Partition keys", "Global tables"],
+  "workflow": [
+    "Create table with partition key",
+    "Insert items",
+    "Query or scan data",
+    "Scale throughput automatically"
+  ],
+  "devops_application": "DynamoDB stores state information for DevOps agents, configuration data, and monitoring logs.",
+  "official_evidence": [
+    {
+      "title": "Amazon DynamoDB Documentation",
+      "url": "https://docs.aws.amazon.com/dynamodb/",
+      "source_type": "official_documentation"
+    }
+  ],
+  "related_topics": ["S3", "RDS", "Lambda", "NoSQL"]
+}

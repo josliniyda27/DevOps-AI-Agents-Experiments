@@ -1,0 +1,48 @@
+{
+  "id": "memory-001",
+  "course": "AI-Assisted DevOps",
+  "category": "LLM Memory",
+  "topic": "Memory",
+  "subtopic": "Session and Conversation Memory",
+  "question": "What is memory in LLMs?",
+  "answer": "Memory refers to the ability of AI systems to retain context across interactions, either within a single session or across multiple conversations. It allows models to provide continuity, recall past inputs, and maintain coherence in dialogue.",
+  "course_context": {
+    "module": "Fundamentals",
+    "usage": "Memory is used in chatbots and agents to maintain context, track user preferences, and support long-running workflows."
+  },
+  "key_concepts": [
+    "Session memory",
+    "Conversation memory",
+    "Persistent memory",
+    "Context retention",
+    "State management"
+  ],
+  "workflow": [
+    "User sends input",
+    "Model stores context in short-term memory",
+    "Subsequent queries reference stored context",
+    "Persistent memory saves key facts for future sessions",
+    "Conversation continues with continuity"
+  ],
+  "devops_application": "Memory enables DevOps agents to track infrastructure states, recall previous troubleshooting steps, and maintain continuity across multiple queries or sessions.",
+  "official_evidence": [
+    {
+      "title": "LangChain Memory",
+      "url": "https://python.langchain.com/docs/modules/memory/",
+      "source_type": "official_documentation"
+    },
+    {
+      "title": "OpenAI Conversation Memory",
+      "url": "https://platform.openai.com/docs/guides/memory",
+      "source_type": "official_documentation"
+    }
+  ],
+  "related_topics": [
+    "Context window",
+    "Session memory",
+    "Conversation memory",
+    "LangChain",
+    "LangGraph",
+    "Agent orchestration"
+  ]
+}

@@ -1,0 +1,38 @@
+{
+  "id": "aws-macie-001",
+  "course": "AI-Assisted DevOps",
+  "category": "AWS Cloud",
+  "topic": "Amazon Macie",
+  "subtopic": "Data Security Service",
+  "question": "What is Amazon Macie?",
+  "answer": "Amazon Macie is a data security service that discovers sensitive data using machine learning and pattern matching, provides visibility into data security risks, and enables automated protection against those risks.",
+  "course_context": {
+    "module": "AWS Security",
+    "usage": "Teams use Amazon Macie to manage and secure sensitive data stored in Amazon S3."
+  },
+  "key_concepts": ["data security", "machine learning", "sensitive data discovery", "Amazon S3", "automated protection"],
+  "workflow": [
+    "Enable Amazon Macie in AWS Management Console.",
+    "Configure automated sensitive data discovery.",
+    "Create sensitive data discovery jobs as needed.",
+    "Review findings in Amazon Macie console or API.",
+    "Integrate with Amazon EventBridge for monitoring."
+  ],
+  "devops_application": "DevOps teams use Amazon Macie to automate the discovery and protection of sensitive data in Amazon S3, enhancing data security and compliance.",
+  "official_evidence": [
+    {
+      "title": "Amazon Macie Documentation",
+      "url": "https://docs.aws.amazon.com/macie/latest/userguide/what-is-macie.html",
+      "source_type": "official_documentation"
+    }
+  ],
+  "related_topics": ["Amazon S3", "AWS Security Hub", "Amazon EventBridge", "Data Privacy", "Machine Learning"],
+  "group": "Security",
+  "provenance": {
+    "method": "agentic-workflow",
+    "model": "gpt-4o",
+    "grounded": true,
+    "source_url": "https://docs.aws.amazon.com/macie/latest/userguide/what-is-macie.html",
+    "run": "kb-aws"
+  }
+}

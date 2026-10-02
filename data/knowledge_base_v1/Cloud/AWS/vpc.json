@@ -1,0 +1,29 @@
+{
+  "id": "aws-vpc-001",
+  "course": "AI-Assisted DevOps",
+  "category": "AWS Cloud",
+  "topic": "VPC",
+  "subtopic": "Virtual Private Cloud",
+  "question": "What is Amazon VPC?",
+  "answer": "Amazon VPC lets you provision a logically isolated section of the AWS cloud where you can launch resources in a secure network.",
+  "course_context": {
+    "module": "AWS Basics",
+    "usage": "Used in course projects to configure networking for agents."
+  },
+  "key_concepts": ["Subnets", "Route tables", "Internet gateways", "NACLs"],
+  "workflow": [
+    "Create VPC",
+    "Define subnets",
+    "Attach gateway",
+    "Configure routing"
+  ],
+  "devops_application": "VPC isolates DevOps environments and secures agent communication.",
+  "official_evidence": [
+    {
+      "title": "Amazon VPC Documentation",
+      "url": "https://docs.aws.amazon.com/vpc/",
+      "source_type": "official_documentation"
+    }
+  ],
+  "related_topics": ["Subnets", "Security Groups", "EC2"]
+}

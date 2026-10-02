@@ -1,0 +1,37 @@
+{
+  "id": "vector-databases-001",
+  "course": "AI-Assisted DevOps",
+  "category": "RAG & Retrieval",
+  "topic": "Vector Databases",
+  "subtopic": "Database for embeddings",
+  "question": "What are vector databases?",
+  "answer": "Vector databases are specialized databases designed to store and query vector embeddings, enabling efficient similarity searches and retrieval across various data modalities.",
+  "course_context": {
+    "module": "Retrieval",
+    "usage": "Teams use vector databases to efficiently store and query vector embeddings for AI-driven applications."
+  },
+  "key_concepts": ["vector embeddings", "similarity search", "metadata filtering", "multi-modal retrieval"],
+  "workflow": [
+    "Store embeddings with metadata",
+    "Perform dense and sparse vector searches",
+    "Filter results by metadata",
+    "Retrieve data across modalities",
+    "Use embedding models like OpenAI"
+  ],
+  "devops_application": "DevOps teams use vector databases to manage and optimize the storage and retrieval of vector embeddings for AI applications.",
+  "official_evidence": [
+    {
+      "title": "Vector Databases Documentation",
+      "url": "https://docs.trychroma.com",
+      "source_type": "official_documentation"
+    }
+  ],
+  "related_topics": ["Embeddings", "Similarity Search", "Metadata Filtering", "Multi-Modal Retrieval"],
+  "provenance": {
+    "method": "agentic-workflow",
+    "model": "gpt-4o",
+    "grounded": true,
+    "source_url": "https://docs.trychroma.com",
+    "run": "kb-genai2"
+  }
+}

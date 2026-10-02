@@ -1,0 +1,37 @@
+{
+  "id": "wf-genai-apply-re-ranking-technique-001",
+  "course": "AI-Assisted DevOps",
+  "category": "GenAI Workflows",
+  "topic": "Apply a Re-ranking Technique",
+  "subtopic": "Re-ranking Technique",
+  "question": "How do I apply a re-ranking technique?",
+  "answer": "To apply a re-ranking technique, retrieve initial results, score them using a re-ranking model, and reorder based on scores.",
+  "course_context": {
+    "module": "Workflows",
+    "usage": "Teams use re-ranking techniques to improve the relevance of search results in applications."
+  },
+  "key_concepts": ["re-ranking model", "initial results", "scoring", "reordering", "retrieval"],
+  "workflow": [
+    "Retrieve initial results from a data source.",
+    "Score each result using a re-ranking model.",
+    "Reorder the results based on the scores.",
+    "Select the top results for final output.",
+    "Return the re-ranked results to the user."
+  ],
+  "devops_application": "DevOps teams use re-ranking techniques to optimize search result relevance in applications.",
+  "official_evidence": [
+    {
+      "title": "Official documentation",
+      "url": "https://platform.openai.com/docs/guides/retrieval",
+      "source_type": "official_documentation"
+    }
+  ],
+  "related_topics": ["Search and Retrieval", "Ranking Algorithms", "Machine Learning Models", "Information Retrieval"],
+  "provenance": {
+    "method": "agentic-workflow",
+    "model": "gpt-4o",
+    "grounded": true,
+    "source_url": "https://platform.openai.com/docs/guides/retrieval",
+    "run": "kb-genai2"
+  }
+}

@@ -1,0 +1,37 @@
+{
+  "id": "prompt-injection-001",
+  "course": "AI-Assisted DevOps",
+  "category": "Prompting Techniques",
+  "topic": "Prompt Injection",
+  "subtopic": "Security Vulnerability",
+  "question": "What is prompt injection?",
+  "answer": "Prompt injection is a security vulnerability where an attacker manipulates the input prompts to influence the behavior of a language model, potentially causing it to produce unintended or harmful outputs.",
+  "course_context": {
+    "module": "Prompt Engineering",
+    "usage": "Teams use prompt injection prevention in AI systems to safeguard against malicious input manipulation."
+  },
+  "key_concepts": ["security vulnerability", "input manipulation", "language model", "unintended outputs", "harmful outputs"],
+  "workflow": [
+    "Identify potential injection points in prompts.",
+    "Sanitize inputs to remove harmful content.",
+    "Implement validation checks for prompt integrity.",
+    "Monitor model outputs for anomalies.",
+    "Update security protocols regularly."
+  ],
+  "devops_application": "DevOps teams implement prompt injection prevention measures to ensure the security and integrity of AI model outputs.",
+  "official_evidence": [
+    {
+      "title": "Prompt Injection Documentation",
+      "url": "https://platform.openai.com/docs/guides/prompting",
+      "source_type": "official_documentation"
+    }
+  ],
+  "related_topics": ["Prompt Engineering", "AI Security", "Input Validation", "Model Safety", "Output Monitoring"],
+  "provenance": {
+    "method": "agentic-workflow",
+    "model": "gpt-4o",
+    "grounded": true,
+    "source_url": "https://platform.openai.com/docs/guides/prompting",
+    "run": "kb-genai2"
+  }
+}

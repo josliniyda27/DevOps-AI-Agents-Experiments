@@ -1,0 +1,39 @@
+{
+  "id": "wf-devops-set-up-prometheus-monitoring-001",
+  "course": "AI-Assisted DevOps",
+  "category": "DevOps Workflows",
+  "topic": "Set Up Prometheus Monitoring",
+  "subtopic": "Prometheus setup",
+  "question": "How do I set up Prometheus monitoring?",
+  "answer": "To set up Prometheus monitoring, download and run Prometheus, configure it to scrape itself and example targets, and use the expression browser and graphing interface to analyze data.",
+  "course_context": {
+    "module": "Workflows",
+    "usage": "Teams use Prometheus to monitor applications and infrastructure by collecting and analyzing metrics."
+  },
+  "key_concepts": ["Prometheus installation", "Configuration file", "Scraping targets", "Expression browser", "Graphing interface"],
+  "workflow": [
+    "Download Prometheus and extract files.",
+    "Create a configuration file named prometheus.yml.",
+    "Configure Prometheus to scrape itself and example targets.",
+    "Start Prometheus using the configuration file.",
+    "Access Prometheus at localhost:9090 to view metrics.",
+    "Use the expression browser to query data.",
+    "Graph expressions using the graphing interface."
+  ],
+  "devops_application": "DevOps teams use Prometheus to monitor system performance and collect metrics for analysis.",
+  "official_evidence": [
+    {
+      "title": "Official documentation",
+      "url": "https://prometheus.io/docs/prometheus/latest/getting_started/",
+      "source_type": "official_documentation"
+    }
+  ],
+  "related_topics": ["Grafana", "Alertmanager", "Node Exporter", "Thanos", "PromQL"],
+  "provenance": {
+    "method": "agentic-workflow",
+    "model": "gpt-4o",
+    "grounded": true,
+    "source_url": "https://prometheus.io/docs/prometheus/latest/getting_started/",
+    "run": "kb-devops"
+  }
+}

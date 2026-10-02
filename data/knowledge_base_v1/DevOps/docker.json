@@ -1,0 +1,29 @@
+{
+  "id": "docker-001",
+  "course": "AI-Assisted DevOps",
+  "category": "DevOps",
+  "topic": "Docker",
+  "subtopic": "Containerization",
+  "question": "What is Docker?",
+  "answer": "Docker is a platform for building, running, and managing containers, which package applications and dependencies together for portability and consistency.",
+  "course_context": {
+    "module": "DevOps",
+    "usage": "Used in course projects to containerize applications and agents."
+  },
+  "key_concepts": ["Containers", "Images", "Dockerfile", "Portability"],
+  "workflow": [
+    "Write Dockerfile",
+    "Build image",
+    "Run container",
+    "Deploy containerized app"
+  ],
+  "devops_application": "Docker ensures consistent environments across development, testing, and production.",
+  "official_evidence": [
+    {
+      "title": "Docker Documentation",
+      "url": "https://docs.docker.com/",
+      "source_type": "official_documentation"
+    }
+  ],
+  "related_topics": ["Kubernetes", "CI/CD", "Monitoring"]
+}

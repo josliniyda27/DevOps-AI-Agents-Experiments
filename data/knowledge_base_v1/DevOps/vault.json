@@ -1,0 +1,37 @@
+{
+  "id": "devops-vault-001",
+  "course": "AI-Assisted DevOps",
+  "category": "DevOps",
+  "topic": "HashiCorp Vault",
+  "subtopic": "Secret Management",
+  "question": "What is HashiCorp Vault?",
+  "answer": "HashiCorp Vault is a tool for managing secrets, encrypting data, and controlling access to sensitive information.",
+  "course_context": {
+    "module": "DevSecOps",
+    "usage": "Teams use HashiCorp Vault to manage secrets and sensitive data in cloud and on-premises environments."
+  },
+  "key_concepts": ["secret management", "data encryption", "access control", "identity management"],
+  "workflow": [
+    "Install Vault on a server or cloud platform.",
+    "Configure Vault with desired authentication methods.",
+    "Store secrets as key-value pairs.",
+    "Set up policies to control access to secrets.",
+    "Use Vault API or CLI to retrieve secrets securely."
+  ],
+  "devops_application": "DevOps teams use Vault to securely manage and access secrets and sensitive data across their infrastructure.",
+  "official_evidence": [
+    {
+      "title": "HashiCorp Vault Documentation",
+      "url": "https://developer.hashicorp.com/vault/docs",
+      "source_type": "official_documentation"
+    }
+  ],
+  "related_topics": ["Secret Management", "Data Encryption", "Identity Management", "Access Control"],
+  "provenance": {
+    "method": "agentic-workflow",
+    "model": "gpt-4o",
+    "grounded": true,
+    "source_url": "https://developer.hashicorp.com/vault/docs",
+    "run": "kb-devops"
+  }
+}

@@ -1,0 +1,29 @@
+{
+  "id": "contexteng-001",
+  "course": "AI-Assisted DevOps",
+  "category": "Prompting Techniques",
+  "topic": "Context Engineering",
+  "subtopic": "Optimizing Input Context",
+  "question": "What is context engineering?",
+  "answer": "Context engineering is the practice of structuring and managing the information provided to an LLM to maximize relevance and accuracy.",
+  "course_context": {
+    "module": "Prompt Engineering",
+    "usage": "Used to design effective prompts and manage context windows."
+  },
+  "key_concepts": ["Context window", "Chunking", "Relevance filtering"],
+  "workflow": [
+    "Identify relevant information",
+    "Chunk or summarize documents",
+    "Insert into prompt",
+    "Send to LLM"
+  ],
+  "devops_application": "Ensures logs and IaC files are chunked properly for chatbot queries.",
+  "official_evidence": [
+    {
+      "title": "LangChain Context Management",
+      "url": "https://python.langchain.com/docs/modules/memory/",
+      "source_type": "official_documentation"
+    }
+  ],
+  "related_topics": ["Chunking", "Memory", "Prompt engineering"]
+}

@@ -1,0 +1,38 @@
+{
+  "id": "wf-genai-evaluate-rag-system-001",
+  "course": "AI-Assisted DevOps",
+  "category": "GenAI Workflows",
+  "topic": "Evaluate a RAG System",
+  "subtopic": "Evaluating RAG Systems",
+  "question": "How do I evaluate a RAG system?",
+  "answer": "To evaluate a RAG system, assess its retrieval accuracy, generation quality, latency, and resource usage.",
+  "course_context": {
+    "module": "Workflows",
+    "usage": "Teams use RAG system evaluation in development and quality assurance to ensure optimal performance."
+  },
+  "key_concepts": ["retrieval accuracy", "generation quality", "latency", "resource usage", "evaluation metrics"],
+  "workflow": [
+    "Define evaluation metrics for retrieval and generation.",
+    "Collect a dataset for testing the RAG system.",
+    "Run the RAG system on the dataset.",
+    "Measure retrieval accuracy and generation quality.",
+    "Analyze latency and resource usage.",
+    "Compare results against benchmarks."
+  ],
+  "devops_application": "DevOps teams use evaluation metrics to ensure RAG systems meet performance and quality standards.",
+  "official_evidence": [
+    {
+      "title": "Official documentation",
+      "url": "https://platform.openai.com/docs/guides/retrieval",
+      "source_type": "official_documentation"
+    }
+  ],
+  "related_topics": ["Retrieval-Augmented Generation", "Evaluation Metrics", "Performance Testing", "Quality Assurance", "Benchmarking"],
+  "provenance": {
+    "method": "agentic-workflow",
+    "model": "gpt-4o",
+    "grounded": true,
+    "source_url": "https://platform.openai.com/docs/guides/retrieval",
+    "run": "kb-genai2"
+  }
+}

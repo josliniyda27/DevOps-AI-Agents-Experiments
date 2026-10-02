@@ -1,0 +1,20 @@
+{
+  "topic": "IaC Generator Agent",
+  "description": "Generates secure Terraform HCL code from natural language requests.",
+  "key_concepts": [
+    "Infrastructure as Code",
+    "Terraform AWS Provider v5",
+    "Secure-by-default configurations",
+    "Human-gated apply"
+  ],
+  "official_links": [
+    "https://developer.hashicorp.com/terraform/docs",
+    "https://registry.terraform.io/providers/hashicorp/aws/latest/docs"
+  ],
+  "repo_reference": "https://github.com/AravindBaranitharan/Agentic-Ai-Devops-/tree/main/iac-generator-agent",
+  "use_cases": [
+    "Generate S3 bucket Terraform code",
+    "Explain terraform plan output",
+    "Create EC2 instance IaC templates"
+  ]
+}

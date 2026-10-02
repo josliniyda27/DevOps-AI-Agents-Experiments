@@ -1,0 +1,29 @@
+{
+  "id": "aws-route53-001",
+  "course": "AI-Assisted DevOps",
+  "category": "AWS Cloud",
+  "topic": "Route 53",
+  "subtopic": "DNS and Traffic Management",
+  "question": "What is Amazon Route 53?",
+  "answer": "Amazon Route 53 is a scalable Domain Name System (DNS) web service that provides domain registration, DNS routing, and health checking.",
+  "course_context": {
+    "module": "AWS Basics",
+    "usage": "Used in course projects to route traffic to applications."
+  },
+  "key_concepts": ["DNS records", "Health checks", "Traffic policies"],
+  "workflow": [
+    "Register domain",
+    "Create hosted zone",
+    "Add DNS records",
+    "Configure routing policies"
+  ],
+  "devops_application": "Route 53 directs traffic to DevOps agents, APIs, and applications with high availability.",
+  "official_evidence": [
+    {
+      "title": "Amazon Route 53 Documentation",
+      "url": "https://docs.aws.amazon.com/Route53/",
+      "source_type": "official_documentation"
+    }
+  ],
+  "related_topics": ["VPC", "CloudFront", "Load Balancer"]
+}

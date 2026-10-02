@@ -1,0 +1,24 @@
+{
+  "id": "llm-001",
+  "course": "AI-Assisted DevOps",
+  "category": "Generic Fundamentals",
+  "topic": "LLM",
+  "subtopic": "Large Language Models",
+  "question": "What is an LLM?",
+  "answer": "A Large Language Model (LLM) is an AI system trained on massive amounts of text data to understand and generate human-like language.",
+  "course_context": {
+    "module": "Fundamentals",
+    "usage": "Used to power conversational AI in DevOps workflows."
+  },
+  "key_concepts": ["Transformer architecture", "Pretraining", "Fine-tuning", "Tokens", "Context window"],
+  "workflow": ["Tokenize input", "Process through transformer layers", "Predict next token", "Generate output"],
+  "devops_application": "LLMs can automate documentation, generate IaC templates, and provide natural language interfaces to cloud services.",
+  "official_evidence": [
+    {
+      "title": "Hugging Face Transformers",
+      "url": "https://huggingface.co/docs/transformers/index",
+      "source_type": "official_documentation"
+    }
+  ],
+  "related_topics": ["Tokens", "Context window", "Embeddings", "Prompt engineering"]
+}

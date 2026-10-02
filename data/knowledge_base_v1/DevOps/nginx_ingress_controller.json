@@ -1,0 +1,36 @@
+{
+  "id": "devops-nginx-ingress-controller-001",
+  "course": "AI-Assisted DevOps",
+  "category": "DevOps",
+  "topic": "NGINX Ingress Controller",
+  "subtopic": "Kubernetes Ingress resource",
+  "question": "What is NGINX Ingress Controller?",
+  "answer": "NGINX Ingress Controller is built around the Kubernetes Ingress resource, using a ConfigMap to store the controller configuration.",
+  "course_context": {
+    "module": "Containers and Kubernetes",
+    "usage": "Teams use NGINX Ingress Controller to control and route external traffic to Kubernetes services."
+  },
+  "key_concepts": ["Kubernetes Ingress resource", "ConfigMap", "controller configuration", "Ingress NGINX Controller"],
+  "workflow": [
+    "Configure Kubernetes Ingress resource.",
+    "Store configuration in a ConfigMap.",
+    "Deploy the Ingress NGINX Controller.",
+    "Manage traffic routing through the controller."
+  ],
+  "devops_application": "DevOps teams use NGINX Ingress Controller to manage external access to services in a Kubernetes cluster.",
+  "official_evidence": [
+    {
+      "title": "NGINX Ingress Controller Documentation",
+      "url": "https://kubernetes.github.io/ingress-nginx/",
+      "source_type": "official_documentation"
+    }
+  ],
+  "related_topics": ["Kubernetes", "ConfigMap", "Ingress resource", "Traffic routing"],
+  "provenance": {
+    "method": "agentic-workflow",
+    "model": "gpt-4o",
+    "grounded": true,
+    "source_url": "https://kubernetes.github.io/ingress-nginx/",
+    "run": "kb-devops"
+  }
+}

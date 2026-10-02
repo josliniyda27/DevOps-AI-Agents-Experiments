@@ -1,0 +1,129 @@
+[
+  {
+    "id": "llm-001",
+    "course": "AI-Assisted DevOps",
+    "category": "Generic Fundamentals",
+    "topic": "LLM",
+    "subtopic": "Large Language Models",
+    "question": "What is an LLM?",
+    "answer": "A Large Language Model (LLM) is an AI system trained on massive amounts of text data to understand and generate human-like language. They are the foundation of modern AI chatbots and agents.",
+    "course_context": {
+      "module": "Fundamentals",
+      "project": "Knowledge Base",
+      "usage": "Used to power conversational AI in DevOps workflows."
+    },
+    "key_concepts": [
+      "Transformer architecture",
+      "Pretraining",
+      "Fine-tuning",
+      "Tokens",
+      "Context window"
+    ],
+    "workflow": [
+      "Input text is tokenized",
+      "Tokens are processed through transformer layers",
+      "Model predicts next token probabilities",
+      "Output is generated as text"
+    ],
+    "devops_application": "LLMs can assist DevOps engineers by automating documentation, generating IaC templates, and providing natural language interfaces to cloud services.",
+    "official_evidence": [
+      {
+        "title": "Hugging Face Transformers",
+        "url": "https://huggingface.co/docs/transformers/index",
+        "source_type": "official_documentation"
+      }
+    ],
+    "related_topics": [
+      "Tokens",
+      "Context window",
+      "Embeddings",
+      "Prompt engineering"
+    ]
+  },
+  {
+    "id": "embeddings-001",
+    "course": "AI-Assisted DevOps",
+    "category": "Generic Fundamentals",
+    "topic": "Embeddings",
+    "subtopic": "Vector Representations",
+    "question": "What are embeddings?",
+    "answer": "Embeddings are numerical vector representations of text that capture semantic meaning. They allow AI systems to compare and search text based on meaning rather than exact words.",
+    "course_context": {
+      "module": "Fundamentals",
+      "project": "Knowledge Base",
+      "usage": "Used in semantic search and vector databases for RAG."
+    },
+    "key_concepts": [
+      "Vector space",
+      "Semantic similarity",
+      "Cosine similarity",
+      "Dimensionality reduction"
+    ],
+    "workflow": [
+      "Input text is converted into tokens",
+      "Tokens are mapped into high-dimensional vectors",
+      "Vectors are stored in a database",
+      "Similarity search retrieves closest matches"
+    ],
+    "devops_application": "Embeddings enable semantic search in logs, monitoring data, and documentation, making troubleshooting more efficient.",
+    "official_evidence": [
+      {
+        "title": "OpenAI Embeddings Guide",
+        "url": "https://platform.openai.com/docs/guides/embeddings",
+        "source_type": "official_documentation"
+      }
+    ],
+    "related_topics": [
+      "Vector databases",
+      "Semantic search",
+      "RAG",
+      "Chunking"
+    ]
+  },
+  {
+    "id": "rag-001",
+    "course": "AI-Assisted DevOps",
+    "category": "Generic Fundamentals",
+    "topic": "RAG",
+    "subtopic": "Retrieval-Augmented Generation",
+    "question": "What is RAG?",
+    "answer": "Retrieval-Augmented Generation (RAG) is a technique that combines external knowledge retrieval with language model generation to produce grounded, accurate responses.",
+    "course_context": {
+      "module": "Fundamentals",
+      "project": "Knowledge Base",
+      "usage": "Used in the course chatbot to answer participant queries with evidence."
+    },
+    "key_concepts": [
+      "Retrieval",
+      "Generation",
+      "Grounding",
+      "Vector search",
+      "Evidence-based answers"
+    ],
+    "workflow": [
+      "User query is embedded",
+      "Relevant documents are retrieved from vector database",
+      "LLM generates response using retrieved context",
+      "Answer is returned with evidence"
+    ],
+    "devops_application": "RAG can be applied to DevOps by retrieving logs, IaC templates, or monitoring data and generating explanations or fixes.",
+    "official_evidence": [
+      {
+        "title": "RAG Paper",
+        "url": "https://arxiv.org/abs/2005.11401",
+        "source_type": "research_article"
+      },
+      {
+        "title": "Pinecone RAG Guide",
+        "url": "https://www.pinecone.io/learn/retrieval-augmented-generation/",
+        "source_type": "technical_blog"
+      }
+    ],
+    "related_topics": [
+      "Embeddings",
+      "Vector databases",
+      "Semantic search",
+      "Hallucination"
+    ]
+  }
+]

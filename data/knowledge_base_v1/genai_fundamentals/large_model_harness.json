@@ -1,0 +1,29 @@
+{
+  "id": "largemodel-001",
+  "course": "AI-Assisted DevOps",
+  "category": "Optimization",
+  "topic": "Harnessing Large Models",
+  "subtopic": "Scaling LLMs",
+  "question": "How do we harness large language models effectively?",
+  "answer": "Harnessing large models involves using distributed computing, optimized inference, and retrieval techniques to make them practical for production workflows.",
+  "course_context": {
+    "module": "Optimization",
+    "usage": "Applied in DevOps to scale AI agents for infrastructure automation."
+  },
+  "key_concepts": ["Distributed inference", "Model parallelism", "Retrieval-Augmented Generation"],
+  "workflow": [
+    "Deploy model across GPUs",
+    "Use retrieval to reduce context size",
+    "Optimize inference with caching",
+    "Balance accuracy and efficiency"
+  ],
+  "devops_application": "Large models can analyze logs, generate IaC templates, and orchestrate workflows at scale.",
+  "official_evidence": [
+    {
+      "title": "Scaling LLMs",
+      "url": "https://arxiv.org/abs/2203.15556",
+      "source_type": "research_article"
+    }
+  ],
+  "related_topics": ["Quantization", "RAG", "Embeddings"]
+}

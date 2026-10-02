@@ -1,0 +1,24 @@
+{
+  "id": "agenticai-001",
+  "course": "AI-Assisted DevOps",
+  "category": "Agent Frameworks",
+  "topic": "Agentic AI",
+  "subtopic": "Autonomous Agent Design",
+  "question": "What is Agentic AI?",
+  "answer": "Agentic AI refers to AI systems designed to act as autonomous agents capable of planning, reasoning, and executing tasks with minimal human intervention.",
+  "course_context": {
+    "module": "Agent Frameworks",
+    "usage": "Used in DevOps to automate workflows with human approval gates."
+  },
+  "key_concepts": ["Autonomy", "Planning", "Reasoning", "Human-in-the-loop"],
+  "workflow": ["Receive task", "Plan execution", "Call tools", "Validate results", "Return outcome"],
+  "devops_application": "Agentic AI can manage infrastructure changes, monitor systems, and trigger alerts automatically.",
+  "official_evidence": [
+    {
+      "title": "LangChain Agentic Workflows",
+      "url": "https://python.langchain.com/docs/modules/agents/",
+      "source_type": "official_documentation"
+    }
+  ],
+  "related_topics": ["AI Agents", "Agentic loop", "LangChain", "LangGraph"]
+}

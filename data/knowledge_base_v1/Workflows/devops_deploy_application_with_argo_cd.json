@@ -1,0 +1,37 @@
+{
+  "id": "wf-devops-deploy-application-with-argo-cd-001",
+  "course": "AI-Assisted DevOps",
+  "category": "DevOps Workflows",
+  "topic": "Deploy an Application with Argo CD",
+  "subtopic": "Deploying with Argo CD",
+  "question": "How do I deploy an application with Argo CD?",
+  "answer": "To deploy an application with Argo CD, install Argo CD, download the CLI, access the server, log in, and create an application.",
+  "course_context": {
+    "module": "Workflows",
+    "usage": "Teams use Argo CD to manage and automate application deployments in Kubernetes environments."
+  },
+  "key_concepts": ["Argo CD installation", "kubectl command-line tool", "kubeconfig file", "Argo CD CLI", "application deployment"],
+  "workflow": [
+    "Install Argo CD using kubectl in the argocd namespace.",
+    "Download the Argo CD CLI from the official releases.",
+    "Access Argo CD by configuring a LoadBalancer, Ingress, or port forwarding.",
+    "Retrieve the initial admin password and log in using the CLI.",
+    "Create an application in Argo CD using the CLI or UI."
+  ],
+  "devops_application": "DevOps teams use Argo CD to automate application deployments to Kubernetes clusters.",
+  "official_evidence": [
+    {
+      "title": "Official documentation",
+      "url": "https://argo-cd.readthedocs.io/en/stable/getting_started/",
+      "source_type": "official_documentation"
+    }
+  ],
+  "related_topics": ["Kubernetes", "GitOps", "Continuous Deployment", "kubectl", "Helm"],
+  "provenance": {
+    "method": "agentic-workflow",
+    "model": "gpt-4o",
+    "grounded": true,
+    "source_url": "https://argo-cd.readthedocs.io/en/stable/getting_started/",
+    "run": "kb-devops"
+  }
+}

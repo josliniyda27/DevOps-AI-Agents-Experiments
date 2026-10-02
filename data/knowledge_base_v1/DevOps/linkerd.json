@@ -1,0 +1,37 @@
+{
+  "id": "devops-linkerd-001",
+  "course": "AI-Assisted DevOps",
+  "category": "DevOps",
+  "topic": "Linkerd",
+  "subtopic": "Service Mesh for Kubernetes",
+  "question": "What is Linkerd?",
+  "answer": "Linkerd is a service mesh for Kubernetes that provides runtime debugging, observability, reliability, and security without requiring code changes.",
+  "course_context": {
+    "module": "Containers and Kubernetes",
+    "usage": "Teams use Linkerd in Kubernetes environments to improve service observability and security."
+  },
+  "key_concepts": ["service mesh", "Kubernetes", "runtime debugging", "observability", "security"],
+  "workflow": [
+    "Install the CLI on your local system.",
+    "Install the control plane into your cluster.",
+    "Add your services to Linkerd’s data plane.",
+    "Use Linkerd’s UI to inspect services.",
+    "Manipulate services using the UI."
+  ],
+  "devops_application": "DevOps teams use Linkerd to enhance service reliability and security in Kubernetes environments.",
+  "official_evidence": [
+    {
+      "title": "Linkerd Documentation",
+      "url": "https://linkerd.io/2.11/overview/",
+      "source_type": "official_documentation"
+    }
+  ],
+  "related_topics": ["Kubernetes", "Istio", "Service Mesh", "Cloud Native Computing Foundation", "Rust"],
+  "provenance": {
+    "method": "agentic-workflow",
+    "model": "gpt-4o",
+    "grounded": true,
+    "source_url": "https://linkerd.io/2.11/overview/",
+    "run": "kb-devops"
+  }
+}

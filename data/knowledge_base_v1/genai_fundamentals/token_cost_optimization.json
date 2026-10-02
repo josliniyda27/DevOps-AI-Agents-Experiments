@@ -1,0 +1,29 @@
+{
+  "id": "tokencost-001",
+  "course": "AI-Assisted DevOps",
+  "category": "Optimization",
+  "topic": "Token Cost Optimization",
+  "subtopic": "Efficient Usage",
+  "question": "How can we optimize token usage in LLMs?",
+  "answer": "Token cost optimization involves minimizing prompt length, chunking documents, and reusing embeddings to reduce the number of tokens processed.",
+  "course_context": {
+    "module": "Optimization",
+    "usage": "Helps reduce operational costs in AI-assisted DevOps workflows."
+  },
+  "key_concepts": ["Prompt compression", "Chunking", "Embedding reuse"],
+  "workflow": [
+    "Analyze prompt length",
+    "Chunk documents intelligently",
+    "Cache embeddings",
+    "Monitor token usage"
+  ],
+  "devops_application": "Optimizing tokens reduces cost when agents query logs, IaC templates, or monitoring data.",
+  "official_evidence": [
+    {
+      "title": "OpenAI Pricing Guide",
+      "url": "https://platform.openai.com/docs/guides/pricing",
+      "source_type": "official_documentation"
+    }
+  ],
+  "related_topics": ["Context window", "Embeddings", "RAG"]
+}

@@ -1,0 +1,38 @@
+{
+  "id": "aws-cloudtrail-001",
+  "course": "AI-Assisted DevOps",
+  "category": "AWS Cloud",
+  "topic": "AWS CloudTrail",
+  "subtopic": "AWS service overview",
+  "question": "What is AWS CloudTrail?",
+  "answer": "AWS CloudTrail is a service that enables operational and risk auditing, governance, and compliance of AWS accounts by recording actions as events.",
+  "course_context": {
+    "module": "AWS Operations",
+    "usage": "Teams use AWS CloudTrail to track and analyze AWS account activities for auditing and compliance."
+  },
+  "key_concepts": ["operational auditing", "risk auditing", "event recording", "AWS account governance", "compliance"],
+  "workflow": [
+    "Enable CloudTrail in AWS account",
+    "Access CloudTrail via console, CLI, or API",
+    "View and search event history",
+    "Create trails for event delivery",
+    "Analyze events using CloudTrail Lake"
+  ],
+  "devops_application": "DevOps teams use AWS CloudTrail to monitor and audit AWS account activities for security and compliance purposes.",
+  "official_evidence": [
+    {
+      "title": "AWS CloudTrail Documentation",
+      "url": "https://docs.aws.amazon.com/awscloudtrail/latest/userguide/cloudtrail-user-guide.html",
+      "source_type": "official_documentation"
+    }
+  ],
+  "related_topics": ["AWS CloudWatch", "AWS IAM", "AWS S3", "AWS Organizations", "AWS Lambda"],
+  "group": "Monitoring",
+  "provenance": {
+    "method": "agentic-workflow",
+    "model": "gpt-4o",
+    "grounded": true,
+    "source_url": "https://docs.aws.amazon.com/awscloudtrail/latest/userguide/cloudtrail-user-guide.html",
+    "run": "kb-aws"
+  }
+}

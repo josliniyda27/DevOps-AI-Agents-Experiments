@@ -1,0 +1,38 @@
+{
+  "id": "aws-direct-connect-001",
+  "course": "AI-Assisted DevOps",
+  "category": "AWS Cloud",
+  "topic": "AWS Direct Connect",
+  "subtopic": "AWS Direct Connect Overview",
+  "question": "What is AWS Direct Connect?",
+  "answer": "AWS Direct Connect is a service that links your internal network to a Direct Connect location over a standard Ethernet fiber-optic cable, allowing you to create virtual interfaces to AWS services or Amazon VPC, bypassing internet service providers.",
+  "course_context": {
+    "module": "AWS Networking",
+    "usage": "Teams use AWS Direct Connect to improve network performance and security by connecting directly to AWS services without using the public internet."
+  },
+  "key_concepts": ["Direct Connect location", "virtual interfaces", "fiber-optic cable", "AWS services access"],
+  "workflow": [
+    "Create a connection at a Direct Connect location.",
+    "Connect your router to the Direct Connect router.",
+    "Establish virtual interfaces for AWS services.",
+    "Configure network requirements like VLAN and BGP.",
+    "Access AWS services or VPC directly."
+  ],
+  "devops_application": "DevOps teams use AWS Direct Connect to establish secure, low-latency connections to AWS services, enhancing network performance and reliability.",
+  "official_evidence": [
+    {
+      "title": "AWS Direct Connect Documentation",
+      "url": "https://docs.aws.amazon.com/directconnect/latest/UserGuide/Welcome.html",
+      "source_type": "official_documentation"
+    }
+  ],
+  "related_topics": ["Amazon VPC", "AWS GovCloud", "AWS Partner Network", "Direct Connect gateway"],
+  "group": "Networking",
+  "provenance": {
+    "method": "agentic-workflow",
+    "model": "gpt-4o",
+    "grounded": true,
+    "source_url": "https://docs.aws.amazon.com/directconnect/latest/UserGuide/Welcome.html",
+    "run": "kb-aws"
+  }
+}

@@ -1,0 +1,29 @@
+{
+  "id": "cicd-001",
+  "course": "AI-Assisted DevOps",
+  "category": "DevOps",
+  "topic": "CI/CD",
+  "subtopic": "Continuous Integration and Deployment",
+  "question": "What is CI/CD?",
+  "answer": "CI/CD is a DevOps practice that automates integration, testing, and deployment of code changes to accelerate delivery and improve reliability.",
+  "course_context": {
+    "module": "DevOps",
+    "usage": "Implemented in course projects using GitHub Actions."
+  },
+  "key_concepts": ["Continuous Integration", "Continuous Deployment", "Automation pipelines"],
+  "workflow": [
+    "Developer commits code",
+    "CI pipeline runs tests",
+    "CD pipeline deploys changes",
+    "Monitor and rollback if needed"
+  ],
+  "devops_application": "CI/CD ensures faster delivery of infrastructure and application updates with reduced errors.",
+  "official_evidence": [
+    {
+      "title": "GitHub Actions Documentation",
+      "url": "https://docs.github.com/en/actions",
+      "source_type": "official_documentation"
+    }
+  ],
+  "related_topics": ["Terraform", "Docker", "Monitoring"]
+}

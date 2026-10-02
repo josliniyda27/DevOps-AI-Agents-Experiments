@@ -1,0 +1,37 @@
+{
+  "id": "structured-output-001",
+  "course": "AI-Assisted DevOps",
+  "category": "Prompting Techniques",
+  "topic": "Structured Output",
+  "subtopic": "Output format",
+  "question": "What is structured output?",
+  "answer": "Structured output is a format where the generated content follows a predefined structure, such as JSON or XML, to ensure consistency and ease of parsing.",
+  "course_context": {
+    "module": "Prompt Engineering",
+    "usage": "Teams use structured output in applications requiring consistent data formats, such as data integration and automated processing."
+  },
+  "key_concepts": ["predefined structure", "consistency", "ease of parsing", "JSON", "XML"],
+  "workflow": [
+    "Define the desired output structure.",
+    "Create a prompt that specifies the structure.",
+    "Use the API to generate content.",
+    "Parse the output to verify structure.",
+    "Utilize the structured data in applications."
+  ],
+  "devops_application": "DevOps teams use structured output to ensure consistent data formats for automated processing and integration.",
+  "official_evidence": [
+    {
+      "title": "Structured Output Documentation",
+      "url": "https://platform.openai.com/docs/guides/prompting",
+      "source_type": "official_documentation"
+    }
+  ],
+  "related_topics": ["Prompt engineering", "Text generation", "Data parsing", "API usage"],
+  "provenance": {
+    "method": "agentic-workflow",
+    "model": "gpt-4o",
+    "grounded": true,
+    "source_url": "https://platform.openai.com/docs/guides/prompting",
+    "run": "kb-genai2"
+  }
+}

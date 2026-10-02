@@ -1,0 +1,38 @@
+{
+  "id": "aws-step-functions-001",
+  "course": "AI-Assisted DevOps",
+  "category": "AWS Cloud",
+  "topic": "AWS Step Functions",
+  "subtopic": "AWS Step Functions overview",
+  "question": "What is AWS Step Functions?",
+  "answer": "AWS Step Functions is a service for creating workflows, known as state machines, to build distributed applications, automate processes, and orchestrate microservices.",
+  "course_context": {
+    "module": "AWS Operations",
+    "usage": "Teams use AWS Step Functions to automate workflows and orchestrate microservices in cloud applications."
+  },
+  "key_concepts": ["state machines", "workflows", "AWS integrations", "Standard workflows", "Express workflows"],
+  "workflow": [
+    "Create a state machine in the console.",
+    "Define states and transitions.",
+    "Integrate with AWS services using SDK.",
+    "Choose between Standard and Express workflows.",
+    "Monitor and debug executions."
+  ],
+  "devops_application": "DevOps teams use AWS Step Functions to automate and orchestrate complex workflows across AWS services.",
+  "official_evidence": [
+    {
+      "title": "AWS Step Functions Documentation",
+      "url": "https://docs.aws.amazon.com/step-functions/latest/dg/welcome.html",
+      "source_type": "official_documentation"
+    }
+  ],
+  "related_topics": ["AWS Lambda", "AWS Glue", "Amazon S3", "Amazon SNS", "Amazon SQS"],
+  "group": "Management",
+  "provenance": {
+    "method": "agentic-workflow",
+    "model": "gpt-4o",
+    "grounded": true,
+    "source_url": "https://docs.aws.amazon.com/step-functions/latest/dg/welcome.html",
+    "run": "kb-aws"
+  }
+}

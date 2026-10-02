@@ -1,0 +1,29 @@
+{
+  "id": "checkpoint-001",
+  "course": "AI-Assisted DevOps",
+  "category": "Frameworks",
+  "topic": "Checkpointing",
+  "subtopic": "Workflow Persistence",
+  "question": "What is checkpointing in LangGraph?",
+  "answer": "Checkpointing saves the state of a workflow at specific points, allowing recovery and continuation without restarting from scratch.",
+  "course_context": {
+    "module": "Frameworks",
+    "usage": "Used to persist agent workflows across sessions."
+  },
+  "key_concepts": ["State persistence", "Recovery", "Workflow continuity"],
+  "workflow": [
+    "Execute workflow",
+    "Save state at checkpoint",
+    "Pause or terminate workflow",
+    "Resume from checkpoint"
+  ],
+  "devops_application": "Checkpointing allows DevOps agents to pause IaC deployments or troubleshooting tasks and resume later with full context.",
+  "official_evidence": [
+    {
+      "title": "LangGraph Checkpointing",
+      "url": "https://docs.langchain.com/oss/python/langgraph/checkpointing",
+      "source_type": "official_documentation"
+    }
+  ],
+  "related_topics": ["LangGraph", "Memory", "Agent orchestration"]
+}

@@ -1,0 +1,28 @@
+{
+  "id": "temperature-001",
+  "course": "AI-Assisted DevOps",
+  "category": "LLM Fundamentals",
+  "topic": "Temperature",
+  "subtopic": "Output Variability",
+  "question": "What is temperature in LLMs?",
+  "answer": "Temperature is a parameter that controls randomness in model outputs. Lower values make responses more deterministic, while higher values increase creativity.",
+  "course_context": {
+    "module": "Fundamentals",
+    "usage": "Used to balance accuracy and creativity in chatbot responses."
+  },
+  "key_concepts": ["Determinism", "Creativity", "Sampling"],
+  "workflow": [
+    "Model generates probability distribution",
+    "Temperature scales probabilities",
+    "Sampling produces final output"
+  ],
+  "devops_application": "Low temperature ensures precise IaC generation, while higher temperature can be used for brainstorming solutions.",
+  "official_evidence": [
+    {
+      "title": "OpenAI Sampling Guide",
+      "url": "https://platform.openai.com/docs/guides/text-generation",
+      "source_type": "official_documentation"
+    }
+  ],
+  "related_topics": ["Prompt engineering", "LLM", "Reasoning"]
+}

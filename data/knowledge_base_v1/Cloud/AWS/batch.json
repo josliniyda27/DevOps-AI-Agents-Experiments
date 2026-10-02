@@ -1,0 +1,38 @@
+{
+  "id": "aws-batch-001",
+  "course": "AI-Assisted DevOps",
+  "category": "AWS Cloud",
+  "topic": "AWS Batch",
+  "subtopic": "Batch computing service",
+  "question": "What is AWS Batch?",
+  "answer": "AWS Batch is a fully managed service that runs batch computing workloads on the AWS Cloud, automatically provisioning resources and optimizing workload distribution.",
+  "course_context": {
+    "module": "AWS Containers",
+    "usage": "Teams use AWS Batch for running large-scale, compute-intensive workloads efficiently on AWS infrastructure."
+  },
+  "key_concepts": ["batch computing", "resource provisioning", "workload optimization", "AWS Cloud"],
+  "workflow": [
+    "Submit batch jobs to AWS Batch.",
+    "AWS Batch provisions compute resources.",
+    "Jobs are scheduled and executed automatically.",
+    "Monitor job progress and results.",
+    "Optimize workloads for cost and performance."
+  ],
+  "devops_application": "DevOps teams use AWS Batch to automate the provisioning and management of compute resources for batch workloads.",
+  "official_evidence": [
+    {
+      "title": "AWS Batch Documentation",
+      "url": "https://docs.aws.amazon.com/batch/latest/userguide/what-is-batch.html",
+      "source_type": "official_documentation"
+    }
+  ],
+  "related_topics": ["Amazon ECS", "Amazon EKS", "AWS Fargate", "Amazon EC2"],
+  "group": "Containers",
+  "provenance": {
+    "method": "agentic-workflow",
+    "model": "gpt-4o",
+    "grounded": true,
+    "source_url": "https://docs.aws.amazon.com/batch/latest/userguide/what-is-batch.html",
+    "run": "kb-aws"
+  }
+}

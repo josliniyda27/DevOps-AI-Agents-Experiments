@@ -1,0 +1,37 @@
+{
+  "id": "devops-argo-rollouts-001",
+  "course": "AI-Assisted DevOps",
+  "category": "DevOps",
+  "topic": "Argo Rollouts",
+  "subtopic": "Kubernetes Progressive Delivery",
+  "question": "What is Argo Rollouts?",
+  "answer": "Argo Rollouts is a Kubernetes controller and set of CRDs providing advanced deployment capabilities like blue-green, canary, and progressive delivery features.",
+  "course_context": {
+    "module": "CI/CD",
+    "usage": "Teams use Argo Rollouts in Kubernetes environments for advanced deployment strategies."
+  },
+  "key_concepts": ["Kubernetes controller", "CRDs", "blue-green deployment", "canary deployment", "progressive delivery"],
+  "workflow": [
+    "Install Argo Rollouts in Kubernetes.",
+    "Define a Rollout resource with desired strategy.",
+    "Change spec.template to trigger a new ReplicaSet.",
+    "Use spec.strategy to manage rollout progression.",
+    "Monitor metrics for automated promotion or rollback."
+  ],
+  "devops_application": "DevOps teams use Argo Rollouts to manage complex deployment strategies in Kubernetes environments.",
+  "official_evidence": [
+    {
+      "title": "Argo Rollouts Documentation",
+      "url": "https://argoproj.github.io/argo-rollouts/",
+      "source_type": "official_documentation"
+    }
+  ],
+  "related_topics": ["Kubernetes Deployments", "Service Mesh", "Ingress Controllers", "Prometheus"],
+  "provenance": {
+    "method": "agentic-workflow",
+    "model": "gpt-4o",
+    "grounded": true,
+    "source_url": "https://argoproj.github.io/argo-rollouts/",
+    "run": "kb-devops"
+  }
+}

@@ -1,0 +1,38 @@
+{
+  "id": "aws-codebuild-001",
+  "course": "AI-Assisted DevOps",
+  "category": "AWS Cloud",
+  "topic": "AWS CodeBuild",
+  "subtopic": "Cloud Build Service",
+  "question": "What is AWS CodeBuild?",
+  "answer": "AWS CodeBuild is a fully managed build service in the cloud that compiles source code, runs unit tests, and produces deployable artifacts.",
+  "course_context": {
+    "module": "AWS Developer Tools",
+    "usage": "Teams use AWS CodeBuild for compiling code, running tests, and producing deployment-ready artifacts in the cloud."
+  },
+  "key_concepts": ["fully managed service", "build environments", "source code compilation", "unit testing", "artifact production"],
+  "workflow": [
+    "Sign up for an AWS account.",
+    "Access AWS CodeBuild via console or CLI.",
+    "Configure build environments.",
+    "Run builds using build scripts.",
+    "Integrate with AWS CodePipeline for automation."
+  ],
+  "devops_application": "DevOps teams use AWS CodeBuild to automate the build process, ensuring efficient and scalable code compilation and testing.",
+  "official_evidence": [
+    {
+      "title": "AWS CodeBuild Documentation",
+      "url": "https://docs.aws.amazon.com/codebuild/latest/userguide/welcome.html",
+      "source_type": "official_documentation"
+    }
+  ],
+  "related_topics": ["AWS CodePipeline", "AWS CLI", "AWS SDKs", "Continuous Integration", "Build Automation"],
+  "group": "DevTools",
+  "provenance": {
+    "method": "agentic-workflow",
+    "model": "gpt-4o",
+    "grounded": true,
+    "source_url": "https://docs.aws.amazon.com/codebuild/latest/userguide/welcome.html",
+    "run": "kb-aws"
+  }
+}

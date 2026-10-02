@@ -1,0 +1,38 @@
+{
+  "id": "aws-fsx-001",
+  "course": "AI-Assisted DevOps",
+  "category": "AWS Cloud",
+  "topic": "Amazon FSx",
+  "subtopic": "Managed Windows File Servers",
+  "question": "What is Amazon FSx?",
+  "answer": "Amazon FSx is a fully managed service providing Microsoft Windows file servers with native Windows file system support, optimized for enterprise applications in the AWS Cloud.",
+  "course_context": {
+    "module": "AWS Basics",
+    "usage": "Teams use Amazon FSx for enterprise Windows workloads like business applications and data analytics."
+  },
+  "key_concepts": ["Windows file servers", "SMB protocol", "enterprise applications", "AWS integration", "file storage"],
+  "workflow": [
+    "Create a file system specifying storage capacity and throughput.",
+    "Access file shares using SMB protocol from Windows or Linux.",
+    "Manage file shares using Windows GUI tool.",
+    "Perform backups using Volume Shadow Copy Service.",
+    "Integrate with AWS services like IAM and CloudTrail."
+  ],
+  "devops_application": "DevOps teams use Amazon FSx to manage Windows file storage without handling server maintenance.",
+  "official_evidence": [
+    {
+      "title": "Amazon FSx Documentation",
+      "url": "https://docs.aws.amazon.com/fsx/latest/WindowsGuide/what-is.html",
+      "source_type": "official_documentation"
+    }
+  ],
+  "related_topics": ["AWS Directory Service", "Amazon WorkSpaces", "AWS Key Management Service", "AWS CloudTrail", "Amazon EC2"],
+  "group": "Storage",
+  "provenance": {
+    "method": "agentic-workflow",
+    "model": "gpt-4o",
+    "grounded": true,
+    "source_url": "https://docs.aws.amazon.com/fsx/latest/WindowsGuide/what-is.html",
+    "run": "kb-aws"
+  }
+}

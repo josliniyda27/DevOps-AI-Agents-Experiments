@@ -1,0 +1,10 @@
+{
+  "course_projects": [
+    { "id": "cp-aws-chatops-001", "file": "aws_chatops.json", "topic": "AWS ChatOps Agent", "category": "Course Projects" },
+    { "id": "cp-chat-finops-001", "file": "chat_finops.json", "topic": "Chat-FinOps Agent", "category": "Course Projects" },
+    { "id": "cp-iac-generator-001", "file": "iac_generator.json", "topic": "IaC Generator Agent", "category": "Course Projects" },
+    { "id": "cp-k8s-troubleshooting-001", "file": "k8s_troubleshooting.json", "topic": "Kubernetes Troubleshooting Agent", "category": "Course Projects" },
+    { "id": "cp-langchain-langgraph-001", "file": "langchain_langgraph.json", "topic": "LangChain & LangGraph Demo", "category": "Course Projects" },
+    { "id": "course-projects-agent-from-scratch-001", "file": "agent_from_scratch.json", "topic": "Day-10 Agent from Scratch", "category": "Course Projects" }
+  ]
+}

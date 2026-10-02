@@ -1,0 +1,29 @@
+{
+  "id": "aws-apigateway-001",
+  "course": "AI-Assisted DevOps",
+  "category": "AWS Cloud",
+  "topic": "API Gateway",
+  "subtopic": "Managed API Service",
+  "question": "What is Amazon API Gateway?",
+  "answer": "Amazon API Gateway is a fully managed service that makes it easy to create, publish, maintain, monitor, and secure APIs at any scale.",
+  "course_context": {
+    "module": "AWS Networking",
+    "usage": "Used in course projects to expose agent services and serverless functions."
+  },
+  "key_concepts": ["REST APIs", "WebSocket APIs", "Integration with Lambda", "Authentication"],
+  "workflow": [
+    "Define API endpoints",
+    "Integrate with backend (Lambda, EC2, DynamoDB)",
+    "Configure authentication and throttling",
+    "Deploy API"
+  ],
+  "devops_application": "API Gateway exposes DevOps agent functionality securely to external systems and users.",
+  "official_evidence": [
+    {
+      "title": "Amazon API Gateway Documentation",
+      "url": "https://docs.aws.amazon.com/apigateway/",
+      "source_type": "official_documentation"
+    }
+  ],
+  "related_topics": ["Lambda", "IAM", "CloudFront", "Internet Gateway"]
+}

@@ -1,0 +1,37 @@
+{
+  "id": "devops-harbor-001",
+  "course": "AI-Assisted DevOps",
+  "category": "DevOps",
+  "topic": "Harbor",
+  "subtopic": "Container Registry",
+  "question": "What is Harbor?",
+  "answer": "Harbor is an open-source container registry that secures images with role-based access control, scans images for vulnerabilities, and signs images as trusted.",
+  "course_context": {
+    "module": "Containers and Kubernetes",
+    "usage": "Teams use Harbor to store, manage, and secure container images in a centralized registry."
+  },
+  "key_concepts": ["container registry", "role-based access control", "vulnerability scanning", "image signing"],
+  "workflow": [
+    "Install Harbor using the official documentation.",
+    "Configure initial settings as an administrator.",
+    "Manage users and projects with assigned roles.",
+    "Scan images for vulnerabilities regularly.",
+    "Sign images to ensure trust."
+  ],
+  "devops_application": "DevOps teams use Harbor to manage and secure container images throughout the software development lifecycle.",
+  "official_evidence": [
+    {
+      "title": "Harbor Documentation",
+      "url": "https://goharbor.io/docs/",
+      "source_type": "official_documentation"
+    }
+  ],
+  "related_topics": ["Docker", "Kubernetes", "OCI", "Container Security"],
+  "provenance": {
+    "method": "agentic-workflow",
+    "model": "gpt-4o",
+    "grounded": true,
+    "source_url": "https://goharbor.io/docs/",
+    "run": "kb-devops"
+  }
+}

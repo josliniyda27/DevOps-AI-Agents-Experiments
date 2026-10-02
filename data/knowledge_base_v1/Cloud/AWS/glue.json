@@ -1,0 +1,29 @@
+{
+  "id": "aws-glue-001",
+  "course": "AI-Assisted DevOps",
+  "category": "AWS Cloud",
+  "topic": "Glue",
+  "subtopic": "Data Integration",
+  "question": "What is AWS Glue?",
+  "answer": "AWS Glue is a serverless data integration service that makes it easy to discover, prepare, and combine data for analytics and machine learning.",
+  "course_context": {
+    "module": "AWS Analytics",
+    "usage": "Used in course projects to prepare data for Athena and SageMaker."
+  },
+  "key_concepts": ["ETL", "Data catalog", "Schema discovery"],
+  "workflow": [
+    "Discover data",
+    "Define ETL jobs",
+    "Transform data",
+    "Load into target system"
+  ],
+  "devops_application": "Glue automates ETL pipelines for DevOps logs and monitoring data.",
+  "official_evidence": [
+    {
+      "title": "AWS Glue Documentation",
+      "url": "https://docs.aws.amazon.com/glue/",
+      "source_type": "official_documentation"
+    }
+  ],
+  "related_topics": ["Athena", "S3", "SageMaker"]
+}

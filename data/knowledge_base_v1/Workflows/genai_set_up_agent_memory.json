@@ -1,0 +1,36 @@
+{
+  "id": "wf-genai-set-up-agent-memory-001",
+  "course": "AI-Assisted DevOps",
+  "category": "GenAI Workflows",
+  "topic": "Set Up Agent Memory",
+  "subtopic": "Agent Memory Setup",
+  "question": "How do I set up agent memory?",
+  "answer": "To set up agent memory, configure the agent's session management to store and retrieve conversation state across interactions.",
+  "course_context": {
+    "module": "Workflows",
+    "usage": "Teams use agent memory to maintain context across user interactions."
+  },
+  "key_concepts": ["agent memory", "session management", "conversation state", "interaction storage"],
+  "workflow": [
+    "Configure session management for the agent.",
+    "Enable storage of conversation state.",
+    "Retrieve stored state for new interactions.",
+    "Ensure data persistence across sessions."
+  ],
+  "devops_application": "DevOps teams configure session management to ensure agent memory functions correctly across interactions.",
+  "official_evidence": [
+    {
+      "title": "Official documentation",
+      "url": "https://platform.openai.com/docs/guides/agents",
+      "source_type": "official_documentation"
+    }
+  ],
+  "related_topics": ["Session Management", "Conversation State", "Agent Configuration", "Data Persistence"],
+  "provenance": {
+    "method": "agentic-workflow",
+    "model": "gpt-4o",
+    "grounded": true,
+    "source_url": "https://platform.openai.com/docs/guides/agents",
+    "run": "kb-genai2"
+  }
+}

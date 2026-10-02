@@ -1,0 +1,37 @@
+{
+  "id": "re-ranking-001",
+  "course": "AI-Assisted DevOps",
+  "category": "RAG & Retrieval",
+  "topic": "Re-ranking",
+  "subtopic": "Re-ranking process",
+  "question": "What is re-ranking?",
+  "answer": "Re-ranking is the process of adjusting the order of retrieved items based on additional criteria or models to improve relevance or accuracy.",
+  "course_context": {
+    "module": "Retrieval",
+    "usage": "Teams use re-ranking in search engines and recommendation systems to enhance result relevance."
+  },
+  "key_concepts": ["retrieved items", "order adjustment", "additional criteria", "relevance improvement", "accuracy enhancement"],
+  "workflow": [
+    "Retrieve initial set of items",
+    "Apply additional criteria or models",
+    "Adjust the order of items",
+    "Evaluate the new ranking",
+    "Deploy the re-ranked results"
+  ],
+  "devops_application": "DevOps teams use re-ranking to optimize search results for better user experience.",
+  "official_evidence": [
+    {
+      "title": "Re-ranking Documentation",
+      "url": "https://platform.openai.com/docs/guides/retrieval",
+      "source_type": "official_documentation"
+    }
+  ],
+  "related_topics": ["Search and retrieval", "Ranking algorithms", "Information retrieval", "Machine learning models", "Relevance feedback"],
+  "provenance": {
+    "method": "agentic-workflow",
+    "model": "gpt-4o",
+    "grounded": true,
+    "source_url": "https://platform.openai.com/docs/guides/retrieval",
+    "run": "kb-genai2"
+  }
+}

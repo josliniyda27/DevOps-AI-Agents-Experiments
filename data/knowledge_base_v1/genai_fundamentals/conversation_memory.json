@@ -1,0 +1,28 @@
+{
+  "id": "convomem-001",
+  "course": "AI-Assisted DevOps",
+  "category": "LLM Memory",
+  "topic": "Conversation Memory",
+  "subtopic": "Long-term Context",
+  "question": "What is conversation memory?",
+  "answer": "Conversation memory allows AI systems to retain information across multiple sessions, enabling continuity and personalization.",
+  "course_context": {
+    "module": "Fundamentals",
+    "usage": "Used to recall user preferences and past queries."
+  },
+  "key_concepts": ["Persistent memory", "User preferences", "Session continuity"],
+  "workflow": [
+    "Store key facts in memory",
+    "Recall facts in future sessions",
+    "Apply context to new queries"
+  ],
+  "devops_application": "Conversation memory helps agents remember previous troubleshooting steps or infrastructure states.",
+  "official_evidence": [
+    {
+      "title": "LangChain Persistent Memory",
+      "url": "https://python.langchain.com/docs/modules/memory/",
+      "source_type": "official_documentation"
+    }
+  ],
+  "related_topics": ["Session memory", "Memory", "LangChain"]
+}

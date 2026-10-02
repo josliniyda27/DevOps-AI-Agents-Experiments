@@ -1,0 +1,24 @@
+{
+  "id": "guardrails-001",
+  "course": "AI-Assisted DevOps",
+  "category": "Safety & Control",
+  "topic": "Guardrails",
+  "subtopic": "Safety Mechanisms",
+  "question": "What are guardrails in AI?",
+  "answer": "Guardrails are safety mechanisms that restrict AI outputs and actions to prevent harmful, biased, or unsafe behavior.",
+  "course_context": {
+    "module": "Safety",
+    "usage": "Critical for deploying AI in production environments."
+  },
+  "key_concepts": ["Constraints", "Validation", "Safety policies"],
+  "workflow": ["Model generates output", "Guardrails validate output", "Unsafe content is blocked"],
+  "devops_application": "Guardrails prevent unsafe infrastructure changes or incorrect troubleshooting steps.",
+  "official_evidence": [
+    {
+      "title": "NVIDIA Guardrails",
+      "url": "https://developer.nvidia.com/blog/nvidia-guardrails/",
+      "source_type": "official_documentation"
+    }
+  ],
+  "related_topics": ["MCP", "Human-in-the-loop", "Hallucination"]
+}

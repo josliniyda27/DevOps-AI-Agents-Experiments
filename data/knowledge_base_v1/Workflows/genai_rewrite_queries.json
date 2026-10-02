@@ -1,0 +1,37 @@
+{
+  "id": "wf-genai-rewrite-queries-001",
+  "course": "AI-Assisted DevOps",
+  "category": "GenAI Workflows",
+  "topic": "Rewrite Queries",
+  "subtopic": "Query rewriting process",
+  "question": "How do I rewrite queries?",
+  "answer": "To rewrite queries, use a retrieval-augmented approach to enhance the original query with additional context or information.",
+  "course_context": {
+    "module": "Workflows",
+    "usage": "Teams use query rewriting in search engines and information retrieval systems to improve query accuracy and relevance."
+  },
+  "key_concepts": ["retrieval-augmented approach", "query enhancement", "additional context", "information retrieval", "query optimization"],
+  "workflow": [
+    "Identify the original query.",
+    "Determine the context needed.",
+    "Use retrieval tools to gather additional information.",
+    "Incorporate the information into the query.",
+    "Test the rewritten query for effectiveness."
+  ],
+  "devops_application": "DevOps teams use query rewriting to optimize search and retrieval processes in applications.",
+  "official_evidence": [
+    {
+      "title": "Official documentation",
+      "url": "https://platform.openai.com/docs/guides/retrieval",
+      "source_type": "official_documentation"
+    }
+  ],
+  "related_topics": ["Information Retrieval", "Query Optimization", "Search Engines", "Natural Language Processing", "Contextual Search"],
+  "provenance": {
+    "method": "agentic-workflow",
+    "model": "gpt-4o",
+    "grounded": true,
+    "source_url": "https://platform.openai.com/docs/guides/retrieval",
+    "run": "kb-genai2"
+  }
+}

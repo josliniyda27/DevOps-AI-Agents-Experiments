@@ -1,0 +1,38 @@
+{
+  "id": "aws-data-pipeline-001",
+  "course": "AI-Assisted DevOps",
+  "category": "AWS Cloud",
+  "topic": "AWS Data Pipeline",
+  "subtopic": "Data automation service",
+  "question": "What is AWS Data Pipeline?",
+  "answer": "AWS Data Pipeline is a web service for automating the movement and transformation of data, allowing users to define data-driven workflows with task dependencies.",
+  "course_context": {
+    "module": "AWS Analytics",
+    "usage": "Teams use AWS Data Pipeline to automate data movement and transformation tasks, such as archiving logs and generating reports."
+  },
+  "key_concepts": ["data-driven workflows", "task dependencies", "pipeline definition", "Task Runner", "data transformation"],
+  "workflow": [
+    "Define pipeline logic in a pipeline definition.",
+    "Upload and activate the pipeline.",
+    "Task Runner polls and performs tasks.",
+    "Edit and reactivate the pipeline as needed.",
+    "Deactivate and delete the pipeline when finished."
+  ],
+  "devops_application": "DevOps teams use AWS Data Pipeline to automate data workflows and transformations, ensuring task dependencies are managed efficiently.",
+  "official_evidence": [
+    {
+      "title": "AWS Data Pipeline Documentation",
+      "url": "https://docs.aws.amazon.com/datapipeline/latest/DeveloperGuide/what-is-datapipeline.html",
+      "source_type": "official_documentation"
+    }
+  ],
+  "related_topics": ["Amazon S3", "Amazon EMR", "AWS Management Console", "AWS CLI", "AWS SDKs"],
+  "group": "Analytics",
+  "provenance": {
+    "method": "agentic-workflow",
+    "model": "gpt-4o",
+    "grounded": true,
+    "source_url": "https://docs.aws.amazon.com/datapipeline/latest/DeveloperGuide/what-is-datapipeline.html",
+    "run": "kb-aws"
+  }
+}

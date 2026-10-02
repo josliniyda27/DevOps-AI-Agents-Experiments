@@ -1,0 +1,29 @@
+{
+  "id": "finetuning-001",
+  "course": "AI-Assisted DevOps",
+  "category": "Generic Fundamentals",
+  "topic": "Fine-tuning",
+  "subtopic": "Model Adaptation",
+  "question": "What is fine-tuning?",
+  "answer": "Fine-tuning adapts a pretrained LLM to a specific domain or task by training it further on specialized data.",
+  "course_context": {
+    "module": "Fundamentals",
+    "usage": "Used to customize models for DevOps-specific tasks."
+  },
+  "key_concepts": ["Transfer learning", "Domain adaptation", "Parameter updates"],
+  "workflow": [
+    "Start with pretrained model",
+    "Prepare domain-specific dataset",
+    "Train model with supervised learning",
+    "Deploy fine-tuned model"
+  ],
+  "devops_application": "Fine-tuned models can generate IaC templates or troubleshoot Kubernetes errors more effectively.",
+  "official_evidence": [
+    {
+      "title": "OpenAI Fine-tuning Guide",
+      "url": "https://platform.openai.com/docs/guides/fine-tuning",
+      "source_type": "official_documentation"
+    }
+  ],
+  "related_topics": ["LLM", "Prompt engineering", "Embeddings"]
+}

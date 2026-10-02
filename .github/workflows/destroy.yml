@@ -1,0 +1,47 @@
+# Deletes the EC2 server, its address and its settings (manual only). The images in GHCR, the release tags and the
+# bootstrap (state bucket and pipeline role) are kept, so the next push to main builds everything again.
+name: Destroy infrastructure
+
+on:
+  workflow_dispatch:
+    inputs:
+      confirm:
+        description: 'Type "destroy" to delete the EC2 server'
+        required: true
+
+permissions:
+  contents: read
+
+env:
+  TF_DIR: deploy/aws
+  TF_VERSION: "1.15.8"
+
+jobs:
+  destroy:
+    if: inputs.confirm == 'destroy'
+    runs-on: ubuntu-latest
+    environment: production
+    permissions:
+      contents: read
+      id-token: write
+    steps:
+      - uses: actions/checkout@v4
+      - uses: aws-actions/configure-aws-credentials@v4
+        with:
+          role-to-assume: ${{ vars.AWS_ROLE_ARN }}
+          aws-region: ${{ vars.AWS_REGION }}
+      - uses: hashicorp/setup-terraform@v3
+        with:
+          terraform_version: ${{ env.TF_VERSION }}
+          terraform_wrapper: false
+      - run: >
+          terraform -chdir="$TF_DIR" init -input=false
+          -backend-config="bucket=${{ vars.TF_STATE_BUCKET }}"
+          -backend-config="key=knowledge-assistant/terraform.tfstate"
+          -backend-config="region=${{ vars.AWS_REGION }}"
+      - run: terraform -chdir="$TF_DIR" destroy -input=false -auto-approve -var "region=${{ vars.AWS_REGION }}"
+      - name: Delete the app's settings
+        run: |
+          for name in openai-api-key basic-auth-hash ghcr-token; do
+            aws ssm delete-parameter --name "/knowledge-assistant/$name" 2>/dev/null || true
+          done

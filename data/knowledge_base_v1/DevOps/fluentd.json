@@ -1,0 +1,35 @@
+{
+  "id": "devops-fluentd-001",
+  "course": "AI-Assisted DevOps",
+  "category": "DevOps",
+  "topic": "Fluentd",
+  "subtopic": "Open-source data collector",
+  "question": "What is Fluentd?",
+  "answer": "Fluentd is an open-source data collector for a unified logging layer, allowing data collection and consumption for better use and understanding of data.",
+  "course_context": {
+    "module": "Observability",
+    "usage": "Teams use Fluentd to create a unified logging layer for better data management."
+  },
+  "key_concepts": ["open-source", "data collector", "unified logging", "data collection", "Apache License v2.0"],
+  "workflow": [
+    "Unify data collection",
+    "Unify data consumption",
+    "Improve data understanding"
+  ],
+  "devops_application": "DevOps teams use Fluentd to unify and streamline data collection and consumption processes.",
+  "official_evidence": [
+    {
+      "title": "Fluentd Documentation",
+      "url": "https://docs.fluentd.org/",
+      "source_type": "official_documentation"
+    }
+  ],
+  "related_topics": ["Cloud Native Computing Foundation", "Apache License v2.0", "Treasure Data"],
+  "provenance": {
+    "method": "agentic-workflow",
+    "model": "gpt-4o",
+    "grounded": true,
+    "source_url": "https://docs.fluentd.org/",
+    "run": "kb-devops"
+  }
+}

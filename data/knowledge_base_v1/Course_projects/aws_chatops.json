@@ -1,0 +1,22 @@
+{
+  "topic": "AWS ChatOps Agent",
+  "description": "An agentic AI demo to operate AWS via Streamlit chat with human approval gates.",
+  "key_concepts": [
+    "Agentic AI",
+    "AWS EC2, S3, CloudWatch",
+    "Human-in-the-loop approvals",
+    "Streamlit UI"
+  ],
+  "official_links": [
+    "https://docs.aws.amazon.com/ec2/",
+    "https://docs.aws.amazon.com/AmazonS3/",
+    "https://docs.aws.amazon.com/cloudwatch/",
+    "https://docs.streamlit.io/"
+  ],
+  "repo_reference": "https://github.com/AravindBaranitharan/Agentic-Ai-Devops-/tree/main/aws-chatops-agent",
+  "use_cases": [
+    "Query EC2 instance status",
+    "Restart AWS services with approval",
+    "Monitor CloudWatch alarms"
+  ]
+}
