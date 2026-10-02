@@ -3,11 +3,24 @@ __pycache__/
 *.pyc
 .pytest_cache/
 
-# Secrets - never commit
+# Secrets - never commit. Real values live only in your local .env, in GitHub secrets and in AWS Parameter Store.
 .env
+.env.*
+!.env.example
+*.pem
+*.key
+.aws/
+credentials
 
 # Local vector store (rebuild with: python -m src.retrieval.ingest)
 chroma_db/
 
 # Staged output of the knowledge-base agents (reviewed, then merged with: python -m kb_agents merge)
 data/staging/
+
+# Terraform (keep .terraform.lock.hcl; the bootstrap's local terraform.tfstate must be kept safe but not committed)
+.terraform/
+*.tfstate
+*.tfstate.*
+*.tfplan
+tfplan
