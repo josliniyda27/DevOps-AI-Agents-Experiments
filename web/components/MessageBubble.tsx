@@ -47,7 +47,7 @@ function Assistant({ message, onRetry }: { message: AssistantMessage; onRetry: (
           </h3>
           {message.trace && message.trace.knowledge_base && (
             <p className="mt-2 text-sm text-body">
-              {message.trace.knowledge_base.replace(/_/g, " ")} · {message.sources.length} of {message.trace.total_entries} entries cited
+              {message.trace.knowledge_base.replace(/_/g, " ")} · {message.sources.length} of {message.trace.total_entries} entries used
             </p>
           )}
           <ul className="mt-3 grid gap-3 sm:grid-cols-2">

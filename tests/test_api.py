@@ -76,6 +76,16 @@ def test_a_citation_of_something_the_model_was_not_given_never_becomes_a_source(
         assert client.post("/api/chat", json={"question": "q"}).json()["sources"] == []
 
 
+def test_an_answer_without_citations_lists_the_documents_it_was_given():
+    # seen live: "How do Prometheus and Grafana work together?" answered from 3 entries but cited none
+    docs = [_doc("aws-s3-001", 0.9), _doc("aws-ec2-001", 0.6), _doc("not-in-kb-001", 0.5)]
+    with _client("S3 stores objects and EC2 runs servers.", docs) as client:
+        body = client.post("/api/chat", json={"question": "q"}).json()
+    assert body["status"] == "answered"
+    assert [s["id"] for s in body["sources"]] == ["aws-s3-001", "aws-ec2-001"]       # given order; unknown ids dropped
+    assert [s["relevance"] for s in body["sources"]] == [0.9, 0.6]
+
+
 def test_relevance_is_absent_when_results_were_not_reranked():
     docs = [Document(page_content="p", metadata={"id": "aws-s3-001", "relevance": None, "candidates": 4, "reranked": False})]
     with _client("S3 [aws-s3-001]", docs) as client:
