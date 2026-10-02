@@ -21,7 +21,7 @@ question -> input guardrail -> vector search (Chroma) -> merge into entries -> L
 | `kb_agents/` | Agentic workflow (LangGraph) that grows the knowledge base; runs separately from the chatbot |
 | `web/` | Next.js + Tailwind chat UI (see `web/README.md`) |
 | `tests/` | `pytest` suite (runs offline; no API key needed) |
-| `docs/` | Notes for the knowledge base, the guardrails, deployment (`deploy.md`) and CI/CD (`cicd.md`) |
+| `docs/` | Notes for the knowledge base, the guardrails, deployment (`deploy.md`), CI/CD (`cicd.md`) and team setup (`team-setup.md`) |
 | `deploy/aws/` | Terraform for the EC2 server (`bootstrap/` sets up the pipeline's AWS access once) |
 | `.github/workflows/` | CI/CD pipeline and the manual "Destroy infrastructure" workflow |
 
@@ -64,6 +64,9 @@ automatic HTTPS). See `docs/deploy.md`.
 CI/CD: GitHub Actions tests every push. A push to `main` also builds both images, pushes them to GitHub Container Registry
 tagged `vMAJOR.MINOR.BUILD` (MAJOR.MINOR from the `VERSION` file, BUILD = the workflow run number), creates the EC2 server with
 Terraform and deploys the release to it. See `docs/cicd.md`.
+
+Team members: `docs/team-setup.md` covers releasing to the shared server, running it on your own laptop, and deploying
+your own copy to your own AWS account.
 
 ## Knowledge base
 
