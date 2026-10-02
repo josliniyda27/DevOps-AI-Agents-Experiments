@@ -52,6 +52,10 @@ terraform init
 terraform apply -var github_repo=josliniyda27/DevOps-AI-Agents-Experiments -var region=ap-south-1
 ```
 
+If the repository uses GitHub's immutable OIDC subjects, also pass its prefix. Check with
+`gh api repos/<owner>/<repo>/actions/oidc/customization/sub`: when the answer has `"use_immutable_subject": true`, add
+`-var 'github_subject_prefix=<the sub_claim_prefix value>'` (this repository needs
+`repo:josliniyda27@54833804/DevOps-AI-Agents-Experiments@1388736404`).
 If the account already trusts GitHub Actions (IAM, Identity providers, `token.actions.githubusercontent.com`), add
 `-var create_oidc_provider=false`. The command prints `AWS_ROLE_ARN`, `TF_STATE_BUCKET` and `AWS_REGION`.
 Keep the `terraform.tfstate` file it writes in that folder (it is git-ignored): you need it to change or remove the bootstrap.
@@ -121,7 +125,7 @@ same `-var` values as in step 1.
 
 | Symptom | Likely cause |
 |---|---|
-| "Could not assume role with OIDC" | `AWS_ROLE_ARN` is wrong, the job is not in the `production` environment, or `github_repo` in step 1 does not match the repository name exactly. |
+| "Could not assume role with OIDC" / "Not authorized to perform sts:AssumeRoleWithWebIdentity" | The role does not trust the job's identity. Most often the repository uses immutable OIDC subjects and `github_subject_prefix` was not set in step 1; otherwise `AWS_ROLE_ARN` is wrong, the job is not in the `production` environment, or `github_repo` does not match the repository name exactly. |
 | `terraform init` fails with "AccessDenied" on S3 | `TF_STATE_BUCKET` or `AWS_REGION` does not match the bootstrap output. |
 | "Repository secret ... is not set" | Add the secret in step 4. |
 | "did not come online in Systems Manager" | First boot is slow, or the server has no internet access. Check the instance in the EC2 console (System log). |

@@ -26,6 +26,13 @@ locals {
   state_bucket = "knowledge-assistant-tfstate-${local.account_id}"
   oidc_url     = "token.actions.githubusercontent.com"
   oidc_arn     = var.create_oidc_provider ? aws_iam_openid_connect_provider.github[0].arn : "arn:aws:iam::${local.account_id}:oidc-provider/${local.oidc_url}"
+
+  # The job's identity in GitHub's token. Classic form: repo:<owner>/<repo>:environment:<env>. Repositories that use
+  # immutable subjects send repo:<owner>@<owner id>/<repo>@<repo id>:environment:<env> instead; both are accepted.
+  oidc_subjects = compact([
+    "repo:${var.github_repo}:environment:${var.github_environment}",
+    var.github_subject_prefix == "" ? "" : "${var.github_subject_prefix}:environment:${var.github_environment}",
+  ])
 }
 
 # ---- 1. Terraform state bucket
@@ -82,7 +89,7 @@ resource "aws_iam_role" "deployer" {
       Condition = {
         StringEquals = {
           "${local.oidc_url}:aud" = "sts.amazonaws.com"
-          "${local.oidc_url}:sub" = "repo:${var.github_repo}:environment:${var.github_environment}"
+          "${local.oidc_url}:sub" = local.oidc_subjects
         }
       }
     }]
