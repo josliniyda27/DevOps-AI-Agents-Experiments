@@ -1,5 +1,7 @@
 # CI/CD: GitHub Actions to GHCR and EC2
 
+Team members who want to release changes, run it locally, or deploy their own copy: start with [team-setup.md](team-setup.md).
+
 `.github/workflows/ci-cd.yml` tests every push and pull request. A push to `main` (or a manual run on `main`) also builds
 the two images, pushes them to GitHub Container Registry, creates or updates the EC2 server with Terraform, deploys the
 release to it, and tags the commit.
