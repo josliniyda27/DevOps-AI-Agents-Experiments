@@ -105,4 +105,4 @@ because an A/B test showed no reduction in unsupported claims.
 - **Scope:** decided by retrieval, not keywords. If nothing in the knowledge base is similar enough (`MIN_SCORE`), the bot refuses **without calling the LLM**.
 - **Output:** redacts secrets, replaces answers that repeat the system prompt, removes citations of documents that were not retrieved.
 
-Regex-based injection detection cannot be complete (e.g. an on-topic question with an injected instruction in another language can still reach the model). The system prompt and output guard are the backstop.
+Regex-based injection detection cannot be complete (e.g. an on-topic question with an injected instruction in another language can still reach the model). The system prompt and output guard are the backstop....
